@@ -9,6 +9,12 @@ export const metadata = {
   },
   description:
     "내 아이돌이 마지막 컴백 이후 며칠째인지, 평균 컴백 주기를 넘겼는지 한눈에.",
+  openGraph: {
+    siteName: "공백기 며칠째",
+    type: "website",
+    locale: "ko_KR",
+  },
+  twitter: { card: "summary" },
 };
 
 export default function RootLayout({ children }) {

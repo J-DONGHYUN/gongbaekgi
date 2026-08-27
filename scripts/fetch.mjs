@@ -21,6 +21,7 @@ const EXCLUDE_WORDS = [
   // 리믹스·변형판
   "remix", "instrumental", "inst.", "sped up", "slowed down",
   "karaoke", "scream",          // K-POP ScreaM = SM 리믹스 컴필레이션
+  "the best", "best of", "greatest hits",   // 베스트 컴필레이션
   // 라이브·사운드트랙
   "live", "ost", "soundtrack", "original television", "original tv",
   // 해외 발매판 — 한국 컴백이 아니다
@@ -30,6 +31,7 @@ const EXCLUDE_WORDS = [
 // "- EP" 는 미니 앨범이므로 제외하지 않는다.
 // "Repackage" 도 활동을 다시 하므로 컴백으로 유지한다.
 
+const MERGE_WINDOW = 30; // 이 일수 안의 연속 발매는 한 번의 활동으로 합친다
 const DELAY = 1000; // iTunes 요청 제한 대비
 
 const args = process.argv.slice(2);
@@ -120,7 +122,19 @@ function buildComebacks(albums) {
   for (const c of byName.values()) if (!byDate.has(c.date)) byDate.set(c.date, c);
   stats.afterDateDedupe = byDate.size;
 
-  const list = [...byDate.values()].sort((a, b) => a.date.localeCompare(b.date));
+  const sorted = [...byDate.values()].sort((a, b) => a.date.localeCompare(b.date));
+
+  // 30일 안에 나온 두 발매는 같은 활동 주기로 본다.
+  //   싱글에 리믹스를 붙여 EP 로 낸 것, 베스트반, 버전 분리 발매가 이 구간에 몰린다.
+  //   진짜 리패키지는 보통 한 달 이상 뒤에 나오므로 살아남는다.
+  const list = [];
+  for (const c of sorted) {
+    const prev = list.at(-1);
+    if (prev && (new Date(c.date) - new Date(prev.date)) / 86400000 < MERGE_WINDOW) continue;
+    list.push(c);
+  }
+  stats.afterMerge = list.length;
+
   return { list, stats };
 }
 
@@ -166,6 +180,7 @@ for (const artist of targets) {
     console.log(
       `  받음 ${stats.raw} → 판정통과 ${stats.afterFilter}`
       + ` → 이름중복제거 ${stats.afterNameDedupe} → 날짜합산 ${stats.afterDateDedupe}`
+      + ` → 30일병합 ${stats.afterMerge}`
     );
 
     if (list.length) {

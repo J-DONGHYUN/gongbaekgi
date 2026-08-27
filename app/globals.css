@@ -259,3 +259,17 @@ footer {
 footer a { text-decoration: underline; text-underline-offset: 2px; }
 
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+
+/* 링크처럼 보이는 버튼 (링크 복사) */
+.linklike {
+  flex: 1 1 auto; text-align: center; cursor: pointer;
+  border: 1px solid var(--rule); border-radius: 10px;
+  padding: .6rem .9rem; font-size: .86rem; font-family: inherit;
+  color: var(--ink-soft); background: var(--surface);
+}
+.linklike:hover { border-color: var(--accent); color: var(--accent); }
+
+.note-inline {
+  font-size: .82rem; color: var(--ink-faint);
+  margin: -.3rem 0 .8rem;
+}
