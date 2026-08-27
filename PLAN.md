@@ -101,6 +101,28 @@ npm run build       # 정적 내보내기 → out/
   배수 1.1배는 밋밋하고 668일은 크기가 안 와닿기 때문.
 - 카드·홈 목록·OG 이미지 세 곳에 동일 문구 적용 (calc.js 한 곳에서 생성)
 
+### 5차 — 자동화 · 팀 정리 (2026-08-27)
+
+- **데이터 자동 갱신** `.github/workflows/update-data.yml`
+  하루 두 번(21시·05시 KST) 수집 → 검증 → OG 재생성 → 변경 있으면 커밋 → Vercel 자동 배포.
+  수동 실행도 가능. 저장소가 공개라 Actions 사용료 없음. 실제 실행 검증 완료.
+  안전장치: 직전 커밋 대비 팀·컴백이 10% 이상 급감하면 커밋하지 않고 실패시킨다.
+  `fetchedAt` 만 바뀐 경우는 파일을 원상복구해 무의미한 커밋을 막는다.
+- **38팀으로 정리** — `artists.config.json` 의 `disabled: true` 로 제외 (ID 는 남겨둠)
+  · NewJeans — 공백기가 법적 분쟁 때문이라 숫자를 보여주는 것 자체가 편들기로 읽힐 수 있음
+  · JENNIE·JISOO·ROSÉ·LISA — 컴백 3회 미만이라 주기를 낼 수 없음
+  되돌리려면 `disabled` 줄만 지우고 `npm run fetch && npm run og`
+- Stray Kids 마지막 컴백 정정 (SKZ-REPLAY 모음집 제외 → THIS & THAT)
+
+### 이 과정에서 잡은 버그
+
+- **제외한 팀 주소가 빈 화면으로 200 을 반환**했다. `output: export` 를 없앤 뒤
+  Next 가 `generateStaticParams` 에 없는 주소도 즉석에서 렌더하려 했고,
+  페이지가 `null` 을 돌려주니 200 이 나갔다. → `dynamicParams = false` + `notFound()`
+- **슬러그가 악센트를 버렸다.** `ROSÉ` → `/ros/`. NFD 로 악센트만 떼고 NFC 로 되돌리게 수정 → `/rose/`
+- `output: export` 제거 이후 `next build` 는 `out/` 에 쓰지 않는다.
+  산출물 확인은 배포된 사이트로 할 것
+
 ### 남은 작업
 
 - [x] **GA4 연동 완료** (G-Y3N2BGPL4J)
