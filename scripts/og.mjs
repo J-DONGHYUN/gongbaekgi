@@ -16,7 +16,7 @@
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
-import { analyze, STATE_LABEL } from "../lib/calc.js";
+import { analyze, stateText, humanDuration } from "../lib/calc.js";
 import { slugify } from "../lib/slug.js";
 import { SITE_URL, SITE_NAME } from "../lib/site.js";
 
@@ -45,7 +45,7 @@ const GLYPHS = [
   ...new Set(
     [
       "일째 평균보다 더 기다리는 중 활동 주기 안 슬슬 나올 때",
-      "데이터 부족 컴백 기록 없음 회 공백기 며칠째",
+      "데이터 부족 컴백 기록 없음 회 공백기 며칠째 년 개월 배",
       "우리 애 쉬고 있나 마지막 이후 지난 날과 평균 주기를 비교해서 보여줍니다 아이돌 팀",
       SITE_NAME, DOMAIN, "0123456789,.·—-'",
       ...artists.map((a) => `${a.name}${a.nameKo ?? ""}`),
@@ -77,13 +77,8 @@ const txt = (style, children) => ({ type: "div", props: { style, children } });
 function artistCard(artist) {
   const a = analyze(artist.comebacks);
   const tone = a.last ? (a.enough ? COLOR[a.state] : COLOR.none) : COLOR.none;
-  const headline = !a.last
-    ? "컴백 기록 없음"
-    : a.enough && a.state === "overdue"
-      ? `평균보다 ${a.over.toLocaleString("ko-KR")}일 더 기다리는 중`
-      : a.enough
-        ? STATE_LABEL[a.state]
-        : `컴백 ${artist.comebacks.length}회 · 데이터 부족`;
+  const headline = stateText(a, artist.comebacks.length);
+  const human = humanDuration(a.hiatus);
 
   const past = (a.gapList ?? []).slice(-4);
   const series = a.last ? [...past, a.hiatus] : [];
@@ -111,7 +106,10 @@ function artistCard(artist) {
           ),
           txt({ fontSize: 58, fontWeight: 700, color: "#98A2B3", marginLeft: 12, marginBottom: 18 }, "일째"),
         ]),
-        txt({ fontSize: 36, color: tone, marginTop: 34 }, headline),
+        human
+          ? txt({ fontSize: 44, fontWeight: 700, color: "#98A2B3", marginTop: 12 }, human)
+          : null,
+        txt({ fontSize: 36, color: tone, marginTop: human ? 18 : 34 }, headline),
       ]),
       box({ width: "100%", display: "flex", alignItems: "flex-end", justifyContent: "space-between" }, [
         box(

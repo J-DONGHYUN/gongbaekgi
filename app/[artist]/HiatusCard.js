@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { analyze, STATE_LABEL, fmtDate } from "../../lib/calc";
+import { analyze, stateText, humanDuration, fmtDate } from "../../lib/calc";
 
 const CLS = { inCycle: "card--in", soon: "card--soon", overdue: "card--over" };
 
@@ -44,6 +44,7 @@ export default function HiatusCard({ artist, buildDate }) {
   const max = Math.max(...series, 1);
 
   const cover = artist.comebacks.at(-1);
+  const human = humanDuration(a.hiatus);
 
   return (
     <div
@@ -60,15 +61,9 @@ export default function HiatusCard({ artist, buildDate }) {
         <i>일째</i>
       </p>
 
-      {a.enough ? (
-        <span className="state">
-          {a.state === "overdue"
-            ? `평균보다 ${a.over.toLocaleString("ko-KR")}일 더 기다리는 중`
-            : STATE_LABEL[a.state]}
-        </span>
-      ) : (
-        <span className="state">컴백 {artist.comebacks.length}회 · 데이터 부족</span>
-      )}
+      {human ? <p className="human">{human}</p> : null}
+
+      <span className="state">{stateText(a, artist.comebacks.length)}</span>
 
       {series.length > 1 && (
         <>

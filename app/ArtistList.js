@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
-import { analyze } from "../lib/calc";
+import { analyze, humanDuration } from "../lib/calc";
 
 const CLS = { inCycle: "d-in", soon: "d-soon", overdue: "d-over" };
 
@@ -17,9 +17,12 @@ function Row({ a }) {
         <b>{a.name}</b>
         <span>{a.nameKo}</span>
       </span>
-      <span className={`dd ${a.cls}`}>
-        {a.hiatus?.toLocaleString("ko-KR") ?? "—"}
-        <small>일</small>
+      <span className="ddwrap">
+        <span className={`dd ${a.cls}`}>
+          {a.hiatus?.toLocaleString("ko-KR") ?? "—"}
+          <small>일</small>
+        </span>
+        {a.human ? <span className="ddsub">{a.human}</span> : null}
       </span>
     </Link>
   );
@@ -35,6 +38,7 @@ export default function ArtistList({ artists }) {
       return {
         ...a,
         hiatus: r.hiatus,
+        human: humanDuration(r.hiatus),
         enough: r.enough,
         cls: r.enough ? CLS[r.state] : "d-none",
       };

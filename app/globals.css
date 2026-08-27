@@ -325,3 +325,19 @@ footer a { text-decoration: underline; text-underline-offset: 2px; }
   width: 40px; height: 40px; border-radius: 4px;
   background: var(--surface-2); display: block;
 }
+
+/* 큰 숫자 바로 아래 체감 단위 — 825일이 2년 3개월임을 즉시 알려준다 */
+.human {
+  margin: .5rem 0 0;
+  font-family: var(--f-num);
+  font-size: 1.35rem; font-weight: 600;
+  letter-spacing: -.02em;
+  color: var(--ink-soft);
+  font-variant-numeric: tabular-nums;
+}
+
+.ddwrap { display: flex; flex-direction: column; align-items: flex-end; gap: .05rem; }
+.ddsub {
+  font-size: .72rem; color: var(--ink-faint);
+  font-variant-numeric: tabular-nums; white-space: nowrap;
+}
