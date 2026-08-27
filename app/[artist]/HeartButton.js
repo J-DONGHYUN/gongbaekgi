@@ -33,47 +33,62 @@ export default function HeartButton({ slug, name }) {
     return () => clearInterval(t);
   }, [until]);
 
-  async function send() {
+  /**
+   * 누르는 즉시 전환한다. 응답을 기다리면 왕복 시간만큼 멈춰 보인다.
+   * 서버가 거절하면 그때 되돌린다. 거절은 드물고(쿨다운뿐) 되돌림도 즉시다.
+   */
+  function send() {
     if (until > Date.now() || state === "sending") return;
-    setState("sending");
+
+    const optimisticEnd = Date.now() + 60_000;
+    setUntil(optimisticEnd);
+    localStorage.setItem(KEY(slug), String(optimisticEnd));
+    setState("sent");
     setError("");
-    try {
-      const res = await fetch("/api/vote/", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ slug }),
-      });
-      const json = await res.json().catch(() => ({}));
+    setResult(null);
+    setTimeout(() => setState((s) => (s === "sent" ? "idle" : s)), 2200);
 
-      if (res.ok && json.ok) {
-        const end = Date.now() + (json.cooldown ?? 60) * 1000;
-        localStorage.setItem(KEY(slug), String(end));
-        setUntil(end);
-        setState("sent");
-        // 홈 순위는 캐시 때문에 몇 초 늦다. 누른 자리에서 바로 결과를 보여준다.
-        if (json.score != null) setResult({ score: json.score, rank: json.rank });
-        setTimeout(() => setState("idle"), 2200);
-        return;
-      }
+    fetch("/api/vote/", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ slug }),
+    })
+      .then(async (res) => {
+        const json = await res.json().catch(() => ({}));
 
-      if (res.status === 429) {
-        const end = Date.now() + (json.retryAfter ?? 60) * 1000;
-        localStorage.setItem(KEY(slug), String(end));
-        setUntil(end);
-        setState("idle");
-        return;
-      }
+        if (res.ok && json.ok) {
+          const end = Date.now() + (json.cooldown ?? 60) * 1000;
+          localStorage.setItem(KEY(slug), String(end));
+          setUntil(end);
+          // 지수·등수는 부가 정보라 조금 늦게 채워도 된다
+          if (json.score != null) setResult({ score: json.score, rank: json.rank });
+          return;
+        }
 
-      if (res.status === 503) {
-        setState("off");
-        return;
-      }
-      setError("잠시 후 다시 시도해주세요");
-      setState("idle");
-    } catch {
-      setError("연결에 실패했습니다");
-      setState("idle");
-    }
+        if (res.status === 429) {
+          // 이미 눌렀던 경우. 서버가 알려준 남은 시간으로 맞춘다.
+          const end = Date.now() + (json.retryAfter ?? 60) * 1000;
+          localStorage.setItem(KEY(slug), String(end));
+          setUntil(end);
+          setState("idle");
+          return;
+        }
+
+        if (res.status === 503) {
+          setState("off");
+          return;
+        }
+        rollback("잠시 후 다시 시도해주세요");
+      })
+      .catch(() => rollback("연결에 실패했습니다"));
+  }
+
+  function rollback(message) {
+    localStorage.removeItem(KEY(slug));
+    setUntil(0);
+    setLeft(0);
+    setState("idle");
+    setError(message);
   }
 
   if (state === "off") return null;
