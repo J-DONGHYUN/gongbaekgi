@@ -1,9 +1,10 @@
 import "./globals.css";
 import Link from "next/link";
 import Analytics from "./Analytics";
+import { SITE_URL, SITE_NAME, VERIFY } from "../lib/site";
 
 export const metadata = {
-  metadataBase: new URL("https://gongbaekgi.vercel.app"),
+  metadataBase: new URL(SITE_URL),
   title: {
     default: "공백기 며칠째 — 아이돌 컴백 주기 추적",
     template: "%s | 공백기 며칠째",
@@ -11,11 +12,16 @@ export const metadata = {
   description:
     "내 아이돌이 마지막 컴백 이후 며칠째인지, 평균 컴백 주기를 넘겼는지 한눈에.",
   openGraph: {
-    siteName: "공백기 며칠째",
+    siteName: SITE_NAME,
     type: "website",
     locale: "ko_KR",
   },
   twitter: { card: "summary" },
+  // 값이 채워진 것만 태그로 나간다
+  verification: {
+    ...(VERIFY.google ? { google: VERIFY.google } : {}),
+    ...(VERIFY.naver ? { other: { "naver-site-verification": VERIFY.naver } } : {}),
+  },
 };
 
 export default function RootLayout({ children }) {

@@ -81,11 +81,14 @@ npm run build       # 정적 내보내기 → out/
 
 ### 남은 작업
 
-- [ ] **GA4 연동** — 측정 ID(`G-`) 발급 후 붙이기. **Vercel Analytics 로는 재방문율·체류시간을 못 봅니다**
+- [x] **GA4 연동 완료** (G-Y3N2BGPL4J)
+- [ ] ~~GA4 연동~~ — 측정 ID(`G-`) 발급 후 붙이기. **Vercel Analytics 로는 재방문율·체류시간을 못 봅니다**
       (쿠키 대신 하루짜리 해시를 쓰므로 날짜 간 추적이 구조적으로 불가능)
 - [ ] 구글 서치콘솔 + 네이버 서치어드바이저 등록
 - [ ] 폰에서 스크린샷 찍어 한 화면에 들어오는지 확인 ← 홍보 성패가 여기 달림
-- [ ] OG 이미지 — 아티스트별 동적 생성은 `output: export` 와 충돌. 정적 1장이라도 넣을지 결정 필요
+- [x] **OG 이미지 완료** — 아티스트별 44장을 빌드 시점에 PNG 로 생성.
+      `output: export` 를 유지한 채로 됨 (서버 함수 0 그대로). `next/og` + `generateStaticParams`
+      한글은 Google Fonts 의 `text=` 부분집합을 받아 임베드 (수 MB → 수십 KB)
 - [ ] 트위터 공유 (공백기 긴 팀부터, 컴백 발표 시점에 맞춰)
 
 ### 남은 데이터 이슈
@@ -93,6 +96,15 @@ npm run build       # 정적 내보내기 → out/
 제목에 "Japanese" 가 없는 일본 발매반이 걸러지지 않는다 (IVE `WAVE`·`Be Alright`, NewJeans `NJWMX`).
 **단 이들은 이력 중간에 끼는 것이라 공백기 숫자 자체는 정확하다** — 평균 주기만 약간 짧아진다.
 규칙을 무한히 늘리기보다, 팀별로 안 맞으면 목록에서 빼는 편이 빠르다.
+
+### OG 이미지에서 배운 것 (다시 헤매지 말 것)
+
+- `output: export` 여도 `opengraph-image.js` + `generateStaticParams` 면 빌드 때 PNG 가 나온다
+- 루트(`app/opengraph-image.js`)처럼 params 가 없는 경로는 `export const dynamic = "force-static"` 필요
+- satori 는 **woff2 를 못 읽는다.** Google Fonts 는 UA 로 포맷을 정하는데
+  IE 계열 UA → EOT(못 씀), 구형 안드로이드 UA → **TTF(정답)**, 구형 크롬 → WOFF(가능)
+- satori 는 자식이 2개 이상인 div 에 `display:flex` 를 요구한다.
+  `아이돌 {n}팀` 처럼 텍스트+표현식이 섞이면 자식 3개로 세어 에러난다 → 템플릿 문자열로 합칠 것
 
 ### iTunes 에서 배운 것 (다시 헤매지 말 것)
 
