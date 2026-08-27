@@ -465,3 +465,62 @@ footer a { text-decoration: underline; text-underline-offset: 2px; }
 }
 .heart-result b { color: var(--st-over); font-weight: 700; }
 .heart-note { font-size: .74rem; color: var(--ink-faint); margin: .4rem 0 0; }
+
+/* ── 계산 방식 페이지 ────────────────────────────────────── */
+.qa { margin: 2.2rem 0 0; }
+.qa-q {
+  font-size: 1.08rem; font-weight: 700; letter-spacing: -.02em;
+  margin: 0 0 .8rem; padding-top: 1.2rem;
+  border-top: 1px solid var(--rule);
+}
+.qa p { max-width: 34rem; color: var(--ink-soft); margin: 0 0 .9rem; }
+.qa p strong { color: var(--ink); font-weight: 600; }
+.qa ul { max-width: 34rem; color: var(--ink-soft); margin: 0 0 .9rem; padding-left: 1.15rem; }
+.qa li { margin-bottom: .4rem; }
+.qa li strong { color: var(--ink); font-weight: 600; }
+.qa code {
+  font-family: ui-monospace, Menlo, monospace; font-size: .86em;
+  background: var(--surface-2); padding: .1em .35em; border-radius: 3px; color: var(--ink);
+}
+.dim { color: var(--ink-faint); font-weight: 400; }
+
+/* 실제 숫자 예시 상자 */
+.ex {
+  background: var(--surface); border: 1px solid var(--rule);
+  border-radius: 10px; padding: .95rem 1.1rem;
+  margin: 0 0 1rem; max-width: 34rem;
+}
+.ex-cap { font-size: .76rem; color: var(--ink-faint); margin: 0 0 .35rem !important; }
+.ex-nums {
+  font-family: var(--f-num); font-weight: 700; font-size: 1.15rem;
+  letter-spacing: -.01em; font-variant-numeric: tabular-nums;
+  color: var(--ink) !important; margin: 0 0 .7rem !important;
+}
+.ex-row {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: .1rem .7rem;
+  padding: .4rem 0; border-top: 1px solid var(--rule-soft);
+}
+.ex-row:first-child { border-top: none; padding-top: 0; }
+.ex-row b {
+  font-family: var(--f-num); font-weight: 700; font-size: 1rem;
+  font-variant-numeric: tabular-nums; color: var(--ink);
+  min-width: 8.5rem;
+}
+.ex-row span { font-size: .84rem; color: var(--ink-soft); }
+.ex-row--good b { color: var(--st-in); }
+.hl {
+  font-family: var(--f-num); font-weight: 700;
+  color: var(--st-over) !important; min-width: 0 !important;
+}
+
+/* 공식 */
+.formula {
+  font-family: var(--f-num); font-weight: 700;
+  font-size: 1rem; letter-spacing: -.01em;
+  color: var(--ink) !important;
+  background: var(--accent-soft);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 8px 8px 0;
+  padding: .8rem 1rem; margin: 0 0 1rem !important;
+  max-width: 34rem; overflow-x: auto; white-space: nowrap;
+}
