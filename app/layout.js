@@ -1,5 +1,6 @@
 import "./globals.css";
 import Link from "next/link";
+import Analytics from "./Analytics";
 
 export const metadata = {
   metadataBase: new URL("https://gongbaekgi.vercel.app"),
@@ -46,6 +47,7 @@ export default function RootLayout({ children }) {
             <Link href="/guide/">계산 방식 보기</Link>
           </footer>
         </div>
+        <Analytics />
       </body>
     </html>
   );
