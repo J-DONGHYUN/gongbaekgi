@@ -1,7 +1,7 @@
 import "./globals.css";
 import Link from "next/link";
 import Analytics from "./Analytics";
-import { SITE_URL, SITE_NAME, VERIFY } from "../lib/site";
+import { SITE_URL, SITE_NAME, VERIFY, REPORT_URL } from "../lib/site";
 
 export const metadata = {
   metadataBase: new URL(SITE_URL),
@@ -58,6 +58,15 @@ export default function RootLayout({ children }) {
             앨범 이미지와 발매 정보 출처: Apple Music · iTunes Search API.
             모든 이미지는 Apple 서버에서 직접 불러오며 저장하지 않습니다.
             권리자 요청이 있으면 즉시 내리겠습니다.
+            {REPORT_URL ? (
+              <>
+                <br />
+                <br />
+                <a href={REPORT_URL} target="_blank" rel="noopener noreferrer">
+                  틀린 정보 제보하기
+                </a>
+              </>
+            ) : null}
           </footer>
         </div>
         <Analytics />

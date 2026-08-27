@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { REPORT_URL } from "../../lib/site";
 
 export const metadata = {
   title: "계산 방식 — 숫자가 어떻게 나오나",
@@ -237,7 +238,17 @@ export default function Guide() {
           이 경우 <strong>공백기 자체는 맞지만 평균 주기가 실제보다 짧게</strong> 나옵니다.
         </p>
 
-        <p>틀린 곳을 발견하시면 알려주세요. 고치겠습니다.</p>
+        <p>
+          틀린 곳을 발견하시면 알려주세요. 고치겠습니다.
+          {REPORT_URL ? (
+            <>
+              {" "}
+              <a href={REPORT_URL} target="_blank" rel="noopener noreferrer">
+                <strong>제보하기 →</strong>
+              </a>
+            </>
+          ) : null}
+        </p>
       </section>
 
       <div className="rowlinks">
