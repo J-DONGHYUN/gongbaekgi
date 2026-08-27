@@ -25,8 +25,16 @@ export async function generateMetadata({ params }) {
     description,
     alternates: { canonical: url },
     // 링크를 공유했을 때 미리보기에 숫자가 그대로 보이게 한다
-    openGraph: { title, description, url, siteName: "공백기 며칠째", type: "website", locale: "ko_KR" },
-    twitter: { card: "summary", title, description },
+    openGraph: {
+      title, description, url,
+      siteName: "공백기 며칠째", type: "website", locale: "ko_KR",
+      images: [{ url: `/og/${a.slug}.png`, width: 1200, height: 630 }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title, description,
+      images: [`/og/${a.slug}.png`],
+    },
   };
 }
 

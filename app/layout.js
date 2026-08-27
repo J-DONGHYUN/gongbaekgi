@@ -15,8 +15,10 @@ export const metadata = {
     siteName: SITE_NAME,
     type: "website",
     locale: "ko_KR",
+    images: [{ url: "/og/home.png", width: 1200, height: 630 }],
   },
-  twitter: { card: "summary" },
+  // 1200x630 이미지가 있으므로 작은 카드가 아니라 큰 카드로 띄운다
+  twitter: { card: "summary_large_image", images: ["/og/home.png"] },
   // 값이 채워진 것만 태그로 나간다
   verification: {
     ...(VERIFY.google ? { google: VERIFY.google } : {}),
