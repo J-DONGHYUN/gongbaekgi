@@ -1,0 +1,221 @@
+{
+  "_주의": "itunesId 는 npm run ids:apply 로 자동 입력된다. 애매한 팀만 손으로 채운다. 빈 칸은 수집에서 건너뛴다.",
+  "artists": [
+    {
+      "name": "aespa",
+      "nameKo": "에스파",
+      "itunesId": 1540251304
+    },
+    {
+      "name": "IVE",
+      "nameKo": "아이브",
+      "itunesId": 1594159996
+    },
+    {
+      "name": "NewJeans",
+      "nameKo": "뉴진스",
+      "itunesId": 1635469693
+    },
+    {
+      "name": "LE SSERAFIM",
+      "nameKo": "르세라핌",
+      "itunesId": 1616740364
+    },
+    {
+      "name": "i-dle",
+      "nameKo": "아이들",
+      "itunesId": 1378887586
+    },
+    {
+      "name": "ITZY",
+      "nameKo": "있지",
+      "itunesId": 1451964345
+    },
+    {
+      "name": "TWICE",
+      "nameKo": "트와이스",
+      "itunesId": 1203816887
+    },
+    {
+      "name": "BLACKPINK",
+      "nameKo": "블랙핑크",
+      "itunesId": 1141774019
+    },
+    {
+      "name": "Red Velvet",
+      "nameKo": "레드벨벳",
+      "itunesId": 906961899
+    },
+    {
+      "name": "NMIXX",
+      "nameKo": "엔믹스",
+      "itunesId": 1600411676
+    },
+    {
+      "name": "STAYC",
+      "nameKo": "스테이씨",
+      "itunesId": 1538881438
+    },
+    {
+      "name": "Kep1er",
+      "nameKo": "케플러",
+      "itunesId": 1594156263
+    },
+    {
+      "name": "ILLIT",
+      "nameKo": "아일릿",
+      "itunesId": 1734551937
+    },
+    {
+      "name": "BABYMONSTER",
+      "nameKo": "베이비몬스터",
+      "itunesId": 1715981813
+    },
+    {
+      "name": "KISS OF LIFE",
+      "nameKo": "키스오브라이프",
+      "itunesId": 1694672936
+    },
+    {
+      "name": "fromis_9",
+      "nameKo": "프로미스나인",
+      "itunesId": 1319150216
+    },
+    {
+      "name": "tripleS",
+      "nameKo": "트리플에스",
+      "itunesId": 1651595986
+    },
+    {
+      "name": "MAMAMOO",
+      "nameKo": "마마무",
+      "itunesId": 818951094
+    },
+    {
+      "name": "Girls' Generation",
+      "nameKo": "소녀시대",
+      "itunesId": 357463500
+    },
+    {
+      "name": "BTS",
+      "nameKo": "방탄소년단",
+      "itunesId": 883131348
+    },
+    {
+      "name": "SEVENTEEN",
+      "nameKo": "세븐틴",
+      "itunesId": 999644772
+    },
+    {
+      "name": "Stray Kids",
+      "nameKo": "스트레이키즈",
+      "itunesId": 1304823362
+    },
+    {
+      "name": "TOMORROW X TOGETHER",
+      "nameKo": "투모로우바이투게더",
+      "itunesId": 1454642552
+    },
+    {
+      "name": "ENHYPEN",
+      "nameKo": "엔하이픈",
+      "itunesId": 1541011620
+    },
+    {
+      "name": "ATEEZ",
+      "nameKo": "에이티즈",
+      "itunesId": 1439301205
+    },
+    {
+      "name": "NCT DREAM",
+      "nameKo": "엔시티 드림",
+      "itunesId": 1208839599
+    },
+    {
+      "name": "NCT 127",
+      "nameKo": "엔시티 127",
+      "itunesId": 1235849306
+    },
+    {
+      "name": "THE BOYZ",
+      "nameKo": "더보이즈",
+      "itunesId": 1322012460
+    },
+    {
+      "name": "TREASURE",
+      "nameKo": "트레저",
+      "itunesId": 1526319335
+    },
+    {
+      "name": "ZEROBASEONE",
+      "nameKo": "제로베이스원",
+      "itunesId": 1693315406
+    },
+    {
+      "name": "RIIZE",
+      "nameKo": "라이즈",
+      "itunesId": 1702435257
+    },
+    {
+      "name": "BOYNEXTDOOR",
+      "nameKo": "보이넥스트도어",
+      "itunesId": 1687612559
+    },
+    {
+      "name": "PLAVE",
+      "nameKo": "플레이브",
+      "itunesId": 1676593844
+    },
+    {
+      "name": "&TEAM",
+      "nameKo": "앤팀",
+      "itunesId": 1654437478
+    },
+    {
+      "name": "EXO",
+      "nameKo": "엑소",
+      "itunesId": 657630070
+    },
+    {
+      "name": "IU",
+      "nameKo": "아이유",
+      "itunesId": 409076743
+    },
+    {
+      "name": "JENNIE",
+      "nameKo": "제니",
+      "itunesId": 913944
+    },
+    {
+      "name": "JISOO",
+      "nameKo": "지수",
+      "itunesId": 1548008317
+    },
+    {
+      "name": "ROSÉ",
+      "nameKo": "로제",
+      "itunesId": 1406242696
+    },
+    {
+      "name": "LISA",
+      "nameKo": "리사",
+      "itunesId": 1583908668
+    },
+    {
+      "name": "TAEYEON",
+      "nameKo": "태연",
+      "itunesId": 435966642
+    },
+    {
+      "name": "D.O.",
+      "nameKo": "도경수",
+      "itunesId": 1364148883
+    },
+    {
+      "name": "JEON SOMI",
+      "nameKo": "전소미",
+      "itunesId": 1218803768
+    }
+  ],
+  "_데이터소스": "iTunes Search API — API 키 불필요. Spotify 는 2026년부터 앱 소유자 Premium 구독을 요구해 403."
+}

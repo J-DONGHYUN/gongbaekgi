@@ -1,0 +1,13 @@
+# 절대 커밋 금지 — Spotify Client Secret
+.env
+.env.local
+.env*.local
+
+node_modules/
+.next/
+out/
+.vercel/
+.DS_Store
+*.log
+/.next/
+/out/

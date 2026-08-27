@@ -1,0 +1,3469 @@
+{
+  "fetchedAt": "2026-08-27T01:44:17.997Z",
+  "source": "itunes",
+  "artists": [
+    {
+      "id": 1540251304,
+      "name": "aespa",
+      "nameKo": "에스파",
+      "comebacks": [
+        {
+          "name": "Savage - The 1st Mini Album - EP",
+          "date": "2021-10-05",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/savage-the-1st-mini-album-ep/1587844523?uo=4"
+        },
+        {
+          "name": "Girls - The 2nd Mini Album (Apple Music Edition)",
+          "date": "2022-07-08",
+          "tracks": 10,
+          "url": "https://music.apple.com/kr/album/girls-the-2nd-mini-album-apple-music-edition/1890586337?uo=4"
+        },
+        {
+          "name": "MY WORLD - The 3rd Mini Album - EP",
+          "date": "2023-05-08",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/my-world-the-3rd-mini-album-ep/1890393509?uo=4"
+        },
+        {
+          "name": "Drama - The 4th Mini Album",
+          "date": "2023-11-10",
+          "tracks": 8,
+          "url": "https://music.apple.com/kr/album/drama-the-4th-mini-album/1890395459?uo=4"
+        },
+        {
+          "name": "Armageddon - The 1st Album",
+          "date": "2024-05-27",
+          "tracks": 11,
+          "url": "https://music.apple.com/kr/album/armageddon-the-1st-album/1745285216?uo=4"
+        },
+        {
+          "name": "Whiplash - The 5th Mini Album - EP",
+          "date": "2024-10-21",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/whiplash-the-5th-mini-album-ep/1772644600?uo=4"
+        },
+        {
+          "name": "Dirty Work (Apple Music Edition) - EP",
+          "date": "2025-06-27",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/dirty-work-apple-music-edition-ep/1818322337?uo=4"
+        },
+        {
+          "name": "Rich Man - The 6th Mini Album - EP",
+          "date": "2025-09-05",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/rich-man-the-6th-mini-album-ep/1832407118?uo=4"
+        },
+        {
+          "name": "LEMONADE - The 2nd Album",
+          "date": "2026-05-28",
+          "tracks": 15,
+          "url": "https://music.apple.com/kr/album/lemonade-the-2nd-album-ningning-special-version/6772120187?uo=4"
+        },
+        {
+          "name": "KISS N TELL - EP",
+          "date": "2026-07-23",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/kiss-n-tell-ep/6790439170?uo=4"
+        }
+      ]
+    },
+    {
+      "id": 1594159996,
+      "name": "IVE",
+      "nameKo": "아이브",
+      "comebacks": [
+        {
+          "name": "I've IVE",
+          "date": "2023-04-10",
+          "tracks": 11,
+          "url": "https://music.apple.com/kr/album/ive-ive/1680865390?uo=4"
+        },
+        {
+          "name": "WAVE - EP",
+          "date": "2023-05-31",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/wave-ep/1685789440?uo=4"
+        },
+        {
+          "name": "I'VE MINE - EP",
+          "date": "2023-10-13",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/ive-mine-ep/1711153844?uo=4"
+        },
+        {
+          "name": "IVE SWITCH - EP",
+          "date": "2024-04-29",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/ive-switch-ep/1743111714?uo=4"
+        },
+        {
+          "name": "IVE EMPATHY - EP",
+          "date": "2025-02-03",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/ive-empathy-ep/1790160307?uo=4"
+        },
+        {
+          "name": "Be Alright - EP",
+          "date": "2025-07-30",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/be-alright-ep/1824398909?uo=4"
+        },
+        {
+          "name": "IVE SECRET - EP",
+          "date": "2025-08-25",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/ive-secret-ep/1834561596?uo=4"
+        },
+        {
+          "name": "REVIVE+",
+          "date": "2026-02-23",
+          "tracks": 12,
+          "url": "https://music.apple.com/kr/album/revive/1875882418?uo=4"
+        },
+        {
+          "name": "LUCID DREAM - EP",
+          "date": "2026-05-27",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/lucid-dream-ep/6768866474?uo=4"
+        }
+      ]
+    },
+    {
+      "id": 1635469693,
+      "name": "NewJeans",
+      "nameKo": "뉴진스",
+      "comebacks": [
+        {
+          "name": "NewJeans 1st EP 'New Jeans'",
+          "date": "2022-08-01",
+          "tracks": 4,
+          "url": "https://music.apple.com/kr/album/newjeans-1st-ep-new-jeans/1635469682?uo=4"
+        },
+        {
+          "name": "NewJeans 2nd EP 'Get Up'",
+          "date": "2023-07-21",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/newjeans-2nd-ep-get-up/1695951888?uo=4"
+        },
+        {
+          "name": "NJWMX",
+          "date": "2023-12-19",
+          "tracks": 12,
+          "url": "https://music.apple.com/kr/album/njwmx/1719868691?uo=4"
+        },
+        {
+          "name": "How Sweet - EP",
+          "date": "2024-05-24",
+          "tracks": 4,
+          "url": "https://music.apple.com/kr/album/how-sweet-ep/1744448415?uo=4"
+        }
+      ]
+    },
+    {
+      "id": 1616740364,
+      "name": "LE SSERAFIM",
+      "nameKo": "르세라핌",
+      "comebacks": [
+        {
+          "name": "FEARLESS - EP",
+          "date": "2022-05-02",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/fearless-ep/1621089349?uo=4"
+        },
+        {
+          "name": "ANTIFRAGILE - EP",
+          "date": "2022-10-17",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/antifragile-ep/1647830231?uo=4"
+        },
+        {
+          "name": "UNFORGIVEN",
+          "date": "2023-05-01",
+          "tracks": 13,
+          "url": "https://music.apple.com/kr/album/unforgiven/1682502020?uo=4"
+        },
+        {
+          "name": "EASY - EP",
+          "date": "2024-02-19",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/easy-ep/1728928730?uo=4"
+        },
+        {
+          "name": "CRAZY - EP",
+          "date": "2024-08-30",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/crazy-ep/1763658157?uo=4"
+        },
+        {
+          "name": "HOT - EP",
+          "date": "2025-03-14",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/hot-ep/1799278610?uo=4"
+        },
+        {
+          "name": "SPAGHETTI",
+          "date": "2025-10-24",
+          "tracks": 8,
+          "url": "https://music.apple.com/kr/album/spaghetti/1846119152?uo=4"
+        },
+        {
+          "name": "'PUREFLOW', Pt. 1",
+          "date": "2026-05-22",
+          "tracks": 11,
+          "url": "https://music.apple.com/kr/album/pureflow-pt-1/1894802719?uo=4"
+        },
+        {
+          "name": "BOOMPALA (LE SSERAFIM Packages) - EP",
+          "date": "2026-05-25",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/boompala-le-sserafim-packages-ep/6771669010?uo=4"
+        }
+      ]
+    },
+    {
+      "id": 1378887586,
+      "name": "i-dle",
+      "nameKo": "아이들",
+      "comebacks": [
+        {
+          "name": "I am - EP",
+          "date": "2018-05-02",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/i-am-ep/1378887583?uo=4"
+        },
+        {
+          "name": "I made - EP",
+          "date": "2019-02-26",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/i-made-ep/1454363872?uo=4"
+        },
+        {
+          "name": "투유프로젝트 - Sugar Man3, Episode. 8 - EP",
+          "date": "2020-02-01",
+          "tracks": 4,
+          "url": "https://music.apple.com/kr/album/%ED%88%AC%EC%9C%A0%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-sugar-man3-episode-8-ep/1649551855?uo=4"
+        },
+        {
+          "name": "LATATA - EP",
+          "date": "2020-03-26",
+          "tracks": 4,
+          "url": "https://music.apple.com/kr/album/latata-ep/1582618402?uo=4"
+        },
+        {
+          "name": "I trust - EP",
+          "date": "2020-04-06",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/i-trust-ep/1582589831?uo=4"
+        },
+        {
+          "name": "Oh my god - EP",
+          "date": "2020-08-26",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/oh-my-god-ep/1582598492?uo=4"
+        },
+        {
+          "name": "I burn - EP",
+          "date": "2021-01-11",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/i-burn-ep/1577500400?uo=4"
+        },
+        {
+          "name": "I NEVER DIE",
+          "date": "2022-03-14",
+          "tracks": 9,
+          "url": "https://music.apple.com/kr/album/i-never-die/1613139921?uo=4"
+        },
+        {
+          "name": "I love - EP",
+          "date": "2022-10-17",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/i-love-ep/1649270443?uo=4"
+        },
+        {
+          "name": "I feel - EP",
+          "date": "2023-05-15",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/i-feel-ep/1687024222?uo=4"
+        },
+        {
+          "name": "HEAT - EP",
+          "date": "2023-10-04",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/heat-ep/1766383058?uo=4"
+        },
+        {
+          "name": "2",
+          "date": "2024-01-29",
+          "tracks": 8,
+          "url": "https://music.apple.com/kr/album/2/1727258590?uo=4"
+        },
+        {
+          "name": "I SWAY - EP",
+          "date": "2024-07-08",
+          "tracks": 4,
+          "url": "https://music.apple.com/kr/album/i-sway-ep/1753829503?uo=4"
+        },
+        {
+          "name": "We are i-dle",
+          "date": "2025-05-02",
+          "tracks": 9,
+          "url": "https://music.apple.com/kr/album/we-are-i-dle/1809281372?uo=4"
+        },
+        {
+          "name": "We are - EP",
+          "date": "2025-05-19",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/we-are-ep/1810664899?uo=4"
+        },
+        {
+          "name": "i-dle - EP",
+          "date": "2025-10-03",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/i-dle-ep/1840821658?uo=4"
+        },
+        {
+          "name": "We made - EP",
+          "date": "2026-07-06",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/we-made-ep/6780834296?uo=4"
+        }
+      ]
+    },
+    {
+      "id": 1451964345,
+      "name": "ITZY",
+      "nameKo": "있지",
+      "comebacks": [
+        {
+          "name": "IT'z ICY - EP",
+          "date": "2019-07-29",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/itz-icy-ep/1473678000?uo=4"
+        },
+        {
+          "name": "IT'z ME",
+          "date": "2020-03-09",
+          "tracks": 8,
+          "url": "https://music.apple.com/kr/album/itz-me/1501233592?uo=4"
+        },
+        {
+          "name": "Not Shy - EP",
+          "date": "2020-08-17",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/not-shy-ep/1527387195?uo=4"
+        },
+        {
+          "name": "GUESS WHO - EP",
+          "date": "2021-04-30",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/guess-who-ep/1563132631?uo=4"
+        },
+        {
+          "name": "CRAZY IN LOVE",
+          "date": "2021-09-24",
+          "tracks": 18,
+          "url": "https://music.apple.com/kr/album/crazy-in-love/1585783193?uo=4"
+        },
+        {
+          "name": "IT'z ITZY - EP",
+          "date": "2021-12-22",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/itz-itzy-ep/1601430023?uo=4"
+        },
+        {
+          "name": "Voltage - EP",
+          "date": "2022-04-06",
+          "tracks": 4,
+          "url": "https://music.apple.com/kr/album/voltage-ep/1617809433?uo=4"
+        },
+        {
+          "name": "CHECKMATE",
+          "date": "2022-07-15",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/checkmate/1633962780?uo=4"
+        },
+        {
+          "name": "Blah Blah Blah - EP",
+          "date": "2022-10-05",
+          "tracks": 4,
+          "url": "https://music.apple.com/kr/album/blah-blah-blah-ep/1648290683?uo=4"
+        },
+        {
+          "name": "CHESHIRE - EP",
+          "date": "2022-11-30",
+          "tracks": 4,
+          "url": "https://music.apple.com/kr/album/cheshire-ep/1656179784?uo=4"
+        },
+        {
+          "name": "KILL MY DOUBT - EP",
+          "date": "2023-07-31",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/kill-my-doubt-ep/1699730946?uo=4"
+        },
+        {
+          "name": "RINGO",
+          "date": "2023-10-18",
+          "tracks": 11,
+          "url": "https://music.apple.com/kr/album/ringo/1712279937?uo=4"
+        },
+        {
+          "name": "BORN TO BE",
+          "date": "2024-01-08",
+          "tracks": 10,
+          "url": "https://music.apple.com/kr/album/born-to-be/1722092564?uo=4"
+        },
+        {
+          "name": "GOLD",
+          "date": "2024-10-15",
+          "tracks": 11,
+          "url": "https://music.apple.com/kr/album/gold/1773728886?uo=4"
+        },
+        {
+          "name": "Girls Will Be Girls - EP",
+          "date": "2025-06-09",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/girls-will-be-girls-ep/1817376213?uo=4"
+        },
+        {
+          "name": "Collector",
+          "date": "2025-10-08",
+          "tracks": 10,
+          "url": "https://music.apple.com/kr/album/collector/1843302793?uo=4"
+        },
+        {
+          "name": "TUNNEL VISION - EP",
+          "date": "2025-11-10",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/tunnel-vision-ep/1846009084?uo=4"
+        },
+        {
+          "name": "Motto",
+          "date": "2026-05-18",
+          "tracks": 8,
+          "url": "https://music.apple.com/kr/album/motto/1893554643?uo=4"
+        }
+      ]
+    },
+    {
+      "id": 1203816887,
+      "name": "TWICE",
+      "nameKo": "트와이스",
+      "comebacks": [
+        {
+          "name": "The Story Begins - EP",
+          "date": "2015-10-20",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/the-story-begins-ep/1065523371?uo=4"
+        },
+        {
+          "name": "PAGE TWO - EP",
+          "date": "2016-04-25",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/page-two-ep/1107528987?uo=4"
+        },
+        {
+          "name": "TWICEcoaster: LANE1",
+          "date": "2016-10-24",
+          "tracks": 8,
+          "url": "https://music.apple.com/kr/album/twicecoaster-lane1/1168570280?uo=4"
+        },
+        {
+          "name": "TWICEcoaster: LANE 2",
+          "date": "2017-02-20",
+          "tracks": 10,
+          "url": "https://music.apple.com/kr/album/twicecoaster-lane-2/1207692940?uo=4"
+        },
+        {
+          "name": "SIGNAL - EP",
+          "date": "2017-05-15",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/signal-ep/1236672148?uo=4"
+        },
+        {
+          "name": "&TWICE",
+          "date": "2017-06-28",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/twice-ep/1242966871?uo=4"
+        },
+        {
+          "name": "twicetagram",
+          "date": "2017-10-30",
+          "tracks": 14,
+          "url": "https://music.apple.com/kr/album/twicetagram/1303321512?uo=4"
+        },
+        {
+          "name": "Merry & Happy",
+          "date": "2017-12-11",
+          "tracks": 16,
+          "url": "https://music.apple.com/kr/album/merry-happy/1323890122?uo=4"
+        },
+        {
+          "name": "What is Love? - EP",
+          "date": "2018-04-09",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/what-is-love-ep/1369699737?uo=4"
+        },
+        {
+          "name": "Wake Me Up - EP",
+          "date": "2018-05-16",
+          "tracks": 4,
+          "url": "https://music.apple.com/kr/album/wake-me-up-ep/1385345818?uo=4"
+        },
+        {
+          "name": "Summer Nights",
+          "date": "2018-07-09",
+          "tracks": 10,
+          "url": "https://music.apple.com/kr/album/summer-nights/1409500587?uo=4"
+        },
+        {
+          "name": "BDZ",
+          "date": "2018-09-12",
+          "tracks": 10,
+          "url": "https://music.apple.com/kr/album/bdz/1435886555?uo=4"
+        },
+        {
+          "name": "YES or YES",
+          "date": "2018-11-05",
+          "tracks": 8,
+          "url": "https://music.apple.com/kr/album/yes-or-yes/1440972731?uo=4"
+        },
+        {
+          "name": "The year of \"YES\"",
+          "date": "2018-12-12",
+          "tracks": 10,
+          "url": "https://music.apple.com/kr/album/the-year-of-yes/1445643325?uo=4"
+        },
+        {
+          "name": "BDZ -Repackage-",
+          "date": "2019-01-02",
+          "tracks": 11,
+          "url": "https://music.apple.com/kr/album/bdz-repackage/1664331963?uo=4"
+        },
+        {
+          "name": "#TWICE2 - EP",
+          "date": "2019-03-06",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/twice2-ep/1455956590?uo=4"
+        },
+        {
+          "name": "FANCY YOU - EP",
+          "date": "2019-04-22",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/fancy-you-ep/1460136355?uo=4"
+        },
+        {
+          "name": "HAPPY HAPPY - EP",
+          "date": "2019-07-17",
+          "tracks": 4,
+          "url": "https://music.apple.com/kr/album/happy-happy-ep/1473088892?uo=4"
+        },
+        {
+          "name": "Breakthrough - EP",
+          "date": "2019-07-24",
+          "tracks": 4,
+          "url": "https://music.apple.com/kr/album/breakthrough-ep/1473909749?uo=4"
+        },
+        {
+          "name": "Feel Special",
+          "date": "2019-09-23",
+          "tracks": 8,
+          "url": "https://music.apple.com/kr/album/feel-special/1480249009?uo=4"
+        },
+        {
+          "name": "&TWICE - Repackage -",
+          "date": "2020-02-05",
+          "tracks": 11,
+          "url": "https://music.apple.com/kr/album/twice-repackage/1497271281?uo=4"
+        },
+        {
+          "name": "MORE & MORE",
+          "date": "2020-06-01",
+          "tracks": 8,
+          "url": "https://music.apple.com/kr/album/more-more/1515739996?uo=4"
+        },
+        {
+          "name": "Fanfare - EP",
+          "date": "2020-07-08",
+          "tracks": 4,
+          "url": "https://music.apple.com/kr/album/fanfare-ep/1522271761?uo=4"
+        },
+        {
+          "name": "#TWICE3 - EP",
+          "date": "2020-09-16",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/twice3-ep/1531656259?uo=4"
+        },
+        {
+          "name": "Eyes wide open",
+          "date": "2020-10-26",
+          "tracks": 14,
+          "url": "https://music.apple.com/kr/album/eyes-wide-open/1536720653?uo=4"
+        },
+        {
+          "name": "BETTER - EP",
+          "date": "2020-11-18",
+          "tracks": 4,
+          "url": "https://music.apple.com/kr/album/better-ep/1540540674?uo=4"
+        },
+        {
+          "name": "Kura Kura - EP",
+          "date": "2021-05-12",
+          "tracks": 4,
+          "url": "https://music.apple.com/kr/album/kura-kura-ep/1566978348?uo=4"
+        },
+        {
+          "name": "Taste of Love - EP",
+          "date": "2021-06-11",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/taste-of-love-ep/1570801285?uo=4"
+        },
+        {
+          "name": "Perfect World",
+          "date": "2021-07-28",
+          "tracks": 10,
+          "url": "https://music.apple.com/kr/album/perfect-world/1578426815?uo=4"
+        },
+        {
+          "name": "The Feels",
+          "date": "2021-10-01",
+          "tracks": 9,
+          "url": "https://music.apple.com/kr/album/the-feels/1608154435?uo=4"
+        },
+        {
+          "name": "Formula of Love: O+T=<3",
+          "date": "2021-11-12",
+          "tracks": 17,
+          "url": "https://music.apple.com/kr/album/formula-of-love-o-t-3/1593847978?uo=4"
+        },
+        {
+          "name": "Doughnut - EP",
+          "date": "2021-12-15",
+          "tracks": 4,
+          "url": "https://music.apple.com/kr/album/doughnut-ep/1600019633?uo=4"
+        },
+        {
+          "name": "#TWICE4",
+          "date": "2022-03-16",
+          "tracks": 8,
+          "url": "https://music.apple.com/kr/album/twice4/1614388433?uo=4"
+        },
+        {
+          "name": "Celebrate",
+          "date": "2022-07-27",
+          "tracks": 9,
+          "url": "https://music.apple.com/kr/album/celebrate/1636432492?uo=4"
+        },
+        {
+          "name": "BETWEEN 1&2",
+          "date": "2022-08-26",
+          "tracks": 8,
+          "url": "https://music.apple.com/kr/album/between-1-2/1640391937?uo=4"
+        },
+        {
+          "name": "READY TO BE",
+          "date": "2023-03-10",
+          "tracks": 8,
+          "url": "https://music.apple.com/kr/album/ready-to-be/1673927279?uo=4"
+        },
+        {
+          "name": "Hare Hare - EP",
+          "date": "2023-05-31",
+          "tracks": 4,
+          "url": "https://music.apple.com/kr/album/hare-hare-ep/1689713504?uo=4"
+        },
+        {
+          "name": "I GOT YOU (Voyage Version)",
+          "date": "2024-02-06",
+          "tracks": 12,
+          "url": "https://music.apple.com/kr/album/i-got-you-voyage-version/1728842380?uo=4"
+        },
+        {
+          "name": "With YOU-th - EP",
+          "date": "2024-02-23",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/with-you-th-ep/1732586809?uo=4"
+        },
+        {
+          "name": "ONE SPARK - EP",
+          "date": "2024-02-26",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/one-spark-ep/1732720380?uo=4"
+        },
+        {
+          "name": "DIVE",
+          "date": "2024-07-17",
+          "tracks": 10,
+          "url": "https://music.apple.com/kr/album/dive/1757446268?uo=4"
+        },
+        {
+          "name": "STRATEGY",
+          "date": "2024-12-06",
+          "tracks": 8,
+          "url": "https://music.apple.com/kr/album/strategy/1778178721?uo=4"
+        },
+        {
+          "name": "THIS IS FOR",
+          "date": "2025-07-11",
+          "tracks": 14,
+          "url": "https://music.apple.com/kr/album/this-is-for/1824616736?uo=4"
+        },
+        {
+          "name": "ENEMY",
+          "date": "2025-08-27",
+          "tracks": 9,
+          "url": "https://music.apple.com/kr/album/enemy/1835385429?uo=4"
+        },
+        {
+          "name": "TEN: The Story Goes On",
+          "date": "2025-10-10",
+          "tracks": 10,
+          "url": "https://music.apple.com/kr/album/ten-the-story-goes-on/1840130594?uo=4"
+        }
+      ]
+    },
+    {
+      "id": 1141774019,
+      "name": "BLACKPINK",
+      "nameKo": "블랙핑크",
+      "comebacks": [
+        {
+          "name": "SQUARE TWO - EP",
+          "date": "2016-11-01",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/square-two-ep/1313151079?uo=4"
+        },
+        {
+          "name": "SQUARE UP - EP",
+          "date": "2018-06-15",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/square-up-ep/1398185606?uo=4"
+        },
+        {
+          "name": "KILL THIS LOVE - EP",
+          "date": "2019-04-05",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/kill-this-love-ep/1458318020?uo=4"
+        },
+        {
+          "name": "THE ALBUM",
+          "date": "2020-10-02",
+          "tracks": 8,
+          "url": "https://music.apple.com/kr/album/the-album/1533366575?uo=4"
+        },
+        {
+          "name": "BORN PINK",
+          "date": "2022-09-16",
+          "tracks": 9,
+          "url": "https://music.apple.com/kr/album/born-pink/1644021013?uo=4"
+        },
+        {
+          "name": "DEADLINE - EP",
+          "date": "2026-02-27",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/deadline-ep/1870208879?uo=4"
+        }
+      ]
+    },
+    {
+      "id": 906961899,
+      "name": "Red Velvet",
+      "nameKo": "레드벨벳",
+      "comebacks": [
+        {
+          "name": "The 1st Mini Album ‘Ice Cream Cake’ - EP",
+          "date": "2015-03-17",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/the-1st-mini-album-ice-cream-cake-ep/977068452?uo=4"
+        },
+        {
+          "name": "The Red - The 1st Album",
+          "date": "2015-09-09",
+          "tracks": 11,
+          "url": "https://music.apple.com/kr/album/the-red-the-1st-album/1037732950?uo=4"
+        },
+        {
+          "name": "The Velvet - The 2nd Mini Album",
+          "date": "2016-03-17",
+          "tracks": 9,
+          "url": "https://music.apple.com/kr/album/the-velvet-the-2nd-mini-album/1092931330?uo=4"
+        },
+        {
+          "name": "Russian Roulette - The 3rd Mini Album",
+          "date": "2016-09-07",
+          "tracks": 8,
+          "url": "https://music.apple.com/kr/album/russian-roulette-the-3rd-mini-album/1151001050?uo=4"
+        },
+        {
+          "name": "Rookie - The 4th Mini Album - EP",
+          "date": "2017-02-01",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/rookie-the-4th-mini-album-ep/1199263787?uo=4"
+        },
+        {
+          "name": "The Red Summer - Summer Mini Album - EP",
+          "date": "2017-07-09",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/the-red-summer-summer-mini-album-ep/1256503505?uo=4"
+        },
+        {
+          "name": "Perfect Velvet - The 2nd Album",
+          "date": "2017-11-17",
+          "tracks": 10,
+          "url": "https://music.apple.com/kr/album/perfect-velvet-the-2nd-album/1314273377?uo=4"
+        },
+        {
+          "name": "The Perfect Red Velvet - The 2nd Album Repackage - EP",
+          "date": "2018-01-29",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/the-perfect-red-velvet-the-2nd-album-repackage-ep/1341259280?uo=4"
+        },
+        {
+          "name": "#Cookie Jar",
+          "date": "2018-07-04",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/cookie-jar/1406353552?uo=4"
+        },
+        {
+          "name": "Summer Magic - Summer Mini Album",
+          "date": "2018-08-06",
+          "tracks": 9,
+          "url": "https://music.apple.com/kr/album/summer-magic-summer-mini-album/1421648323?uo=4"
+        },
+        {
+          "name": "RBB - The 5th Mini Album - EP",
+          "date": "2018-11-30",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/rbb-the-5th-mini-album-ep/1444409443?uo=4"
+        },
+        {
+          "name": "SAPPY - EP",
+          "date": "2019-05-29",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/sappy-ep/1465682945?uo=4"
+        },
+        {
+          "name": "‘The ReVe Festival’ Day 1 - EP",
+          "date": "2019-06-19",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/the-reve-festival-day-1-ep/1468948702?uo=4"
+        },
+        {
+          "name": "‘The ReVe Festival’ Day 2 - EP",
+          "date": "2019-08-20",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/the-reve-festival-day-2-ep/1476513507?uo=4"
+        },
+        {
+          "name": "‘The ReVe Festival’ Finale - EP",
+          "date": "2019-12-23",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/the-reve-festival-finale-ep/1491888504?uo=4"
+        },
+        {
+          "name": "Queendom - The 6th Mini Album - EP",
+          "date": "2021-08-16",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/queendom-the-6th-mini-album-ep/1580685463?uo=4"
+        },
+        {
+          "name": "'The ReVe Festival 2022 - Feel My Rhythm' - EP",
+          "date": "2022-03-21",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/the-reve-festival-2022-feel-my-rhythm-ep/1614179708?uo=4"
+        },
+        {
+          "name": "Bloom",
+          "date": "2022-04-06",
+          "tracks": 11,
+          "url": "https://music.apple.com/kr/album/bloom/1616161550?uo=4"
+        },
+        {
+          "name": "‘The ReVe Festival 2022 - Birthday’ - EP",
+          "date": "2022-11-28",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/the-reve-festival-2022-birthday-ep/1655291569?uo=4"
+        },
+        {
+          "name": "Chill Kill - The 3rd Album",
+          "date": "2023-11-13",
+          "tracks": 11,
+          "url": "https://music.apple.com/kr/album/chill-kill-the-3rd-album/1715049812?uo=4"
+        },
+        {
+          "name": "Cosmic",
+          "date": "2024-06-24",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/cosmic-ep/1752089292?uo=4"
+        },
+        {
+          "name": "Velvet Summer - Summer Mini Album - EP",
+          "date": "2026-08-03",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/velvet-summer-summer-mini-album-ep/6794291724?uo=4"
+        }
+      ]
+    },
+    {
+      "id": 1600411676,
+      "name": "NMIXX",
+      "nameKo": "엔믹스",
+      "comebacks": [
+        {
+          "name": "AD MARE",
+          "date": "2022-02-22",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/ad-mare/1609765517?uo=4"
+        },
+        {
+          "name": "GABBY'S DOLLHOUSE x NMIXX - EP",
+          "date": "2022-05-02",
+          "tracks": 4,
+          "url": "https://music.apple.com/kr/album/gabbys-dollhouse-x-nmixx-ep/1687028346?uo=4"
+        },
+        {
+          "name": "ENTWURF",
+          "date": "2022-09-19",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/entwurf/1645505599?uo=4"
+        },
+        {
+          "name": "expérgo - EP",
+          "date": "2023-03-21",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/exp%C3%A9rgo-ep/1677508713?uo=4"
+        },
+        {
+          "name": "A Midsummer NMIXX's Dream - EP",
+          "date": "2023-07-11",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/a-midsummer-nmixxs-dream-ep/1696035159?uo=4"
+        },
+        {
+          "name": "Fe3O4: BREAK",
+          "date": "2024-01-17",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/fe3o4-break/1723294480?uo=4"
+        },
+        {
+          "name": "Fe3O4: STICK OUT",
+          "date": "2024-08-19",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/fe3o4-stick-out/1762599144?uo=4"
+        },
+        {
+          "name": "Fe3O4: FORWARD - EP",
+          "date": "2025-03-17",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/fe3o4-forward-ep/1801415025?uo=4"
+        },
+        {
+          "name": "Blue Valentine",
+          "date": "2025-10-13",
+          "tracks": 12,
+          "url": "https://music.apple.com/kr/album/blue-valentine/1840646668?uo=4"
+        },
+        {
+          "name": "Heavy Serenade - EP",
+          "date": "2026-05-11",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/heavy-serenade-ep/1892954835?uo=4"
+        }
+      ]
+    },
+    {
+      "id": 1538881438,
+      "name": "STAYC",
+      "nameKo": "스테이씨",
+      "comebacks": [
+        {
+          "name": "STAYDOM - EP",
+          "date": "2021-04-08",
+          "tracks": 4,
+          "url": "https://music.apple.com/kr/album/staydom-ep/1561143398?uo=4"
+        },
+        {
+          "name": "STEREOTYPE - EP",
+          "date": "2021-09-06",
+          "tracks": 4,
+          "url": "https://music.apple.com/kr/album/stereotype-ep/1583902626?uo=4"
+        },
+        {
+          "name": "YOUNG-LUV.COM - EP",
+          "date": "2022-02-21",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/young-luv-com-ep/1609910841?uo=4"
+        },
+        {
+          "name": "WE NEED LOVE - EP",
+          "date": "2022-07-19",
+          "tracks": 4,
+          "url": "https://music.apple.com/kr/album/we-need-love-ep/1634360915?uo=4"
+        },
+        {
+          "name": "TEENFRESH - EP",
+          "date": "2023-08-16",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/teenfresh-ep/1701915214?uo=4"
+        },
+        {
+          "name": "Metamorphic",
+          "date": "2024-07-01",
+          "tracks": 14,
+          "url": "https://music.apple.com/kr/album/metamorphic/1752835376?uo=4"
+        },
+        {
+          "name": "2:LOVE - EP",
+          "date": "2026-06-16",
+          "tracks": 4,
+          "url": "https://music.apple.com/kr/album/2-love-ep/6777869906?uo=4"
+        }
+      ]
+    },
+    {
+      "id": 1594156263,
+      "name": "Kep1er",
+      "nameKo": "케플러",
+      "comebacks": [
+        {
+          "name": "FIRST IMPACT - EP",
+          "date": "2022-01-03",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/first-impact-ep/1600423424?uo=4"
+        },
+        {
+          "name": "<Queendom2>, Pt. 1-2 - EP",
+          "date": "2022-04-08",
+          "tracks": 4,
+          "url": "https://music.apple.com/kr/album/queendom2-pt-1-2-ep/1617974885?uo=4"
+        },
+        {
+          "name": "DOUBLAST - EP",
+          "date": "2022-06-20",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/doublast-ep/1628511839?uo=4"
+        },
+        {
+          "name": "<FLY-UP> - Special Edition - - EP",
+          "date": "2022-09-07",
+          "tracks": 4,
+          "url": "https://music.apple.com/kr/album/fly-up-special-edition-ep/1636412211?uo=4"
+        },
+        {
+          "name": "TROUBLESHOOTER - EP",
+          "date": "2022-10-13",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/troubleshooter-ep/1648412215?uo=4"
+        },
+        {
+          "name": "<FLY-BY> - Special Edition - - EP",
+          "date": "2023-03-15",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/fly-by-special-edition-ep/1669654964?uo=4"
+        },
+        {
+          "name": "LOVESTRUCK! - EP",
+          "date": "2023-04-10",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/lovestruck-ep/1679270091?uo=4"
+        },
+        {
+          "name": "Magic Hour - EP",
+          "date": "2023-09-25",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/magic-hour-ep/1706470349?uo=4"
+        },
+        {
+          "name": "<FLY-HIGH> - Special Edition - - EP",
+          "date": "2023-11-22",
+          "tracks": 4,
+          "url": "https://music.apple.com/kr/album/fly-high-special-edition-ep/1713713285?uo=4"
+        },
+        {
+          "name": "Kep1going",
+          "date": "2024-05-08",
+          "tracks": 18,
+          "url": "https://music.apple.com/kr/album/kep1going/1740911551?uo=4"
+        },
+        {
+          "name": "Kep1going On",
+          "date": "2024-06-03",
+          "tracks": 11,
+          "url": "https://music.apple.com/kr/album/kep1going-on/1748091280?uo=4"
+        },
+        {
+          "name": "TIPI-TAP - EP",
+          "date": "2024-11-01",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/tipi-tap-ep/1777025515?uo=4"
+        },
+        {
+          "name": "AGAINST THE WORLD - EP",
+          "date": "2025-04-30",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/against-the-world-ep/1805135361?uo=4"
+        },
+        {
+          "name": "BUBBLE GUM - EP",
+          "date": "2025-08-19",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/bubble-gum-ep/1832943665?uo=4"
+        },
+        {
+          "name": "I Stay (From \"Ne Zha 2\") - EP",
+          "date": "2026-02-25",
+          "tracks": 4,
+          "url": "https://music.apple.com/kr/album/i-stay-from-ne-zha-2-ep/6784193762?uo=4"
+        },
+        {
+          "name": "CRACK CODE - EP",
+          "date": "2026-03-31",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/crack-code-ep/1888358875?uo=4"
+        }
+      ]
+    },
+    {
+      "id": 1734551937,
+      "name": "ILLIT",
+      "nameKo": "아일릿",
+      "comebacks": [
+        {
+          "name": "SUPER REAL ME - EP",
+          "date": "2024-03-25",
+          "tracks": 4,
+          "url": "https://music.apple.com/kr/album/super-real-me-ep/1734500886?uo=4"
+        },
+        {
+          "name": "I'LL LIKE YOU - EP",
+          "date": "2024-10-21",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/ill-like-you-ep/1772790085?uo=4"
+        },
+        {
+          "name": "bomb - EP",
+          "date": "2025-06-16",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/bomb-ep/1817427556?uo=4"
+        },
+        {
+          "name": "Toki Yo Tomare - EP",
+          "date": "2025-09-01",
+          "tracks": 4,
+          "url": "https://music.apple.com/kr/album/toki-yo-tomare-ep/1836388421?uo=4"
+        },
+        {
+          "name": "MAMIHLAPINATAPAI - EP",
+          "date": "2026-04-30",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/mamihlapinatapai-ep/1887194024?uo=4"
+        }
+      ]
+    },
+    {
+      "id": 1715981813,
+      "name": "BABYMONSTER",
+      "nameKo": "베이비몬스터",
+      "comebacks": [
+        {
+          "name": "BABYMONS7ER - EP",
+          "date": "2024-04-01",
+          "tracks": 8,
+          "url": "https://music.apple.com/kr/album/babymons7er-ep/1737962888?uo=4"
+        },
+        {
+          "name": "DRIP",
+          "date": "2024-11-01",
+          "tracks": 10,
+          "url": "https://music.apple.com/kr/album/drip/1773262053?uo=4"
+        },
+        {
+          "name": "2025 BABYMONSTER 1st WORLD TOUR <HELLO MONSTERS> IN JAPAN ～2025.04.13 K-ARENA YOKOHAMA～",
+          "date": "2025-09-14",
+          "tracks": 13,
+          "url": "https://music.apple.com/kr/album/2025-babymonster-1st-world-tour-hello-monsters-in-japan/1838609746?uo=4"
+        },
+        {
+          "name": "WE GO UP - EP",
+          "date": "2025-10-10",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/we-go-up-ep/1843247940?uo=4"
+        },
+        {
+          "name": "춤 (CHOOM) - EP",
+          "date": "2026-05-04",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/%EC%B6%A4-choom-ep/1895588322?uo=4"
+        }
+      ]
+    },
+    {
+      "id": 1694672936,
+      "name": "KISS OF LIFE",
+      "nameKo": "키스오브라이프",
+      "comebacks": [
+        {
+          "name": "KISS OF LIFE - EP",
+          "date": "2023-07-05",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/kiss-of-life-ep/1694699906?uo=4"
+        },
+        {
+          "name": "Born to be XX",
+          "date": "2023-11-08",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/born-to-be-xx/1714373032?uo=4"
+        },
+        {
+          "name": "Lose Yourself",
+          "date": "2024-10-15",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/lose-yourself/1773345352?uo=4"
+        },
+        {
+          "name": "224",
+          "date": "2025-06-09",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/224/1816140537?uo=4"
+        },
+        {
+          "name": "TOKYO MISSION START - EP",
+          "date": "2025-11-05",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/tokyo-mission-start-ep/1847812497?uo=4"
+        }
+      ]
+    },
+    {
+      "id": 1319150216,
+      "name": "fromis_9",
+      "nameKo": "프로미스나인",
+      "comebacks": [
+        {
+          "name": "To. Heart - EP",
+          "date": "2018-01-25",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/to-heart-ep/1609199918?uo=4"
+        },
+        {
+          "name": "To. Day - EP",
+          "date": "2018-06-05",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/to-day-ep/1605587838?uo=4"
+        },
+        {
+          "name": "My Little Society - EP",
+          "date": "2020-09-16",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/my-little-society-ep/1606892941?uo=4"
+        },
+        {
+          "name": "Midnight Guest - EP",
+          "date": "2022-01-17",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/midnight-guest-ep/1604496144?uo=4"
+        },
+        {
+          "name": "from our Memento Box - EP",
+          "date": "2022-06-27",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/from-our-memento-box-ep/1629965210?uo=4"
+        },
+        {
+          "name": "Unlock My World",
+          "date": "2023-06-05",
+          "tracks": 10,
+          "url": "https://music.apple.com/kr/album/unlock-my-world/1689139194?uo=4"
+        },
+        {
+          "name": "From Our 20's - EP",
+          "date": "2025-06-25",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/from-our-20s-ep/1821787094?uo=4"
+        },
+        {
+          "name": "Glow ME",
+          "date": "2026-07-21",
+          "tracks": 10,
+          "url": "https://music.apple.com/kr/album/glow-me/6791520495?uo=4"
+        }
+      ]
+    },
+    {
+      "id": 1651595986,
+      "name": "tripleS",
+      "nameKo": "트리플에스",
+      "comebacks": [
+        {
+          "name": "Acid Angel from Asia <ACCESS> - EP",
+          "date": "2022-10-28",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/acid-angel-from-asia-access-ep/1651598641?uo=4"
+        },
+        {
+          "name": "ASSEMBLE",
+          "date": "2023-02-13",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/assemble/1670327195?uo=4"
+        },
+        {
+          "name": "+(KR)ystal Eyes <AESTHETIC> - EP",
+          "date": "2023-05-04",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/kr-ystal-eyes-aesthetic-ep/1685522867?uo=4"
+        },
+        {
+          "name": "LOVElution <ↀ>",
+          "date": "2023-08-17",
+          "tracks": 8,
+          "url": "https://music.apple.com/kr/album/lovelution/1701945494?uo=4"
+        },
+        {
+          "name": "EVOLution <⟡>",
+          "date": "2023-10-11",
+          "tracks": 8,
+          "url": "https://music.apple.com/kr/album/evolution/1710547906?uo=4"
+        },
+        {
+          "name": "4study4work4inst Vol.1",
+          "date": "2024-02-02",
+          "tracks": 31,
+          "url": "https://music.apple.com/kr/album/4study4work4inst-vol-1/1727973013?uo=4"
+        },
+        {
+          "name": "<ASSEMBLE24>",
+          "date": "2024-05-08",
+          "tracks": 10,
+          "url": "https://music.apple.com/kr/album/assemble24/1744323983?uo=4"
+        },
+        {
+          "name": "Visionary Vision <Performante>",
+          "date": "2024-10-23",
+          "tracks": 10,
+          "url": "https://music.apple.com/kr/album/visionary-vision-performante/1774204570?uo=4"
+        },
+        {
+          "name": "4study4work4inst Vol.2",
+          "date": "2025-02-02",
+          "tracks": 18,
+          "url": "https://music.apple.com/kr/album/4study4work4inst-vol-2/1793739208?uo=4"
+        },
+        {
+          "name": "<ASSEMBLE25>",
+          "date": "2025-05-12",
+          "tracks": 10,
+          "url": "https://music.apple.com/kr/album/assemble25/1810402933?uo=4"
+        },
+        {
+          "name": "tripleS ∞! <SecretHimitsuBimil>",
+          "date": "2025-10-01",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/triples-secrethimitsubimil/1837696798?uo=4"
+        },
+        {
+          "name": "msnz <Beyond Beauty> - EP",
+          "date": "2025-11-24",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/msnz-beyond-beauty-ep/1852969334?uo=4"
+        },
+        {
+          "name": "4study4work4inst Vol.3",
+          "date": "2026-02-02",
+          "tracks": 14,
+          "url": "https://music.apple.com/kr/album/4study4work4inst-vol-3/1872639894?uo=4"
+        },
+        {
+          "name": "<LOVE&POP> pt.1",
+          "date": "2026-06-01",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/love-pop-pt-1/6770782036?uo=4"
+        }
+      ]
+    },
+    {
+      "id": 818951094,
+      "name": "MAMAMOO",
+      "nameKo": "마마무",
+      "comebacks": [
+        {
+          "name": "Hello - EP",
+          "date": "2014-06-18",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/hello-ep/1610526815?uo=4"
+        },
+        {
+          "name": "Piano Man - EP",
+          "date": "2014-11-21",
+          "tracks": 4,
+          "url": "https://music.apple.com/kr/album/piano-man-ep/1608346532?uo=4"
+        },
+        {
+          "name": "Pink Funky - EP",
+          "date": "2015-06-19",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/pink-funky-ep/1579993592?uo=4"
+        },
+        {
+          "name": "Melting",
+          "date": "2016-02-26",
+          "tracks": 12,
+          "url": "https://music.apple.com/kr/album/melting/1579991271?uo=4"
+        },
+        {
+          "name": "Memory",
+          "date": "2016-11-07",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/memory/1579989307?uo=4"
+        },
+        {
+          "name": "Purple - EP",
+          "date": "2017-06-22",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/purple-ep/1888604291?uo=4"
+        },
+        {
+          "name": "Yellow Flower",
+          "date": "2018-03-07",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/yellow-flower/1676209346?uo=4"
+        },
+        {
+          "name": "Red Moon - EP",
+          "date": "2018-07-16",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/red-moon-ep/1676209531?uo=4"
+        },
+        {
+          "name": "BLUE;S - EP",
+          "date": "2018-11-29",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/blue-s-ep/1444996256?uo=4"
+        },
+        {
+          "name": "White Wind",
+          "date": "2019-03-14",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/white-wind/1456233895?uo=4"
+        },
+        {
+          "name": "reality in BLACK",
+          "date": "2019-11-14",
+          "tracks": 11,
+          "url": "https://music.apple.com/kr/album/reality-in-black/1487928105?uo=4"
+        },
+        {
+          "name": "Travel - EP",
+          "date": "2020-11-03",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/travel-ep/1538554407?uo=4"
+        },
+        {
+          "name": "WAW - EP",
+          "date": "2021-06-02",
+          "tracks": 4,
+          "url": "https://music.apple.com/kr/album/waw-ep/1570199513?uo=4"
+        },
+        {
+          "name": "I SAY MAMAMOO : THE BEST",
+          "date": "2021-09-15",
+          "tracks": 23,
+          "url": "https://music.apple.com/kr/album/i-say-mamamoo-the-best/1585079676?uo=4"
+        },
+        {
+          "name": "4WARD - EP",
+          "date": "2026-06-04",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/4ward-ep/6775333578?uo=4"
+        }
+      ]
+    },
+    {
+      "id": 357463500,
+      "name": "Girls' Generation",
+      "nameKo": "소녀시대",
+      "comebacks": [
+        {
+          "name": "Into the New World - EP",
+          "date": "2007-08-03",
+          "tracks": 4,
+          "url": "https://music.apple.com/kr/album/into-the-new-world-ep/854926859?uo=4"
+        },
+        {
+          "name": "Baby Baby (Girls' Generation Repackaged)",
+          "date": "2007-11-01",
+          "tracks": 14,
+          "url": "https://music.apple.com/kr/album/baby-baby-girls-generation-repackaged/854886469?uo=4"
+        },
+        {
+          "name": "Gee - EP",
+          "date": "2009-01-05",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/gee-ep/854911623?uo=4"
+        },
+        {
+          "name": "Genie - EP",
+          "date": "2009-06-29",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/genie-ep/854915051?uo=4"
+        },
+        {
+          "name": "Oh!",
+          "date": "2010-01-28",
+          "tracks": 11,
+          "url": "https://music.apple.com/kr/album/oh/854890642?uo=4"
+        },
+        {
+          "name": "Run Devil Run",
+          "date": "2010-03-22",
+          "tracks": 15,
+          "url": "https://music.apple.com/kr/album/run-devil-run/854890807?uo=4"
+        },
+        {
+          "name": "Hoot - EP",
+          "date": "2010-10-25",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/hoot-ep/871021351?uo=4"
+        },
+        {
+          "name": "The Boys - The 3rd Album",
+          "date": "2011-10-19",
+          "tracks": 13,
+          "url": "https://music.apple.com/kr/album/the-boys-the-3rd-album/1679266955?uo=4"
+        },
+        {
+          "name": "'The Boys' Maxi Single",
+          "date": "2011-12-21",
+          "tracks": 8,
+          "url": "https://music.apple.com/kr/album/the-boys-maxi-single/1679288329?uo=4"
+        },
+        {
+          "name": "The 4th Album 'I Got a Boy'",
+          "date": "2013-01-01",
+          "tracks": 10,
+          "url": "https://music.apple.com/kr/album/the-4th-album-i-got-a-boy/905850557?uo=4"
+        },
+        {
+          "name": "LOVE&PEACE",
+          "date": "2013-12-11",
+          "tracks": 12,
+          "url": "https://music.apple.com/kr/album/love-peace/1760714901?uo=4"
+        },
+        {
+          "name": "Girls' Generation 4th Mini Album 'Mr. Mr.' - EP",
+          "date": "2014-02-24",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/girls-generation-4th-mini-album-mr-mr-ep/826334410?uo=4"
+        },
+        {
+          "name": "THE BEST",
+          "date": "2014-07-23",
+          "tracks": 16,
+          "url": "https://music.apple.com/kr/album/the-best/1761080657?uo=4"
+        },
+        {
+          "name": "Lion Heart - The 5th Album",
+          "date": "2015-08-18",
+          "tracks": 12,
+          "url": "https://music.apple.com/kr/album/lion-heart-the-5th-album/1031478656?uo=4"
+        },
+        {
+          "name": "Holiday Night - The 6th Album",
+          "date": "2017-08-04",
+          "tracks": 10,
+          "url": "https://music.apple.com/kr/album/holiday-night-the-6th-album/1266602382?uo=4"
+        },
+        {
+          "name": "FOREVER 1 - The 7th Album",
+          "date": "2022-08-05",
+          "tracks": 11,
+          "url": "https://music.apple.com/kr/album/forever-1-the-7th-album/1637554836?uo=4"
+        }
+      ]
+    },
+    {
+      "id": 883131348,
+      "name": "BTS",
+      "nameKo": "방탄소년단",
+      "comebacks": [
+        {
+          "name": "2 COOL 4 SKOOL",
+          "date": "2013-06-12",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/2-cool-4-skool/1596528414?uo=4"
+        },
+        {
+          "name": "O!RUL8,2?",
+          "date": "2013-09-11",
+          "tracks": 10,
+          "url": "https://music.apple.com/kr/album/o-rul8-2/1596529508?uo=4"
+        },
+        {
+          "name": "Skool Luv Affair",
+          "date": "2014-02-12",
+          "tracks": 10,
+          "url": "https://music.apple.com/kr/album/skool-luv-affair/1596528694?uo=4"
+        },
+        {
+          "name": "DARK&WILD",
+          "date": "2014-08-20",
+          "tracks": 14,
+          "url": "https://music.apple.com/kr/album/dark-wild/1597016856?uo=4"
+        },
+        {
+          "name": "WAKE UP (通常盤)",
+          "date": "2014-12-24",
+          "tracks": 13,
+          "url": "https://music.apple.com/kr/album/wake-up-%E9%80%9A%E5%B8%B8%E7%9B%A4/948185423?uo=4"
+        },
+        {
+          "name": "YOUTH",
+          "date": "2016-09-07",
+          "tracks": 13,
+          "url": "https://music.apple.com/kr/album/youth/1147102999?uo=4"
+        },
+        {
+          "name": "Wings",
+          "date": "2016-10-10",
+          "tracks": 15,
+          "url": "https://music.apple.com/kr/album/wings/1596532477?uo=4"
+        },
+        {
+          "name": "YOU NEVER WALK ALONE",
+          "date": "2017-02-13",
+          "tracks": 18,
+          "url": "https://music.apple.com/kr/album/you-never-walk-alone/1596528839?uo=4"
+        },
+        {
+          "name": "LOVE YOURSELF 承 'Her'",
+          "date": "2017-09-18",
+          "tracks": 9,
+          "url": "https://music.apple.com/kr/album/love-yourself-%E6%89%BF-her/1596529064?uo=4"
+        },
+        {
+          "name": "FACE YOURSELF",
+          "date": "2018-04-04",
+          "tracks": 12,
+          "url": "https://music.apple.com/kr/album/face-yourself/1361622149?uo=4"
+        },
+        {
+          "name": "Love Yourself 轉 'Tear'",
+          "date": "2018-05-18",
+          "tracks": 11,
+          "url": "https://music.apple.com/kr/album/love-yourself-%E8%BD%89-tear/1598660934?uo=4"
+        },
+        {
+          "name": "Love Yourself 結 'Answer'",
+          "date": "2018-08-24",
+          "tracks": 26,
+          "url": "https://music.apple.com/kr/album/love-yourself-%E7%B5%90-answer/1598730614?uo=4"
+        },
+        {
+          "name": "MAP OF THE SOUL : PERSONA",
+          "date": "2019-04-12",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/map-of-the-soul-persona/1599171924?uo=4"
+        },
+        {
+          "name": "MAP OF THE SOUL : 7",
+          "date": "2020-02-21",
+          "tracks": 21,
+          "url": "https://music.apple.com/kr/album/map-of-the-soul-7/1599362484?uo=4"
+        },
+        {
+          "name": "MAP OF THE SOUL : 7 ~ THE JOURNEY ~",
+          "date": "2020-07-14",
+          "tracks": 13,
+          "url": "https://music.apple.com/kr/album/map-of-the-soul-7-the-journey/1517969553?uo=4"
+        },
+        {
+          "name": "Dynamite (DayTime Version) - EP",
+          "date": "2020-08-28",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/dynamite-daytime-version-ep/1597024421?uo=4"
+        },
+        {
+          "name": "BE",
+          "date": "2020-11-20",
+          "tracks": 8,
+          "url": "https://music.apple.com/kr/album/be/1596532185?uo=4"
+        },
+        {
+          "name": "Butter (Hotter, Sweeter, Cooler) - EP",
+          "date": "2021-06-04",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/butter-hotter-sweeter-cooler-ep/1598660388?uo=4"
+        },
+        {
+          "name": "BTS, THE BEST",
+          "date": "2021-06-16",
+          "tracks": 22,
+          "url": "https://music.apple.com/kr/album/bts-the-best/1570209078?uo=4"
+        },
+        {
+          "name": "Butter / Permission to Dance - EP",
+          "date": "2021-07-09",
+          "tracks": 4,
+          "url": "https://music.apple.com/kr/album/butter-permission-to-dance-ep/1598666015?uo=4"
+        },
+        {
+          "name": "Proof",
+          "date": "2022-06-10",
+          "tracks": 35,
+          "url": "https://music.apple.com/kr/album/proof/1627573936?uo=4"
+        },
+        {
+          "name": "ARIRANG",
+          "date": "2026-03-20",
+          "tracks": 14,
+          "url": "https://music.apple.com/kr/album/arirang/1885720384?uo=4"
+        },
+        {
+          "name": "KEEP SWIMMING",
+          "date": "2026-03-27",
+          "tracks": 9,
+          "url": "https://music.apple.com/kr/album/keep-swimming/1888226217?uo=4"
+        }
+      ]
+    },
+    {
+      "id": 999644772,
+      "name": "SEVENTEEN",
+      "nameKo": "세븐틴",
+      "comebacks": [
+        {
+          "name": "17 CARAT",
+          "date": "2015-05-29",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/17-carat/999644771?uo=4"
+        },
+        {
+          "name": "BOYS BE",
+          "date": "2015-09-10",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/boys-be/1038703688?uo=4"
+        },
+        {
+          "name": "Love&Letter",
+          "date": "2016-04-25",
+          "tracks": 15,
+          "url": "https://music.apple.com/kr/album/love-letter/1130828885?uo=4"
+        },
+        {
+          "name": "Going Seventeen",
+          "date": "2016-12-05",
+          "tracks": 8,
+          "url": "https://music.apple.com/kr/album/going-seventeen/1182849724?uo=4"
+        },
+        {
+          "name": "Al1",
+          "date": "2017-05-22",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/al1/1239345692?uo=4"
+        },
+        {
+          "name": "TEEN, AGE",
+          "date": "2017-11-06",
+          "tracks": 13,
+          "url": "https://music.apple.com/kr/album/teen-age/1308176950?uo=4"
+        },
+        {
+          "name": "DIRECTOR'S CUT",
+          "date": "2018-02-05",
+          "tracks": 4,
+          "url": "https://music.apple.com/kr/album/directors-cut/1344751461?uo=4"
+        },
+        {
+          "name": "We Make You - EP",
+          "date": "2018-05-30",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/we-make-you-ep/1504623175?uo=4"
+        },
+        {
+          "name": "YOU MAKE MY DAY - EP",
+          "date": "2018-07-16",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/you-make-my-day-ep/1539735672?uo=4"
+        },
+        {
+          "name": "YOU MADE MY DAWN",
+          "date": "2019-01-21",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/you-made-my-dawn/1700266862?uo=4"
+        },
+        {
+          "name": "An Ode",
+          "date": "2019-09-16",
+          "tracks": 11,
+          "url": "https://music.apple.com/kr/album/an-ode/1551739579?uo=4"
+        },
+        {
+          "name": "Heng:garæ - EP",
+          "date": "2020-06-22",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/heng-gar%C3%A6-ep/1551735824?uo=4"
+        },
+        {
+          "name": "24H - EP",
+          "date": "2020-09-09",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/24h-ep/1528149531?uo=4"
+        },
+        {
+          "name": "; (Semicolon) - EP",
+          "date": "2020-10-19",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/semicolon-ep/1535649370?uo=4"
+        },
+        {
+          "name": "Your Choice",
+          "date": "2021-06-18",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/your-choice/1571363156?uo=4"
+        },
+        {
+          "name": "Attacca",
+          "date": "2021-10-22",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/attacca/1589497186?uo=4"
+        },
+        {
+          "name": "Face the Sun",
+          "date": "2022-05-27",
+          "tracks": 10,
+          "url": "https://music.apple.com/kr/album/face-the-sun-extended-version/1625951968?uo=4"
+        },
+        {
+          "name": "SECTOR 17",
+          "date": "2022-07-18",
+          "tracks": 13,
+          "url": "https://music.apple.com/kr/album/sector-17/1632682433?uo=4"
+        },
+        {
+          "name": "DREAM - EP",
+          "date": "2022-11-09",
+          "tracks": 4,
+          "url": "https://music.apple.com/kr/album/dream-ep/1652038161?uo=4"
+        },
+        {
+          "name": "FML",
+          "date": "2023-04-24",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/fml/1681324004?uo=4"
+        },
+        {
+          "name": "ALWAYS YOURS",
+          "date": "2023-08-23",
+          "tracks": 27,
+          "url": "https://music.apple.com/kr/album/always-yours/1701948718?uo=4"
+        },
+        {
+          "name": "SEVENTEENTH HEAVEN",
+          "date": "2023-10-23",
+          "tracks": 8,
+          "url": "https://music.apple.com/kr/album/seventeenth-heaven/1711288571?uo=4"
+        },
+        {
+          "name": "17 IS RIGHT HERE",
+          "date": "2024-04-29",
+          "tracks": 33,
+          "url": "https://music.apple.com/kr/album/17-is-right-here/1741446411?uo=4"
+        },
+        {
+          "name": "SPILL THE FEELS",
+          "date": "2024-10-14",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/spill-the-feels/1772142740?uo=4"
+        },
+        {
+          "name": "HAPPY BURSTDAY",
+          "date": "2025-05-26",
+          "tracks": 17,
+          "url": "https://music.apple.com/kr/album/happy-burstday/1846801259?uo=4"
+        }
+      ]
+    },
+    {
+      "id": 1304823362,
+      "name": "Stray Kids",
+      "nameKo": "스트레이키즈",
+      "comebacks": [
+        {
+          "name": "Mixtape",
+          "date": "2018-01-08",
+          "tracks": 8,
+          "url": "https://music.apple.com/kr/album/mixtape/1332554816?uo=4"
+        },
+        {
+          "name": "I am NOT",
+          "date": "2018-03-26",
+          "tracks": 8,
+          "url": "https://music.apple.com/kr/album/i-am-not/1363844957?uo=4"
+        },
+        {
+          "name": "I am WHO",
+          "date": "2018-08-06",
+          "tracks": 8,
+          "url": "https://music.apple.com/kr/album/i-am-who/1422557536?uo=4"
+        },
+        {
+          "name": "I am YOU",
+          "date": "2018-10-22",
+          "tracks": 8,
+          "url": "https://music.apple.com/kr/album/i-am-you/1439566881?uo=4"
+        },
+        {
+          "name": "Clé 1 : MIROH",
+          "date": "2019-03-25",
+          "tracks": 8,
+          "url": "https://music.apple.com/kr/album/cl%C3%A9-1-miroh/1457175505?uo=4"
+        },
+        {
+          "name": "Clé 2 : Yellow Wood",
+          "date": "2019-06-19",
+          "tracks": 8,
+          "url": "https://music.apple.com/kr/album/cl%C3%A9-2-yellow-wood/1468259726?uo=4"
+        },
+        {
+          "name": "Clé : LEVANTER",
+          "date": "2019-12-09",
+          "tracks": 8,
+          "url": "https://music.apple.com/kr/album/cl%C3%A9-levanter/1490692960?uo=4"
+        },
+        {
+          "name": "SKZ2020",
+          "date": "2020-03-18",
+          "tracks": 24,
+          "url": "https://music.apple.com/kr/album/skz2020/1502689201?uo=4"
+        },
+        {
+          "name": "IN LIFE",
+          "date": "2020-09-14",
+          "tracks": 18,
+          "url": "https://music.apple.com/kr/album/in-life/1530777370?uo=4"
+        },
+        {
+          "name": "ALL IN",
+          "date": "2020-10-27",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/all-in/1536568650?uo=4"
+        },
+        {
+          "name": "NOEASY",
+          "date": "2021-08-23",
+          "tracks": 15,
+          "url": "https://music.apple.com/kr/album/noeasy/1580730403?uo=4"
+        },
+        {
+          "name": "Christmas EveL - EP",
+          "date": "2021-11-29",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/christmas-evel-ep/1595021632?uo=4"
+        },
+        {
+          "name": "SKZ2021",
+          "date": "2021-12-23",
+          "tracks": 14,
+          "url": "https://music.apple.com/kr/album/skz2021/1599689409?uo=4"
+        },
+        {
+          "name": "ODDINARY",
+          "date": "2022-03-18",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/oddinary/1611526899?uo=4"
+        },
+        {
+          "name": "CIRCUS - EP",
+          "date": "2022-06-22",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/circus-ep/1628997527?uo=4"
+        },
+        {
+          "name": "MAXIDENT",
+          "date": "2022-10-07",
+          "tracks": 8,
+          "url": "https://music.apple.com/kr/album/maxident/1645273318?uo=4"
+        },
+        {
+          "name": "SKZ-REPLAY",
+          "date": "2022-12-21",
+          "tracks": 25,
+          "url": "https://music.apple.com/kr/album/skz-replay/1658007364?uo=4"
+        },
+        {
+          "name": "THE SOUND",
+          "date": "2023-02-22",
+          "tracks": 10,
+          "url": "https://music.apple.com/kr/album/the-sound/1671718603?uo=4"
+        },
+        {
+          "name": "5-STAR",
+          "date": "2023-06-02",
+          "tracks": 12,
+          "url": "https://music.apple.com/kr/album/5-star/1688305449?uo=4"
+        },
+        {
+          "name": "ROCK-STAR",
+          "date": "2023-11-10",
+          "tracks": 8,
+          "url": "https://music.apple.com/kr/album/rock-star/1711752408?uo=4"
+        },
+        {
+          "name": "ATE",
+          "date": "2024-07-19",
+          "tracks": 9,
+          "url": "https://music.apple.com/kr/album/ate/1755323951?uo=4"
+        },
+        {
+          "name": "GIANT",
+          "date": "2024-11-13",
+          "tracks": 10,
+          "url": "https://music.apple.com/kr/album/giant/1777797696?uo=4"
+        },
+        {
+          "name": "HOP",
+          "date": "2024-12-13",
+          "tracks": 13,
+          "url": "https://music.apple.com/kr/album/hop/1780995700?uo=4"
+        },
+        {
+          "name": "Mixtape : dominATE - EP",
+          "date": "2025-03-21",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/mixtape-dominate-ep/1800411676?uo=4"
+        },
+        {
+          "name": "Hollow - EP",
+          "date": "2025-06-18",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/hollow-ep/1819460363?uo=4"
+        },
+        {
+          "name": "KARMA",
+          "date": "2025-08-22",
+          "tracks": 12,
+          "url": "https://music.apple.com/kr/album/karma/1828583788?uo=4"
+        },
+        {
+          "name": "DO IT - EP",
+          "date": "2025-11-21",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/do-it-ep/1846768059?uo=4"
+        },
+        {
+          "name": "SKZ-REPLAY 2026 Pt.1",
+          "date": "2026-08-01",
+          "tracks": 17,
+          "url": "https://music.apple.com/kr/album/skz-replay-2026-pt-1/6791116216?uo=4"
+        },
+        {
+          "name": "THIS & THAT",
+          "date": "2026-08-07",
+          "tracks": 8,
+          "url": "https://music.apple.com/kr/album/this-that/6779120281?uo=4"
+        }
+      ]
+    },
+    {
+      "id": 1454642552,
+      "name": "TOMORROW X TOGETHER",
+      "nameKo": "투모로우바이투게더",
+      "comebacks": [
+        {
+          "name": "The Dream Chapter: STAR - EP",
+          "date": "2019-03-04",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/the-dream-chapter-star-ep/1553524096?uo=4"
+        },
+        {
+          "name": "The Dream Chapter: MAGIC",
+          "date": "2019-10-21",
+          "tracks": 8,
+          "url": "https://music.apple.com/kr/album/the-dream-chapter-magic/1553524319?uo=4"
+        },
+        {
+          "name": "The Dream Chapter: ETERNITY - EP",
+          "date": "2020-05-18",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/the-dream-chapter-eternity-ep/1553522121?uo=4"
+        },
+        {
+          "name": "minisode1 : Blue Hour - EP",
+          "date": "2020-10-26",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/minisode1-blue-hour-ep/1533454951?uo=4"
+        },
+        {
+          "name": "STILL DREAMING",
+          "date": "2021-01-20",
+          "tracks": 10,
+          "url": "https://music.apple.com/kr/album/still-dreaming/1545560228?uo=4"
+        },
+        {
+          "name": "The Chaos Chapter : FREEZE",
+          "date": "2021-05-31",
+          "tracks": 8,
+          "url": "https://music.apple.com/kr/album/the-chaos-chapter-freeze/1569753927?uo=4"
+        },
+        {
+          "name": "The Chaos Chapter: FIGHT OR ESCAPE",
+          "date": "2021-08-17",
+          "tracks": 11,
+          "url": "https://music.apple.com/kr/album/the-chaos-chapter-fight-or-escape/1580999410?uo=4"
+        },
+        {
+          "name": "Chaotic Wonderland - EP",
+          "date": "2021-11-10",
+          "tracks": 4,
+          "url": "https://music.apple.com/kr/album/chaotic-wonderland-ep/1591860068?uo=4"
+        },
+        {
+          "name": "minisode 2: Thursday's Child - EP",
+          "date": "2022-05-09",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/minisode-2-thursdays-child-ep/1618838657?uo=4"
+        },
+        {
+          "name": "The Name Chapter: TEMPTATION - EP",
+          "date": "2023-01-27",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/the-name-chapter-temptation-ep/1659052466?uo=4"
+        },
+        {
+          "name": "SWEET",
+          "date": "2023-07-05",
+          "tracks": 12,
+          "url": "https://music.apple.com/kr/album/sweet/1695672454?uo=4"
+        },
+        {
+          "name": "Back for More (More Edition) - EP",
+          "date": "2023-09-18",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/back-for-more-more-edition-ep/1706124357?uo=4"
+        },
+        {
+          "name": "The Name Chapter: FREEFALL",
+          "date": "2023-10-13",
+          "tracks": 10,
+          "url": "https://music.apple.com/kr/album/the-name-chapter-freefall/1710293734?uo=4"
+        },
+        {
+          "name": "minisode 3: TOMORROW",
+          "date": "2024-04-01",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/minisode-3-tomorrow/1733096604?uo=4"
+        },
+        {
+          "name": "The Star Chapter: SANCTUARY - EP",
+          "date": "2024-11-04",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/the-star-chapter-sanctuary-ep/1771934522?uo=4"
+        },
+        {
+          "name": "The Star Chapter: TOGETHER",
+          "date": "2025-07-21",
+          "tracks": 8,
+          "url": "https://music.apple.com/kr/album/the-star-chapter-together/1822309911?uo=4"
+        },
+        {
+          "name": "Starkissed",
+          "date": "2025-10-20",
+          "tracks": 12,
+          "url": "https://music.apple.com/kr/album/starkissed/1846568157?uo=4"
+        },
+        {
+          "name": "7TH YEAR: A Moment of Stillness in the Thorns - EP",
+          "date": "2026-04-13",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/7th-year-a-moment-of-stillness-in-the-thorns-ep/1886536327?uo=4"
+        },
+        {
+          "name": "Setsuna Hanabi - EP",
+          "date": "2026-08-17",
+          "tracks": 4,
+          "url": "https://music.apple.com/kr/album/setsuna-hanabi-ep/6801040838?uo=4"
+        }
+      ]
+    },
+    {
+      "id": 1541011620,
+      "name": "ENHYPEN",
+      "nameKo": "엔하이픈",
+      "comebacks": [
+        {
+          "name": "BORDER : DAY ONE - EP",
+          "date": "2020-11-30",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/border-day-one-ep/1541011619?uo=4"
+        },
+        {
+          "name": "BORDER : CARNIVAL - EP",
+          "date": "2021-04-26",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/border-carnival-ep/1563302028?uo=4"
+        },
+        {
+          "name": "DIMENSION : DILEMMA",
+          "date": "2021-10-12",
+          "tracks": 8,
+          "url": "https://music.apple.com/kr/album/dimension-dilemma/1587989646?uo=4"
+        },
+        {
+          "name": "DIMENSION : ANSWER",
+          "date": "2022-01-10",
+          "tracks": 11,
+          "url": "https://music.apple.com/kr/album/dimension-answer/1600819216?uo=4"
+        },
+        {
+          "name": "MANIFESTO : DAY 1 - EP",
+          "date": "2022-07-04",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/manifesto-day-1-ep/1629708852?uo=4"
+        },
+        {
+          "name": "SADAME",
+          "date": "2022-10-26",
+          "tracks": 9,
+          "url": "https://music.apple.com/kr/album/sadame/1776978414?uo=4"
+        },
+        {
+          "name": "DARK BLOOD - EP",
+          "date": "2023-05-22",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/dark-blood-ep/1687303688?uo=4"
+        },
+        {
+          "name": "ORANGE BLOOD",
+          "date": "2023-11-17",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/orange-blood/1716547988?uo=4"
+        },
+        {
+          "name": "DARK MOON SPECIAL ALBUM <MEMORABILIA> - EP",
+          "date": "2024-05-13",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/dark-moon-special-album-memorabilia-ep/1743250058?uo=4"
+        },
+        {
+          "name": "ROMANCE : UNTOLD",
+          "date": "2024-07-12",
+          "tracks": 9,
+          "url": "https://music.apple.com/kr/album/romance-untold/1752178854?uo=4"
+        },
+        {
+          "name": "ROMANCE : UNTOLD -daydream-",
+          "date": "2024-11-11",
+          "tracks": 11,
+          "url": "https://music.apple.com/kr/album/romance-untold-daydream/1776917020?uo=4"
+        },
+        {
+          "name": "DESIRE : UNLEASH",
+          "date": "2025-06-05",
+          "tracks": 8,
+          "url": "https://music.apple.com/kr/album/desire-unleash/1814718475?uo=4"
+        },
+        {
+          "name": "THE SIN : VANISH",
+          "date": "2026-01-16",
+          "tracks": 11,
+          "url": "https://music.apple.com/kr/album/the-sin-vanish/1862720020?uo=4"
+        },
+        {
+          "name": "THE SIN : BLISS - EP",
+          "date": "2026-08-21",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/the-sin-bliss-ep/6780548049?uo=4"
+        }
+      ]
+    },
+    {
+      "id": 1439301205,
+      "name": "ATEEZ",
+      "nameKo": "에이티즈",
+      "comebacks": [
+        {
+          "name": "TREASURE EP.1 : All To Zero - EP",
+          "date": "2018-10-24",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/treasure-ep-1-all-to-zero-ep/1864856535?uo=4"
+        },
+        {
+          "name": "TREASURE EP.2 : Zero To One - EP",
+          "date": "2019-01-15",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/treasure-ep-2-zero-to-one-ep/1865052387?uo=4"
+        },
+        {
+          "name": "TREASURE EP.3 : One To All - EP",
+          "date": "2019-06-10",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/treasure-ep-3-one-to-all-ep/1864882715?uo=4"
+        },
+        {
+          "name": "TREASURE EP.FIN : All To Action",
+          "date": "2019-10-08",
+          "tracks": 11,
+          "url": "https://music.apple.com/kr/album/treasure-ep-fin-all-to-action/1864877240?uo=4"
+        },
+        {
+          "name": "TREASURE EPILOGUE : Action To Answer - EP",
+          "date": "2020-01-06",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/treasure-epilogue-action-to-answer-ep/1865052552?uo=4"
+        },
+        {
+          "name": "TREASURE EP.Map To Answer - EP",
+          "date": "2020-02-13",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/treasure-ep-map-to-answer-ep/1881858552?uo=4"
+        },
+        {
+          "name": "ZERO : FEVER Pt.1",
+          "date": "2020-07-29",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/zero-fever-pt-1/1881859859?uo=4"
+        },
+        {
+          "name": "ZERO : FEVER Pt.2",
+          "date": "2021-03-01",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/zero-fever-pt-2/1881859429?uo=4"
+        },
+        {
+          "name": "Into the A to Z",
+          "date": "2021-03-25",
+          "tracks": 10,
+          "url": "https://music.apple.com/kr/album/into-the-a-to-z/1881859761?uo=4"
+        },
+        {
+          "name": "Dreamers - EP",
+          "date": "2021-07-28",
+          "tracks": 4,
+          "url": "https://music.apple.com/kr/album/dreamers-ep/1881859124?uo=4"
+        },
+        {
+          "name": "ZERO : FEVER Pt.3 - EP",
+          "date": "2021-09-13",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/zero-fever-pt-3-ep/1881859973?uo=4"
+        },
+        {
+          "name": "ZERO : FEVER EPILOGUE",
+          "date": "2021-12-10",
+          "tracks": 10,
+          "url": "https://music.apple.com/kr/album/zero-fever-epilogue/1881859331?uo=4"
+        },
+        {
+          "name": "BEYOND : ZERO",
+          "date": "2022-05-25",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/beyond-zero/1881860191?uo=4"
+        },
+        {
+          "name": "THE WORLD EP.1 : MOVEMENT",
+          "date": "2022-07-29",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/the-world-ep-1-movement/1881859204?uo=4"
+        },
+        {
+          "name": "THE WORLD EP.PARADIGM - EP",
+          "date": "2022-11-29",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/the-world-ep-paradigm-ep/1656355239?uo=4"
+        },
+        {
+          "name": "SPIN OFF : FROM THE WITNESS - EP",
+          "date": "2022-12-30",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/spin-off-from-the-witness-ep/1659571252?uo=4"
+        },
+        {
+          "name": "Limitless - EP",
+          "date": "2023-03-22",
+          "tracks": 4,
+          "url": "https://music.apple.com/kr/album/limitless-ep/1676892570?uo=4"
+        },
+        {
+          "name": "THE WORLD EP.2 : OUTLAW",
+          "date": "2023-06-16",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/the-world-ep-2-outlaw/1690772623?uo=4"
+        },
+        {
+          "name": "THE WORLD EP.FIN : WILL",
+          "date": "2023-12-01",
+          "tracks": 12,
+          "url": "https://music.apple.com/kr/album/the-world-ep-fin-will/1717132449?uo=4"
+        },
+        {
+          "name": "NOT OKAY - EP",
+          "date": "2024-02-28",
+          "tracks": 4,
+          "url": "https://music.apple.com/kr/album/not-okay-ep/1727988217?uo=4"
+        },
+        {
+          "name": "GOLDEN HOUR : Part.1 - EP",
+          "date": "2024-05-31",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/golden-hour-part-1-ep/1748071551?uo=4"
+        },
+        {
+          "name": "Birthday - EP",
+          "date": "2024-10-02",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/birthday-ep/1765445173?uo=4"
+        },
+        {
+          "name": "GOLDEN HOUR : Part.2 - EP",
+          "date": "2024-11-15",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/golden-hour-part-2-ep/1778026618?uo=4"
+        },
+        {
+          "name": "GOLDEN HOUR : Part.3 - EP",
+          "date": "2025-06-13",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/golden-hour-part-3-ep/1816843869?uo=4"
+        },
+        {
+          "name": "GOLDEN HOUR : Part.3 'In Your Fantasy Edition'",
+          "date": "2025-07-11",
+          "tracks": 15,
+          "url": "https://music.apple.com/kr/album/golden-hour-part-3-in-your-fantasy-edition/1822545714?uo=4"
+        },
+        {
+          "name": "Ashes to Light",
+          "date": "2025-09-17",
+          "tracks": 9,
+          "url": "https://music.apple.com/kr/album/ashes-to-light/1835652808?uo=4"
+        },
+        {
+          "name": "GOLDEN HOUR : Part.4 - EP",
+          "date": "2026-02-06",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/golden-hour-part-4-ep/1867153027?uo=4"
+        },
+        {
+          "name": "GOLDEN HOUR : Part.5 - EP",
+          "date": "2026-06-26",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/golden-hour-part-5-ep/6770401924?uo=4"
+        }
+      ]
+    },
+    {
+      "id": 1208839599,
+      "name": "NCT DREAM",
+      "nameKo": "엔시티 드림",
+      "comebacks": [
+        {
+          "name": "The First - The 1st Single Album - EP",
+          "date": "2017-02-09",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/the-first-the-1st-single-album-ep/1203116647?uo=4"
+        },
+        {
+          "name": "We Young - The 1st Mini Album",
+          "date": "2017-08-17",
+          "tracks": 9,
+          "url": "https://music.apple.com/kr/album/we-young-the-1st-mini-album/1271389303?uo=4"
+        },
+        {
+          "name": "NCT 2018 EMPATHY",
+          "date": "2018-03-14",
+          "tracks": 15,
+          "url": "https://music.apple.com/kr/album/nct-2018-empathy/1358690306?uo=4"
+        },
+        {
+          "name": "We Go Up - The 2nd Mini Album - EP",
+          "date": "2018-09-03",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/we-go-up-the-2nd-mini-album-ep/1434798289?uo=4"
+        },
+        {
+          "name": "We Boom - The 3rd Mini Album - EP",
+          "date": "2019-07-26",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/we-boom-the-3rd-mini-album-ep/1473938506?uo=4"
+        },
+        {
+          "name": "Reload - EP",
+          "date": "2020-04-29",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/reload-ep/1510067132?uo=4"
+        },
+        {
+          "name": "NCT RESONANCE Pt. 1 - The 2nd Album",
+          "date": "2020-10-12",
+          "tracks": 14,
+          "url": "https://music.apple.com/kr/album/nct-resonance-pt-1-the-2nd-album/1534864462?uo=4"
+        },
+        {
+          "name": "NCT RESONANCE Pt. 2 - The 2nd Album",
+          "date": "2020-11-23",
+          "tracks": 22,
+          "url": "https://music.apple.com/kr/album/nct-resonance-pt-2-the-2nd-album/1540895592?uo=4"
+        },
+        {
+          "name": "Hot Sauce - The 1st Album",
+          "date": "2021-05-10",
+          "tracks": 11,
+          "url": "https://music.apple.com/kr/album/hot-sauce-the-1st-album/1565510601?uo=4"
+        },
+        {
+          "name": "Hello Future - The 1st Album Repackage - EP",
+          "date": "2021-06-28",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/hello-future-the-1st-album-repackage-ep/1573200613?uo=4"
+        },
+        {
+          "name": "Glitch Mode - The 2nd Album",
+          "date": "2022-03-28",
+          "tracks": 12,
+          "url": "https://music.apple.com/kr/album/glitch-mode-the-2nd-album/1615360921?uo=4"
+        },
+        {
+          "name": "Beatbox - The 2nd Album Repackage",
+          "date": "2022-05-30",
+          "tracks": 16,
+          "url": "https://music.apple.com/kr/album/beatbox-the-2nd-album-repackage/1625246620?uo=4"
+        },
+        {
+          "name": "Candy - Winter Special Mini Album - EP",
+          "date": "2022-12-16",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/candy-winter-special-mini-album-ep/1658222131?uo=4"
+        },
+        {
+          "name": "ISTJ - The 3rd Album",
+          "date": "2023-07-17",
+          "tracks": 11,
+          "url": "https://music.apple.com/kr/album/istj-the-3rd-album/1694897573?uo=4"
+        },
+        {
+          "name": "DREAM( )SCAPE - EP",
+          "date": "2024-03-25",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/dream-scape-ep/1733588476?uo=4"
+        },
+        {
+          "name": "DREAMSCAPE",
+          "date": "2024-11-11",
+          "tracks": 12,
+          "url": "https://music.apple.com/kr/album/dreamscape/1766904789?uo=4"
+        },
+        {
+          "name": "Go Back To The Future",
+          "date": "2025-07-14",
+          "tracks": 10,
+          "url": "https://music.apple.com/kr/album/go-back-to-the-future/1822449919?uo=4"
+        },
+        {
+          "name": "Beat It Up - EP",
+          "date": "2025-11-17",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/beat-it-up-ep/1849135853?uo=4"
+        }
+      ]
+    },
+    {
+      "id": 1235849306,
+      "name": "NCT 127",
+      "nameKo": "엔시티 127",
+      "comebacks": [
+        {
+          "name": "NCT #127 – The 1st Mini Album",
+          "date": "2016-07-10",
+          "tracks": 8,
+          "url": "https://music.apple.com/kr/album/nct-127-the-1st-mini-album/1132508841?uo=4"
+        },
+        {
+          "name": "NCT#127 LIMITLESS - The 2nd Mini Album - EP",
+          "date": "2017-01-06",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/nct-127-limitless-the-2nd-mini-album-ep/1191383378?uo=4"
+        },
+        {
+          "name": "NCT #127 CHERRY BOMB – The 3rd Mini Album",
+          "date": "2017-06-14",
+          "tracks": 8,
+          "url": "https://music.apple.com/kr/album/nct-127-cherry-bomb-the-3rd-mini-album/1247335504?uo=4"
+        },
+        {
+          "name": "NCT 2018 EMPATHY",
+          "date": "2018-03-14",
+          "tracks": 15,
+          "url": "https://music.apple.com/kr/album/nct-2018-empathy/1358690306?uo=4"
+        },
+        {
+          "name": "Chain - EP",
+          "date": "2018-05-16",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/chain-ep/1384915539?uo=4"
+        },
+        {
+          "name": "NCT #127 Regular-Irregular - The 1st Album",
+          "date": "2018-10-12",
+          "tracks": 12,
+          "url": "https://music.apple.com/kr/album/nct-127-regular-irregular-the-1st-album/1438380104?uo=4"
+        },
+        {
+          "name": "Up Next Session: NCT 127",
+          "date": "2018-10-22",
+          "tracks": 4,
+          "url": "https://music.apple.com/kr/album/up-next-session-nct-127/1439398831?uo=4"
+        },
+        {
+          "name": "NCT #127 Regulate - The 1st Album Repackage",
+          "date": "2018-11-23",
+          "tracks": 14,
+          "url": "https://music.apple.com/kr/album/nct-127-regulate-the-1st-album-repackage/1443571952?uo=4"
+        },
+        {
+          "name": "Awaken",
+          "date": "2019-04-17",
+          "tracks": 12,
+          "url": "https://music.apple.com/kr/album/awaken/1458857854?uo=4"
+        },
+        {
+          "name": "NCT #127 WE ARE SUPERHUMAN - The 4th Mini Album",
+          "date": "2019-05-24",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/nct-127-we-are-superhuman-the-4th-mini-album/1462902786?uo=4"
+        },
+        {
+          "name": "NCT #127 Neo Zone - The 2nd Album",
+          "date": "2020-03-06",
+          "tracks": 14,
+          "url": "https://music.apple.com/kr/album/nct-127-neo-zone-the-2nd-album/1499032221?uo=4"
+        },
+        {
+          "name": "NCT #127 Neo Zone: The Final Round – The 2nd Album Repackage",
+          "date": "2020-05-19",
+          "tracks": 17,
+          "url": "https://music.apple.com/kr/album/nct-127-neo-zone-the-final-round-the-2nd-album-repackage/1513520332?uo=4"
+        },
+        {
+          "name": "NCT RESONANCE Pt. 1 - The 2nd Album",
+          "date": "2020-10-12",
+          "tracks": 14,
+          "url": "https://music.apple.com/kr/album/nct-resonance-pt-1-the-2nd-album/1534864462?uo=4"
+        },
+        {
+          "name": "NCT RESONANCE Pt. 2 - The 2nd Album",
+          "date": "2020-11-23",
+          "tracks": 22,
+          "url": "https://music.apple.com/kr/album/nct-resonance-pt-2-the-2nd-album/1540895592?uo=4"
+        },
+        {
+          "name": "LOVEHOLIC - EP",
+          "date": "2021-02-17",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/loveholic-ep/1550559993?uo=4"
+        },
+        {
+          "name": "Sticker - The 3rd Album",
+          "date": "2021-09-17",
+          "tracks": 12,
+          "url": "https://music.apple.com/kr/album/sticker-the-3rd-album/1582779212?uo=4"
+        },
+        {
+          "name": "Favorite - The 3rd Album Repackage",
+          "date": "2021-10-25",
+          "tracks": 15,
+          "url": "https://music.apple.com/kr/album/favorite-the-3rd-album-repackage/1588187374?uo=4"
+        },
+        {
+          "name": "2 Baddies - The 4th Album",
+          "date": "2022-09-16",
+          "tracks": 13,
+          "url": "https://music.apple.com/kr/album/2-baddies-the-4th-album/1640414828?uo=4"
+        },
+        {
+          "name": "Ay-Yo - The 4th Album Repackage",
+          "date": "2023-01-30",
+          "tracks": 16,
+          "url": "https://music.apple.com/kr/album/ay-yo-the-4th-album-repackage/1662799809?uo=4"
+        },
+        {
+          "name": "Fact Check - The 5th Album",
+          "date": "2023-10-06",
+          "tracks": 10,
+          "url": "https://music.apple.com/kr/album/fact-check-the-5th-album/1707957064?uo=4"
+        },
+        {
+          "name": "WALK - The 6th Album",
+          "date": "2024-07-15",
+          "tracks": 12,
+          "url": "https://music.apple.com/kr/album/walk-the-6th-album/1750464853?uo=4"
+        },
+        {
+          "name": "BLINGY - The 7th Album",
+          "date": "2026-08-24",
+          "tracks": 10,
+          "url": "https://music.apple.com/kr/album/blingy-the-7th-album/6798913850?uo=4"
+        }
+      ]
+    },
+    {
+      "id": 1322012460,
+      "name": "THE BOYZ",
+      "nameKo": "더보이즈",
+      "comebacks": [
+        {
+          "name": "THE BOYZ Debut Album 'The First' - EP",
+          "date": "2017-12-06",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/the-boyz-debut-album-the-first-ep/1321824011?uo=4"
+        },
+        {
+          "name": "THE BOYZ Mini Album 'The Start' - EP",
+          "date": "2018-04-03",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/the-boyz-mini-album-the-start-ep/1367395703?uo=4"
+        },
+        {
+          "name": "THE BOYZ 1ST ALBUM [REVEAL]",
+          "date": "2018-11-29",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/the-boyz-3rd-mini-album-the-only-ep/1444996041?uo=4"
+        },
+        {
+          "name": "Dreamlike - EP",
+          "date": "2019-08-19",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/dreamlike-ep/1477033162?uo=4"
+        },
+        {
+          "name": "TATTOO - EP",
+          "date": "2019-11-07",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/tattoo-ep/1577905616?uo=4"
+        },
+        {
+          "name": "Breaking Dawn",
+          "date": "2021-03-17",
+          "tracks": 8,
+          "url": "https://music.apple.com/kr/album/breaking-dawn/1577871697?uo=4"
+        },
+        {
+          "name": "SHE'S THE BOSS - EP",
+          "date": "2022-05-27",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/shes-the-boss-ep/1625863021?uo=4"
+        },
+        {
+          "name": "Delicious",
+          "date": "2023-06-13",
+          "tracks": 8,
+          "url": "https://music.apple.com/kr/album/delicious/1691848253?uo=4"
+        },
+        {
+          "name": "THE BOYZ 2ND ALBUM [PHANTASY] Pt. 1 Christmas In August - EP",
+          "date": "2023-08-07",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/the-boyz-2nd-album-phantasy-pt-1-christmas-in-august-ep/1700632625?uo=4"
+        },
+        {
+          "name": "THE BOYZ 2ND ALBUM [PHANTASY] Pt. 2 Sixth Sense - EP",
+          "date": "2023-11-20",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/the-boyz-2nd-album-phantasy-pt-2-sixth-sense-ep/1716515768?uo=4"
+        },
+        {
+          "name": "Gibberish",
+          "date": "2024-07-19",
+          "tracks": 8,
+          "url": "https://music.apple.com/kr/album/gibberish/1756474958?uo=4"
+        },
+        {
+          "name": "Unexpected",
+          "date": "2025-03-17",
+          "tracks": 9,
+          "url": "https://music.apple.com/kr/album/unexpected/1801443497?uo=4"
+        }
+      ]
+    },
+    {
+      "id": 1526319335,
+      "name": "TREASURE",
+      "nameKo": "트레저",
+      "comebacks": [
+        {
+          "name": "THE FIRST STEP : TREASURE EFFECT",
+          "date": "2021-01-11",
+          "tracks": 11,
+          "url": "https://music.apple.com/kr/album/the-first-step-treasure-effect/1547403580?uo=4"
+        },
+        {
+          "name": "THE SECOND STEP : CHAPTER ONE - EP",
+          "date": "2022-02-15",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/the-second-step-chapter-one-ep/1608994375?uo=4"
+        },
+        {
+          "name": "THE SECOND STEP : CHAPTER TWO - EP",
+          "date": "2022-10-04",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/the-second-step-chapter-two-ep/1647718693?uo=4"
+        },
+        {
+          "name": "2ND FULL ALBUM 'REBOOT'",
+          "date": "2023-07-28",
+          "tracks": 11,
+          "url": "https://music.apple.com/kr/album/2nd-full-album-reboot/1696542993?uo=4"
+        },
+        {
+          "name": "4th MINI ALBUM [NEW WAV] - EP",
+          "date": "2025-03-07",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/special-mini-album-pleasure-ep/1798914503?uo=4"
+        }
+      ]
+    },
+    {
+      "id": 1693315406,
+      "name": "ZEROBASEONE",
+      "nameKo": "제로베이스원",
+      "comebacks": [
+        {
+          "name": "YOUTH IN THE SHADE - EP",
+          "date": "2023-07-10",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/youth-in-the-shade-ep/1694484106?uo=4"
+        },
+        {
+          "name": "MELTING POINT - EP",
+          "date": "2023-11-06",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/melting-point-ep/1713539108?uo=4"
+        },
+        {
+          "name": "You had me at HELLO",
+          "date": "2024-05-13",
+          "tracks": 8,
+          "url": "https://music.apple.com/kr/album/you-had-me-at-hello/1744311935?uo=4"
+        },
+        {
+          "name": "CINEMA PARADISE",
+          "date": "2024-08-26",
+          "tracks": 8,
+          "url": "https://music.apple.com/kr/album/cinema-paradise/1762581100?uo=4"
+        },
+        {
+          "name": "PREZENT - EP",
+          "date": "2025-01-29",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/prezent-ep/1790854495?uo=4"
+        },
+        {
+          "name": "BLUE PARADISE - EP",
+          "date": "2025-02-24",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/blue-paradise-ep/1795372994?uo=4"
+        },
+        {
+          "name": "NEVER SAY NEVER",
+          "date": "2025-09-01",
+          "tracks": 11,
+          "url": "https://music.apple.com/kr/album/never-say-never/1826911165?uo=4"
+        },
+        {
+          "name": "Ascend-",
+          "date": "2026-05-18",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/ascend/1895352038?uo=4"
+        }
+      ]
+    },
+    {
+      "id": 1702435257,
+      "name": "RIIZE",
+      "nameKo": "라이즈",
+      "comebacks": [
+        {
+          "name": "RIIZING - EP",
+          "date": "2024-04-28",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/riizing-ep/1742518255?uo=4"
+        },
+        {
+          "name": "RIIZING : Epilogue - The 1st Mini Album",
+          "date": "2024-09-03",
+          "tracks": 9,
+          "url": "https://music.apple.com/kr/album/riizing-epilogue-the-1st-mini-album/1762577701?uo=4"
+        },
+        {
+          "name": "ODYSSEY - The 1st Album",
+          "date": "2025-05-19",
+          "tracks": 11,
+          "url": "https://music.apple.com/kr/album/odyssey-the-1st-album/1812047853?uo=4"
+        },
+        {
+          "name": "II - The 2nd Mini Album - EP",
+          "date": "2026-06-15",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/ii-the-2nd-mini-album-ep/6774516634?uo=4"
+        }
+      ]
+    },
+    {
+      "id": 1687612559,
+      "name": "BOYNEXTDOOR",
+      "nameKo": "보이넥스트도어",
+      "comebacks": [
+        {
+          "name": "WHY.. - EP",
+          "date": "2023-09-04",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/why-ep/1703655103?uo=4"
+        },
+        {
+          "name": "HOW?",
+          "date": "2024-04-15",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/how/1738692227?uo=4"
+        },
+        {
+          "name": "19.99",
+          "date": "2024-09-09",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/19-99/1765199811?uo=4"
+        },
+        {
+          "name": "No Genre",
+          "date": "2025-05-13",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/no-genre/1811077675?uo=4"
+        },
+        {
+          "name": "BOYLIFE - EP",
+          "date": "2025-08-18",
+          "tracks": 4,
+          "url": "https://music.apple.com/kr/album/boylife-ep/1834077520?uo=4"
+        },
+        {
+          "name": "The Action - EP",
+          "date": "2025-10-20",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/the-action-ep/1844393312?uo=4"
+        },
+        {
+          "name": "HOME",
+          "date": "2026-06-08",
+          "tracks": 8,
+          "url": "https://music.apple.com/kr/album/home/1896255247?uo=4"
+        }
+      ]
+    },
+    {
+      "id": 1676593844,
+      "name": "PLAVE",
+      "nameKo": "플레이브",
+      "comebacks": [
+        {
+          "name": "ASTERUM : The Shape of Things to Come - EP",
+          "date": "2023-08-24",
+          "tracks": 4,
+          "url": "https://music.apple.com/kr/album/asterum-the-shape-of-things-to-come-ep/1704124846?uo=4"
+        },
+        {
+          "name": "ASTERUM : 134-1 - EP",
+          "date": "2024-02-26",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/asterum-134-1-ep/1732393368?uo=4"
+        },
+        {
+          "name": "Caligo Pt.1 - EP",
+          "date": "2025-02-03",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/caligo-pt-1-ep/1793717362?uo=4"
+        },
+        {
+          "name": "Caligo Pt.2 - EP",
+          "date": "2026-04-13",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/caligo-pt-2-ep/1891527164?uo=4"
+        }
+      ]
+    },
+    {
+      "id": 1654437478,
+      "name": "&TEAM",
+      "nameKo": "앤팀",
+      "comebacks": [
+        {
+          "name": "First Howling : ME - EP",
+          "date": "2022-12-07",
+          "tracks": 4,
+          "url": "https://music.apple.com/kr/album/first-howling-me-ep/1654076256?uo=4"
+        },
+        {
+          "name": "First Howling : WE - EP",
+          "date": "2023-06-14",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/first-howling-we-ep/1688976919?uo=4"
+        },
+        {
+          "name": "First Howling : NOW",
+          "date": "2023-11-15",
+          "tracks": 18,
+          "url": "https://music.apple.com/kr/album/first-howling-now/1713306503?uo=4"
+        },
+        {
+          "name": "Yukiakari",
+          "date": "2024-12-18",
+          "tracks": 22,
+          "url": "https://music.apple.com/kr/album/yukiakari/1785157469?uo=4"
+        },
+        {
+          "name": "Go in Blind - EP",
+          "date": "2025-04-21",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/go-in-blind-ep/1809095810?uo=4"
+        },
+        {
+          "name": "Back to Life - EP",
+          "date": "2025-10-28",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/back-to-life-ep/1845801736?uo=4"
+        },
+        {
+          "name": "We on Fire - EP",
+          "date": "2026-04-12",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/we-on-fire-ep/1890111301?uo=4"
+        }
+      ]
+    },
+    {
+      "id": 657630070,
+      "name": "EXO",
+      "nameKo": "엑소",
+      "comebacks": [
+        {
+          "name": "Mama (The 1st Mini Album) - EP",
+          "date": "2012-04-09",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/mama-the-1st-mini-album-ep/854942041?uo=4"
+        },
+        {
+          "name": "The 1st Album 'XOXO'",
+          "date": "2013-06-03",
+          "tracks": 24,
+          "url": "https://music.apple.com/kr/album/the-1st-album-xoxo/980274346?uo=4"
+        },
+        {
+          "name": "Miracles in December - EP",
+          "date": "2013-12-09",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/miracles-in-december-ep/854908599?uo=4"
+        },
+        {
+          "name": "The 2nd Mini Album 'Overdose' - EP",
+          "date": "2014-05-07",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/the-2nd-mini-album-overdose-ep/874290401?uo=4"
+        },
+        {
+          "name": "The 2nd Album ‘EXODUS’",
+          "date": "2015-03-30",
+          "tracks": 11,
+          "url": "https://music.apple.com/kr/album/the-2nd-album-exodus/979878364?uo=4"
+        },
+        {
+          "name": "LOVE ME RIGHT - The 2nd Album Repackage",
+          "date": "2015-06-03",
+          "tracks": 14,
+          "url": "https://music.apple.com/kr/album/love-me-right-the-2nd-album-repackage/999674716?uo=4"
+        },
+        {
+          "name": "SING FOR YOU - Winter Special Album, 2015",
+          "date": "2015-12-10",
+          "tracks": 10,
+          "url": "https://music.apple.com/kr/album/sing-for-you-winter-special-album-2015/1064933592?uo=4"
+        },
+        {
+          "name": "EX’ACT - The 3rd Album",
+          "date": "2016-06-09",
+          "tracks": 23,
+          "url": "https://music.apple.com/kr/album/exact-the-3rd-album/1121473062?uo=4"
+        },
+        {
+          "name": "LOTTO - The 3rd Album Repackage",
+          "date": "2016-08-18",
+          "tracks": 27,
+          "url": "https://music.apple.com/kr/album/lotto-the-3rd-album-repackage/1143527580?uo=4"
+        },
+        {
+          "name": "For Life - Winter Special Album, 2016",
+          "date": "2016-12-19",
+          "tracks": 10,
+          "url": "https://music.apple.com/kr/album/for-life-winter-special-album-2016/1187031996?uo=4"
+        },
+        {
+          "name": "THE WAR - The 4th Album",
+          "date": "2017-07-18",
+          "tracks": 10,
+          "url": "https://music.apple.com/kr/album/the-war-the-4th-album/1260294767?uo=4"
+        },
+        {
+          "name": "THE POWER OF MUSIC – The 4th Album ‘THE WAR’ Repackage - EP",
+          "date": "2017-09-05",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/the-power-of-music-the-4th-album-the-war-repackage-ep/1278808856?uo=4"
+        },
+        {
+          "name": "Universe – Winter Special Album, 2017",
+          "date": "2017-12-26",
+          "tracks": 9,
+          "url": "https://music.apple.com/kr/album/universe-winter-special-album-2017/1328808145?uo=4"
+        },
+        {
+          "name": "COUNTDOWN",
+          "date": "2018-02-14",
+          "tracks": 10,
+          "url": "https://music.apple.com/kr/album/countdown/1346991212?uo=4"
+        },
+        {
+          "name": "DON’T MESS UP MY TEMPO – The 5th Album",
+          "date": "2018-11-02",
+          "tracks": 12,
+          "url": "https://music.apple.com/kr/album/dont-mess-up-my-tempo-the-5th-album/1440782229?uo=4"
+        },
+        {
+          "name": "LOVE SHOT – The 5th Album Repackage - EP",
+          "date": "2018-12-13",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/love-shot-the-5th-album-repackage-ep/1446231540?uo=4"
+        },
+        {
+          "name": "OBSESSION - The 6th Album",
+          "date": "2019-11-27",
+          "tracks": 11,
+          "url": "https://music.apple.com/kr/album/obsession-the-6th-album/1488308374?uo=4"
+        },
+        {
+          "name": "DON'T FIGHT THE FEELING - Special Album - EP",
+          "date": "2021-06-07",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/dont-fight-the-feeling-special-album-ep/1570253219?uo=4"
+        },
+        {
+          "name": "EXIST - The 7th Album",
+          "date": "2023-07-10",
+          "tracks": 9,
+          "url": "https://music.apple.com/kr/album/exist-the-7th-album/1695833432?uo=4"
+        },
+        {
+          "name": "REVERXE - The 8th Album",
+          "date": "2026-01-19",
+          "tracks": 10,
+          "url": "https://music.apple.com/kr/album/reverxe-the-8th-album/1868596000?uo=4"
+        }
+      ]
+    },
+    {
+      "id": 409076743,
+      "name": "IU",
+      "nameKo": "아이유",
+      "comebacks": [
+        {
+          "name": "Growing up",
+          "date": "2009-04-23",
+          "tracks": 16,
+          "url": "https://music.apple.com/kr/album/growing-up/343278916?uo=4"
+        },
+        {
+          "name": "IU...IM",
+          "date": "2009-11-12",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/iu-im/340375473?uo=4"
+        },
+        {
+          "name": "Real",
+          "date": "2010-12-09",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/real/409076726?uo=4"
+        },
+        {
+          "name": "Last Fantasy",
+          "date": "2011-11-29",
+          "tracks": 13,
+          "url": "https://music.apple.com/kr/album/last-fantasy/484346200?uo=4"
+        },
+        {
+          "name": "Modern Times",
+          "date": "2013-10-08",
+          "tracks": 13,
+          "url": "https://music.apple.com/kr/album/modern-times/721958263?uo=4"
+        },
+        {
+          "name": "Modern Times – Epilogue",
+          "date": "2013-12-20",
+          "tracks": 15,
+          "url": "https://music.apple.com/kr/album/modern-times-epilogue/786862990?uo=4"
+        },
+        {
+          "name": "A Flower Bookmark",
+          "date": "2014-05-16",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/a-flower-bookmark/879281073?uo=4"
+        },
+        {
+          "name": "CHAT-SHIRE",
+          "date": "2015-10-23",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/chat-shire/1051977837?uo=4"
+        },
+        {
+          "name": "Palette",
+          "date": "2017-04-21",
+          "tracks": 10,
+          "url": "https://music.apple.com/kr/album/palette/1229073300?uo=4"
+        },
+        {
+          "name": "A Flower Bookmark, Pt. 2 - EP",
+          "date": "2017-09-22",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/a-flower-bookmark-pt-2-ep/1288487936?uo=4"
+        },
+        {
+          "name": "Love Poem - EP",
+          "date": "2019-11-18",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/love-poem-ep/1488300927?uo=4"
+        },
+        {
+          "name": "IU 5th Album 'LILAC'",
+          "date": "2021-03-25",
+          "tracks": 10,
+          "url": "https://music.apple.com/kr/album/iu-5th-album-lilac/1560113132?uo=4"
+        },
+        {
+          "name": "Pieces - EP",
+          "date": "2021-12-29",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/pieces-ep/1602185213?uo=4"
+        },
+        {
+          "name": "The Winning - EP",
+          "date": "2024-02-20",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/the-winning-ep/1731352613?uo=4"
+        },
+        {
+          "name": "A flower bookmark, Pt. 3 - EP",
+          "date": "2025-05-27",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/a-flower-bookmark-pt-3-ep/1815869479?uo=4"
+        }
+      ]
+    },
+    {
+      "id": 913944,
+      "name": "JENNIE",
+      "nameKo": "제니",
+      "comebacks": [
+        {
+          "name": "One of the Girls - EP",
+          "date": "2023-12-08",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/one-of-the-girls-ep/1720045950?uo=4"
+        },
+        {
+          "name": "Ruby",
+          "date": "2025-03-07",
+          "tracks": 15,
+          "url": "https://music.apple.com/kr/album/ruby/1800387392?uo=4"
+        }
+      ]
+    },
+    {
+      "id": 1548008317,
+      "name": "JISOO",
+      "nameKo": "지수",
+      "comebacks": [
+        {
+          "name": "AMORTAGE - EP",
+          "date": "2025-02-14",
+          "tracks": 4,
+          "url": "https://music.apple.com/kr/album/amortage-ep/1795827231?uo=4"
+        }
+      ]
+    },
+    {
+      "id": 1406242696,
+      "name": "ROSÉ",
+      "nameKo": "로제",
+      "comebacks": [
+        {
+          "name": "rosie",
+          "date": "2024-12-06",
+          "tracks": 12,
+          "url": "https://music.apple.com/kr/album/rosie/1783280221?uo=4"
+        }
+      ]
+    },
+    {
+      "id": 1583908668,
+      "name": "LISA",
+      "nameKo": "리사",
+      "comebacks": [
+        {
+          "name": "Alter Ego",
+          "date": "2025-02-28",
+          "tracks": 15,
+          "url": "https://music.apple.com/kr/album/alter-ego/1799316830?uo=4"
+        }
+      ]
+    },
+    {
+      "id": 435966642,
+      "name": "TAEYEON",
+      "nameKo": "태연",
+      "comebacks": [
+        {
+          "name": "I - The 1st Mini Album - EP",
+          "date": "2015-10-07",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/i-the-1st-mini-album-ep/1046202716?uo=4"
+        },
+        {
+          "name": "Why - The 2nd Mini Album",
+          "date": "2016-06-28",
+          "tracks": 8,
+          "url": "https://music.apple.com/kr/album/why-the-2nd-mini-album/1127320872?uo=4"
+        },
+        {
+          "name": "My Voice - The 1st Album",
+          "date": "2017-02-28",
+          "tracks": 13,
+          "url": "https://music.apple.com/kr/album/my-voice-the-1st-album/1209885370?uo=4"
+        },
+        {
+          "name": "This Christmas – Winter is Coming",
+          "date": "2017-12-12",
+          "tracks": 9,
+          "url": "https://music.apple.com/kr/album/this-christmas-winter-is-coming/1323945020?uo=4"
+        },
+        {
+          "name": "Something New - The 3rd Mini Album - EP",
+          "date": "2018-06-18",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/something-new-the-3rd-mini-album-ep/1399531834?uo=4"
+        },
+        {
+          "name": "VOICE",
+          "date": "2019-05-13",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/voice/1462270130?uo=4"
+        },
+        {
+          "name": "Purpose - The 2nd Album",
+          "date": "2019-10-28",
+          "tracks": 11,
+          "url": "https://music.apple.com/kr/album/purpose-the-2nd-album/1484919750?uo=4"
+        },
+        {
+          "name": "Purpose - The 2nd Album Repackage - EP",
+          "date": "2020-01-15",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/purpose-the-2nd-album-repackage-ep/1494441368?uo=4"
+        },
+        {
+          "name": "#GirlsSpkOut - EP",
+          "date": "2020-10-30",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/girlsspkout-ep/1533408642?uo=4"
+        },
+        {
+          "name": "What Do I Call You - The 4th Mini Album - EP",
+          "date": "2020-12-15",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/what-do-i-call-you-the-4th-mini-album-ep/1543866179?uo=4"
+        },
+        {
+          "name": "INVU - The 3rd Album",
+          "date": "2022-02-14",
+          "tracks": 14,
+          "url": "https://music.apple.com/kr/album/invu-the-3rd-album/1609049611?uo=4"
+        },
+        {
+          "name": "To. X - The 5th Mini Album - EP",
+          "date": "2023-11-27",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/to-x-the-5th-mini-album-ep/1717568641?uo=4"
+        },
+        {
+          "name": "Letter To Myself - The 6th Mini Album - EP",
+          "date": "2024-11-18",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/letter-to-myself-the-6th-mini-album-ep/1779015074?uo=4"
+        },
+        {
+          "name": "Panorama : The Best of TAEYEON",
+          "date": "2025-12-01",
+          "tracks": 24,
+          "url": "https://music.apple.com/kr/album/panorama-the-best-of-taeyeon/1854676984?uo=4"
+        }
+      ]
+    },
+    {
+      "id": 1364148883,
+      "name": "D.O.",
+      "nameKo": "도경수",
+      "comebacks": [
+        {
+          "name": "Empathy - The 1st Mini Album",
+          "date": "2021-07-26",
+          "tracks": 9,
+          "url": "https://music.apple.com/kr/album/empathy-the-1st-mini-album/1576354507?uo=4"
+        },
+        {
+          "name": "Expectation - The 2nd Mini Album",
+          "date": "2023-09-18",
+          "tracks": 8,
+          "url": "https://music.apple.com/kr/album/expectation-the-2nd-mini-album/1707120677?uo=4"
+        },
+        {
+          "name": "BLOSSOM - THE 3RD MINI ALBUM - EP",
+          "date": "2024-05-07",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/blossom-the-3rd-mini-album-ep/1743749264?uo=4"
+        },
+        {
+          "name": "The 1st full album [BLISS]",
+          "date": "2025-07-07",
+          "tracks": 10,
+          "url": "https://music.apple.com/kr/album/the-1st-full-album-bliss/1823614705?uo=4"
+        }
+      ]
+    },
+    {
+      "id": 1218803768,
+      "name": "JEON SOMI",
+      "nameKo": "전소미",
+      "comebacks": [
+        {
+          "name": "XOXO",
+          "date": "2021-10-29",
+          "tracks": 8,
+          "url": "https://music.apple.com/kr/album/xoxo/1594307802?uo=4"
+        },
+        {
+          "name": "GAME PLAN - EP",
+          "date": "2023-08-07",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/game-plan-ep/1701043148?uo=4"
+        },
+        {
+          "name": "Chaotic & Confused - EP",
+          "date": "2025-08-11",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/chaotic-confused-ep/1831153862?uo=4"
+        }
+      ]
+    }
+  ]
+}
