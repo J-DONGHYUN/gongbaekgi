@@ -13,23 +13,28 @@ export default function Podium() {
     let alive = true;
     const load = async () => {
       try {
-        const r = await fetch("/api/ranking/", { cache: "no-store" });
+        // 캐시를 완전히 우회한다. 뒤로가기로 돌아왔을 때 묵은 값이 보이면 안 된다.
+        const r = await fetch(`/api/ranking/?t=${Date.now()}`, { cache: "no-store" });
         if (alive) setData(await r.json());
       } catch {
         if (alive) setData({ available: false, top: [] });
       }
     };
-    load();
-    // 15초마다 갱신. 1분이면 투표해도 안 바뀐 것처럼 보인다.
-    const t = setInterval(load, 15_000);
-    // 다른 탭에서 투표하고 돌아왔을 때 바로 최신으로
-    const onFocus = () => load();
+    load(); // 화면에 도착하는 순간은 언제나 최신
+    // 열어둔 탭을 위한 느슨한 폴링. 중요한 순간(도착·복귀)은 아래 이벤트가 처리한다.
+    const t = setInterval(load, 30_000);
+    // 투표하고 뒤로 오거나 탭을 다시 보면 즉시 갱신
+    const onFocus = () => {
+      if (document.visibilityState !== "hidden") load();
+    };
     window.addEventListener("focus", onFocus);
+    window.addEventListener("pageshow", onFocus); // 뒤로가기 복원(bfcache) 대응
     document.addEventListener("visibilitychange", onFocus);
     return () => {
       alive = false;
       clearInterval(t);
       window.removeEventListener("focus", onFocus);
+      window.removeEventListener("pageshow", onFocus);
       document.removeEventListener("visibilitychange", onFocus);
     };
   }, []);
@@ -90,7 +95,7 @@ export default function Podium() {
       )}
 
       <p className="podium-note">
-        최근 이틀간 받은 하트에 공백기를 곱해 정합니다. 15초마다 갱신됩니다.
+        최근 이틀간 받은 하트에 공백기를 곱해 정합니다.
         앨범 표지를 누르면 Apple Music 으로 갑니다.
       </p>
     </section>

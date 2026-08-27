@@ -2,14 +2,16 @@ import { artists } from "../../../lib/data";
 import { analyze } from "../../../lib/calc";
 import { readVotes, waitScore, available } from "../../../lib/votes";
 
-// 10초 캐시. 60초로 두면 투표해도 순위가 안 바뀐 것처럼 보인다.
-//   호출은 6배로 늘지만 하루 최대 8,640회라 무료 한도(월 100만) 안에서 여유가 크다.
-export const revalidate = 10;
+// 캐시하지 않는다.
+//   사용자는 하트를 누르고 곧바로 순위를 확인하려 한다. 몇 초라도 묵은 값을 주면
+//   "반영이 안 됐다"고 느낀다. 계산은 Redis 조회 한 번뿐이라 비싸지 않다.
+//   비용은 폴링 주기로 조절한다 — 화면에 도착하는 순간은 항상 최신, 열어둔 탭은 느슨하게.
+export const dynamic = "force-dynamic";
 
 export async function GET() {
   if (!available) {
     return Response.json({ available: false, top: [] }, {
-      headers: { "Cache-Control": "public, s-maxage=10" },
+      headers: { "Cache-Control": "no-store" },
     });
   }
 
@@ -35,6 +37,6 @@ export async function GET() {
 
   return Response.json(
     { available: true, top: ranked.slice(0, 3), updatedAt: new Date().toISOString() },
-    { headers: { "Cache-Control": "public, s-maxage=10, stale-while-revalidate=30" } }
+    { headers: { "Cache-Control": "no-store" } }
   );
 }
