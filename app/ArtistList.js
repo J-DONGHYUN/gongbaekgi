@@ -32,7 +32,7 @@ export default function ArtistList({ artists }) {
   const [q, setQ] = useState("");
   const now = useMemo(() => new Date(), []);
 
-  const { ranked, sparse } = useMemo(() => {
+  const ranked = useMemo(() => {
     const rows = artists.map((a) => {
       const r = analyze(a.comebacks, now);
       return {
@@ -44,12 +44,9 @@ export default function ArtistList({ artists }) {
       };
     });
     const by = (x, y) => (y.hiatus ?? -1) - (x.hiatus ?? -1);
-    return {
-      // 컴백 3회 미만은 공백기가 길어 보여도 그건 데이터가 적어서다.
-      // 순위에 섞으면 첫 화면이 고장난 것처럼 보이므로 아래로 내린다.
-      ranked: rows.filter((r) => r.enough).sort(by),
-      sparse: rows.filter((r) => !r.enough).sort(by),
-    };
+    // 컴백 3회 미만인 팀은 주기를 낼 수 없어 아예 목록에서 제외했다
+    // (scripts/artists.config.json 의 disabled)
+    return rows.sort(by);
   }, [artists, now]);
 
   const term = q.trim().toLowerCase();
@@ -57,8 +54,7 @@ export default function ArtistList({ artists }) {
     a.name.toLowerCase().includes(term) || (a.nameKo ?? "").includes(term);
 
   const shownRanked = term ? ranked.filter(match) : ranked;
-  const shownSparse = term ? sparse.filter(match) : sparse;
-  const none = shownRanked.length === 0 && shownSparse.length === 0;
+  const none = shownRanked.length === 0;
 
   return (
     <>
@@ -85,19 +81,6 @@ export default function ArtistList({ artists }) {
             </div>
           )}
 
-          {shownSparse.length > 0 && (
-            <>
-              <h2 className="sec">컴백이 3회 미만인 팀</h2>
-              <p className="note-inline">
-                기록이 적어 평균 주기를 낼 수 없습니다. 공백기만 보여줍니다.
-              </p>
-              <div className="grid">
-                {shownSparse.map((a) => (
-                  <Row key={a.slug} a={a} />
-                ))}
-              </div>
-            </>
-          )}
         </>
       )}
     </>

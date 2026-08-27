@@ -185,22 +185,26 @@
     {
       "name": "JENNIE",
       "nameKo": "제니",
-      "itunesId": 913944
+      "itunesId": 913944,
+      "disabled": true
     },
     {
       "name": "JISOO",
       "nameKo": "지수",
-      "itunesId": 1548008317
+      "itunesId": 1548008317,
+      "disabled": true
     },
     {
       "name": "ROSÉ",
       "nameKo": "로제",
-      "itunesId": 1406242696
+      "itunesId": 1406242696,
+      "disabled": true
     },
     {
       "name": "LISA",
       "nameKo": "리사",
-      "itunesId": 1583908668
+      "itunesId": 1583908668,
+      "disabled": true
     },
     {
       "name": "TAEYEON",
@@ -219,5 +223,5 @@
     }
   ],
   "_데이터소스": "iTunes Search API — API 키 불필요. Spotify 는 2026년부터 앱 소유자 Premium 구독을 요구해 403.",
-  "_비활성": "disabled: true 인 팀은 수집·표시에서 제외된다. ID 는 남겨두므로 이 줄만 지우면 되돌아온다."
+  "_비활성": "disabled: true 인 팀은 수집·표시에서 제외된다. ID 는 남겨두므로 이 줄만 지우면 되돌아온다. 현재 제외: NewJeans(법적 분쟁), BLACKPINK 솔로 4명(컴백 3회 미만이라 주기를 낼 수 없음)."
 }

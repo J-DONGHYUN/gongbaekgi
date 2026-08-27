@@ -36,23 +36,36 @@ jobs:
         run: node scripts/fetch.mjs
 
       - name: 수집 결과 검증
-        # 수집이 실패해 빈 파일이 나오면 좋은 데이터를 덮어쓰게 된다.
-        # 최소 기준을 못 넘으면 커밋하지 않고 실패시킨다.
+        # 수집이 실패해 빈 결과가 나오면 좋은 데이터를 덮어쓴다.
+        # 고정 숫자로 기준을 두면 팀을 넣고 뺄 때마다 고쳐야 하므로
+        # 직전 커밋과 비교해서 급격히 줄었을 때만 막는다.
         run: |
           node -e '
-            const d = require("./data/artists.json");
-            const teams = d.artists.length;
-            const total = d.artists.reduce((s, a) => s + a.comebacks.length, 0);
-            const empty = d.artists.filter(a => a.comebacks.length === 0).length;
-            const future = d.artists.flatMap(a => a.comebacks)
-              .filter(c => c.date > new Date().toISOString().slice(0, 10)).length;
-            console.log(`팀 ${teams} · 컴백 ${total} · 빈 팀 ${empty} · 미래 날짜 ${future}`);
+            const { execSync } = require("child_process");
+            const now = require("./data/artists.json");
+            const prev = JSON.parse(execSync("git show HEAD:data/artists.json").toString());
+
+            const count = d => ({
+              teams: d.artists.length,
+              total: d.artists.reduce((s, a) => s + a.comebacks.length, 0),
+            });
+            const a = count(now), b = count(prev);
+            const empty = now.artists.filter(x => x.comebacks.length === 0).length;
+            const today = new Date().toISOString().slice(0, 10);
+            const future = now.artists.flatMap(x => x.comebacks).filter(c => c.date > today).length;
+
+            console.log(`팀 ${b.teams} → ${a.teams} · 컴백 ${b.total} → ${a.total} · 빈 팀 ${empty} · 미래 날짜 ${future}`);
+
             const fail = [];
-            if (teams < 39) fail.push(`팀이 ${teams}개뿐 (39 미만)`);
-            if (total < 390) fail.push(`컴백이 ${total}건뿐 (390 미만)`);
+            if (a.teams < b.teams * 0.9) fail.push(`팀이 ${b.teams}에서 ${a.teams}로 급감`);
+            if (a.total < b.total * 0.9) fail.push(`컴백이 ${b.total}에서 ${a.total}로 급감`);
             if (empty > 2) fail.push(`컴백 없는 팀 ${empty}개`);
             if (future > 0) fail.push(`미래 날짜 ${future}건`);
-            if (fail.length) { console.error("검증 실패: " + fail.join(", ")); process.exit(1); }
+
+            if (fail.length) {
+              console.error("검증 실패 — 커밋하지 않습니다: " + fail.join(", "));
+              process.exit(1);
+            }
             console.log("검증 통과");
           '
 
