@@ -1,5 +1,6 @@
 import { artists, fetchedAt } from "../lib/data";
 import ArtistList from "./ArtistList";
+import Podium from "./Podium";
 
 export const metadata = {
   title: "아이돌 공백기 며칠째 — 컴백 주기 한눈에",
@@ -16,6 +17,7 @@ export default function Home() {
         마지막 컴백 이후 지난 날과 평균 컴백 주기를 비교해서 보여줍니다.
         정규·미니 앨범만 컴백으로 셉니다.
       </p>
+      <Podium />
       <ArtistList artists={artists} buildDate={fetchedAt} />
     </main>
   );

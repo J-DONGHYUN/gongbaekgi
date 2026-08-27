@@ -3,6 +3,7 @@ import { artists, getArtist, fetchedAt } from "../../lib/data";
 import { analyze } from "../../lib/calc";
 import HiatusCard from "./HiatusCard";
 import ShareRow from "./ShareRow";
+import HeartButton from "./HeartButton";
 
 export function generateStaticParams() {
   return artists.map((a) => ({ artist: a.slug }));
@@ -46,6 +47,7 @@ export default async function ArtistPage({ params }) {
   return (
     <main>
       <HiatusCard artist={artist} buildDate={fetchedAt} />
+      <HeartButton slug={artist.slug} name={artist.name} />
       <ShareRow artist={artist} />
       <div className="rowlinks">
         <Link href={`/${artist.slug}/history/`}>컴백 이력 {artist.comebacks.length}회 전체 보기</Link>

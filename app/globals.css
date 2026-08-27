@@ -341,3 +341,79 @@ footer a { text-decoration: underline; text-underline-offset: 2px; }
   font-size: .72rem; color: var(--ink-faint);
   font-variant-numeric: tabular-nums; white-space: nowrap;
 }
+
+/* ── 순위대 (삼각형) ──────────────────────────────────────
+   2위 · 1위 · 3위 순으로 배치하고 가운데를 가장 높게 해서 삼각형을 만든다. */
+.podium-wrap { margin: 0 0 1.6rem; }
+.podium-title {
+  font-size: .95rem; font-weight: 700; letter-spacing: -.02em;
+  margin: 0 0 .7rem; color: var(--ink);
+}
+.podium {
+  display: grid;
+  grid-template-columns: 1fr 1.12fr 1fr;
+  gap: .45rem;
+  align-items: end;
+}
+.pod {
+  --team: hsl(var(--team-h) var(--team-s) var(--team-l));
+  display: flex; flex-direction: column; align-items: center;
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-top: 3px solid var(--team);
+  border-radius: 10px 10px 8px 8px;
+  padding: .7rem .5rem .65rem;
+  min-width: 0; text-align: center;
+}
+.pod:hover { border-color: var(--accent); }
+.pod--1 { padding-top: 1.3rem; padding-bottom: .9rem; }
+.pod--empty { visibility: hidden; }
+
+.pod-rank {
+  font-family: var(--f-num); font-weight: 700;
+  font-size: 1.05rem; line-height: 1;
+  color: var(--team); margin-bottom: .35rem;
+}
+.pod--1 .pod-rank { font-size: 1.6rem; }
+
+.pod-name {
+  font-size: .82rem; font-weight: 700; letter-spacing: -.015em;
+  max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.pod--1 .pod-name { font-size: .95rem; }
+.pod-ko { font-size: .68rem; color: var(--ink-faint); margin-bottom: .3rem; }
+.pod-days {
+  font-family: var(--f-num); font-weight: 700; font-size: .95rem;
+  font-variant-numeric: tabular-nums; color: var(--ink);
+}
+.pod--1 .pod-days { font-size: 1.2rem; }
+.pod-score {
+  font-size: .66rem; color: var(--ink-faint);
+  font-variant-numeric: tabular-nums; margin-top: .12rem;
+}
+
+.podium-empty {
+  font-size: .85rem; color: var(--ink-faint);
+  background: var(--surface); border: 1px dashed var(--rule);
+  border-radius: 10px; padding: 1rem 1.1rem; margin: 0;
+}
+.podium-note {
+  font-size: .72rem; color: var(--ink-faint);
+  margin: .55rem 0 0;
+}
+
+/* ── 하트 ────────────────────────────────────────────── */
+.heart-wrap { margin: 1rem 0 0; text-align: center; }
+.heart {
+  display: inline-flex; align-items: center; gap: .5rem;
+  font-family: inherit; font-size: .95rem; font-weight: 600;
+  color: var(--surface); background: var(--st-over);
+  border: none; border-radius: 100px;
+  padding: .7rem 1.4rem; cursor: pointer;
+}
+.heart:hover:not(:disabled) { filter: brightness(1.08); }
+.heart:disabled { cursor: default; }
+.heart--cool { background: var(--surface-2); color: var(--ink-faint); }
+.heart--sent { background: var(--st-in); }
+.heart-icon { font-size: 1.05rem; line-height: 1; }
+.heart-note { font-size: .74rem; color: var(--ink-faint); margin: .5rem 0 0; }
