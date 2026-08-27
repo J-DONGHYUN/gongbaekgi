@@ -1,9 +1,14 @@
 import Link from "next/link";
+import { notFound } from "next/navigation";
 import { artists, getArtist, fetchedAt } from "../../lib/data";
 import { analyze } from "../../lib/calc";
 import HiatusCard from "./HiatusCard";
 import ShareRow from "./ShareRow";
 import HeartButton from "./HeartButton";
+
+// generateStaticParams 에 없는 주소는 404. 이게 없으면 Next 가 즉석에서
+// 빈 페이지를 만들어 200 을 돌려준다 (제외한 팀이 살아 있는 것처럼 보인다).
+export const dynamicParams = false;
 
 export function generateStaticParams() {
   return artists.map((a) => ({ artist: a.slug }));
@@ -42,7 +47,7 @@ export async function generateMetadata({ params }) {
 export default async function ArtistPage({ params }) {
   const { artist: slug } = await params;
   const artist = getArtist(slug);
-  if (!artist) return null;
+  if (!artist) notFound();
 
   return (
     <main>
