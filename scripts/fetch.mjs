@@ -23,6 +23,9 @@ const EXCLUDE_WORDS = [
   "remix", "instrumental", "inst.", "sped up", "slowed down",
   "karaoke", "scream",          // K-POP ScreaM = SM 리믹스 컴필레이션
   "the best", "best of", "greatest hits",   // 베스트 컴필레이션
+  "skz-replay",                  // 스트레이 키즈 수록곡 모음집 시리즈.
+                                 //   컴백 며칠 전후에 나와 30일 병합에 먹히면
+                                 //   실제 컴백 대신 이게 표시된다.
   // 라이브·사운드트랙
   "live", "ost", "soundtrack", "original television", "original tv",
   // 해외 발매판 — 한국 컴백이 아니다
