@@ -161,8 +161,9 @@ function suspiciousGaps(list) {
 
 // ── 실행 ─────────────────────────────────────────────────────────────────
 const config = JSON.parse(await readFile(resolve(ROOT, "scripts/artists.config.json"), "utf8"));
-const targets = config.artists.filter((a) => a.itunesId).slice(0, LIMIT);
+const targets = config.artists.filter((a) => a.itunesId && !a.disabled).slice(0, LIMIT);
 const missing = config.artists.filter((a) => !a.itunesId).length;
+const disabled = config.artists.filter((a) => a.disabled).length;
 
 if (targets.length === 0) {
   console.error("\n✗ artists.config.json 에 itunesId 가 채워진 아티스트가 없습니다.");
@@ -172,6 +173,7 @@ if (targets.length === 0) {
 
 console.log(`\n대상 ${targets.length}팀${DRY_RUN ? " (테스트 모드 — 파일 저장 안 함)" : ""}`);
 if (missing) console.log(`ID 미입력으로 건너뛴 팀: ${missing}`);
+if (disabled) console.log(`비활성으로 제외한 팀: ${disabled}`);
 console.log("");
 
 const results = [];

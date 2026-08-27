@@ -48,8 +48,8 @@ jobs:
               .filter(c => c.date > new Date().toISOString().slice(0, 10)).length;
             console.log(`팀 ${teams} · 컴백 ${total} · 빈 팀 ${empty} · 미래 날짜 ${future}`);
             const fail = [];
-            if (teams < 40) fail.push(`팀이 ${teams}개뿐 (40 미만)`);
-            if (total < 400) fail.push(`컴백이 ${total}건뿐 (400 미만)`);
+            if (teams < 39) fail.push(`팀이 ${teams}개뿐 (39 미만)`);
+            if (total < 390) fail.push(`컴백이 ${total}건뿐 (390 미만)`);
             if (empty > 2) fail.push(`컴백 없는 팀 ${empty}개`);
             if (future > 0) fail.push(`미래 날짜 ${future}건`);
             if (fail.length) { console.error("검증 실패: " + fail.join(", ")); process.exit(1); }

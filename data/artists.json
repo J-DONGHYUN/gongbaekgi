@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-27T11:21:16.047Z",
+  "fetchedAt": "2026-08-27T11:44:09.348Z",
   "source": "itunes",
   "artists": [
     {
@@ -141,42 +141,6 @@
           "tracks": 6,
           "url": "https://music.apple.com/kr/album/lucid-dream-ep/6768866474?uo=4",
           "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e4/ae/02/e4ae02a1-cbf8-217b-fbba-315d6f9d2db5/4547366823929.jpg/300x300bb.jpg"
-        }
-      ]
-    },
-    {
-      "id": 1635469693,
-      "name": "NewJeans",
-      "nameKo": "뉴진스",
-      "hue": 167,
-      "comebacks": [
-        {
-          "name": "NewJeans 1st EP 'New Jeans'",
-          "date": "2022-08-01",
-          "tracks": 4,
-          "url": "https://music.apple.com/kr/album/newjeans-1st-ep-new-jeans/1635469682?uo=4",
-          "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/4e/64/34/4e64344b-3ac6-c503-2c41-257a15401416/192641873096_Cover.jpg/300x300bb.jpg"
-        },
-        {
-          "name": "NewJeans 2nd EP 'Get Up'",
-          "date": "2023-07-21",
-          "tracks": 6,
-          "url": "https://music.apple.com/kr/album/newjeans-2nd-ep-get-up/1695951888?uo=4",
-          "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d3/4b/7e/d34b7e1e-af3b-43b6-2949-7a8c652a1bc9/196922462726_Cover.jpg/300x300bb.jpg"
-        },
-        {
-          "name": "NJWMX",
-          "date": "2023-12-19",
-          "tracks": 12,
-          "url": "https://music.apple.com/kr/album/njwmx/1719868691?uo=4",
-          "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/cf/9a/07/cf9a07bb-2411-8c49-412a-ec21bb516e28/196922750618_Cover.jpg/300x300bb.jpg"
-        },
-        {
-          "name": "How Sweet - EP",
-          "date": "2024-05-24",
-          "tracks": 4,
-          "url": "https://music.apple.com/kr/album/how-sweet-ep/1744448415?uo=4",
-          "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bf/68/ca/bf68ca64-4acd-543f-bc78-455f11f06105/196922889738_Cover.jpg/300x300bb.jpg"
         }
       ]
     },

@@ -14,7 +14,8 @@
     {
       "name": "NewJeans",
       "nameKo": "뉴진스",
-      "itunesId": 1635469693
+      "itunesId": 1635469693,
+      "disabled": true
     },
     {
       "name": "LE SSERAFIM",
@@ -217,5 +218,6 @@
       "itunesId": 1218803768
     }
   ],
-  "_데이터소스": "iTunes Search API — API 키 불필요. Spotify 는 2026년부터 앱 소유자 Premium 구독을 요구해 403."
+  "_데이터소스": "iTunes Search API — API 키 불필요. Spotify 는 2026년부터 앱 소유자 Premium 구독을 요구해 403.",
+  "_비활성": "disabled: true 인 팀은 수집·표시에서 제외된다. ID 는 남겨두므로 이 줄만 지우면 되돌아온다."
 }
