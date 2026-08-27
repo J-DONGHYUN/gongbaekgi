@@ -45,12 +45,32 @@ Deezer 도 검토했으나 K-pop 카탈로그가 비어 있어 탈락 (TWICE·Ne
 - 컴백 추출 파이프라인 동작 확인, 필터 1차 조정 완료
 - **판정 게이트: aespa 10건 전량 정확.** IVE·NewJeans 는 일본 발매반이 1~2건 섞임
 
+**Day 1 완료 + Day 2 대부분 완료. 남은 것은 Vercel 배포와 홍보뿐.**
+
 ```bash
 npm run ids         # ID 재확인 (미리보기)
 npm run ids:apply   # ID 기록
 npm run fetch:test  # 3팀만 콘솔 출력, 저장 안 함 ← 판정 게이트용
 npm run fetch       # 전체 43팀 → data/artists.json
+npm run dev         # 로컬 미리보기 http://localhost:3000
+npm run build       # 정적 내보내기 → out/
 ```
+
+### 만들어진 것
+
+- `lib/data.js` 슬러그·조회, `lib/calc.js` 공백기·중앙값 주기·예상 범위
+- `app/[artist]/HiatusCard.js` 카운터 카드 (클라이언트에서 오늘 날짜로 재계산)
+- `app/page.js` 검색+목록, `app/[artist]/history/` 이력표, `app/guide/` 계산 방식
+- 정적 페이지 92개, 서버 함수 0, sitemap 88 URL, robots.txt
+- 페이지별 고유 title에 숫자 포함 — `NewJeans 공백기 825일째 · 다음 컴백은?`
+
+### 남은 작업
+
+- [ ] **Vercel 배포** — GitHub 저장소를 **개인 계정 소유**로 만들고 push → Vercel 연결
+- [ ] 배포 후 `metadataBase`·`sitemap.js`·`robots.js` 의 도메인을 실제 주소로 교체
+- [ ] 구글 서치콘솔 + 네이버 서치어드바이저 등록
+- [ ] 폰에서 스크린샷 찍어 한 화면에 들어오는지 확인 ← 홍보 성패가 여기 달림
+- [ ] 트위터 공유 (공백기 긴 팀부터)
 
 ### 남은 데이터 이슈
 
