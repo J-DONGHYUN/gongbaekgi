@@ -2,13 +2,14 @@ import { artists } from "../../../lib/data";
 import { analyze } from "../../../lib/calc";
 import { readVotes, waitScore, available } from "../../../lib/votes";
 
-// 60초 캐시 — 요구사항이 1분 갱신이고, 함수 호출도 그만큼 줄어든다
-export const revalidate = 60;
+// 10초 캐시. 60초로 두면 투표해도 순위가 안 바뀐 것처럼 보인다.
+//   호출은 6배로 늘지만 하루 최대 8,640회라 무료 한도(월 100만) 안에서 여유가 크다.
+export const revalidate = 10;
 
 export async function GET() {
   if (!available) {
     return Response.json({ available: false, top: [] }, {
-      headers: { "Cache-Control": "public, s-maxage=60" },
+      headers: { "Cache-Control": "public, s-maxage=10" },
     });
   }
 
@@ -24,6 +25,8 @@ export async function GET() {
         nameKo: a.nameKo,
         hue: a.hue,
         hiatus: r.hiatus,
+        artwork: a.comebacks.at(-1)?.artwork ?? null,
+        appleUrl: a.comebacks.at(-1)?.url ?? null,
         score: waitScore(votes[a.slug] ?? 0, r.hiatus),
       };
     })
@@ -32,6 +35,6 @@ export async function GET() {
 
   return Response.json(
     { available: true, top: ranked.slice(0, 3), updatedAt: new Date().toISOString() },
-    { headers: { "Cache-Control": "public, s-maxage=60, stale-while-revalidate=120" } }
+    { headers: { "Cache-Control": "public, s-maxage=10, stale-while-revalidate=30" } }
   );
 }

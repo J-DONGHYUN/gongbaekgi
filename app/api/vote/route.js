@@ -1,6 +1,7 @@
 import { createHash } from "node:crypto";
 import { artists } from "../../../lib/data";
-import { castVote, available, COOLDOWN } from "../../../lib/votes";
+import { analyze } from "../../../lib/calc";
+import { castVote, readVotes, waitScore, available, COOLDOWN } from "../../../lib/votes";
 
 export const dynamic = "force-dynamic";
 
@@ -25,7 +26,8 @@ export async function POST(request) {
     return Response.json({ ok: false, reason: "bad_request" }, { status: 400 });
   }
 
-  if (!artists.some((a) => a.slug === slug)) {
+  const artist = artists.find((a) => a.slug === slug);
+  if (!artist) {
     return Response.json({ ok: false, reason: "unknown_artist" }, { status: 404 });
   }
 
@@ -36,5 +38,28 @@ export async function POST(request) {
       { status: 429 }
     );
   }
-  return Response.json({ ok: true, cooldown: COOLDOWN });
+
+  // 홈 순위는 캐시 때문에 몇 초 늦게 바뀐다. 누른 자리에서 바로 결과를 보여주려고
+  // 이 팀의 갱신된 지수와 현재 등수를 함께 돌려준다.
+  let score = null;
+  let rank = null;
+  try {
+    const votes = await readVotes(artists.map((a) => a.slug));
+    const scored = artists
+      .map((a) => ({
+        slug: a.slug,
+        score: waitScore(votes[a.slug] ?? 0, analyze(a.comebacks).hiatus),
+      }))
+      .filter((a) => a.score > 0)
+      .sort((x, y) => y.score - x.score);
+    const idx = scored.findIndex((a) => a.slug === slug);
+    if (idx !== -1) {
+      score = scored[idx].score;
+      rank = idx + 1;
+    }
+  } catch {
+    // 지수 계산이 실패해도 투표 자체는 성공이다
+  }
+
+  return Response.json({ ok: true, cooldown: COOLDOWN, score, rank });
 }

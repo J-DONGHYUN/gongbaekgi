@@ -362,19 +362,35 @@ footer a { text-decoration: underline; text-underline-offset: 2px; }
   border: 1px solid var(--rule);
   border-top: 3px solid var(--team);
   border-radius: 10px 10px 8px 8px;
-  padding: .7rem .5rem .65rem;
+  padding: .65rem .45rem .6rem;
   min-width: 0; text-align: center;
 }
 .pod:hover { border-color: var(--accent); }
-.pod--1 { padding-top: 1.3rem; padding-bottom: .9rem; }
+.pod--1 { padding-top: 1.05rem; padding-bottom: .85rem; }
 .pod--empty { visibility: hidden; }
+
+/* 앨범 표지 — 이 링크만 Apple Music 으로 간다 (약관 조건) */
+.pod-cover { display: block; margin-bottom: .4rem; line-height: 0; }
+.pod-cover img {
+  width: 44px; height: 44px; border-radius: 6px;
+  background: var(--surface-2);
+  box-shadow: 0 1px 4px hsl(var(--team-h) 30% 20% / .18);
+}
+.pod--1 .pod-cover img { width: 62px; height: 62px; }
+.pod-cover:hover img { outline: 2px solid var(--accent); outline-offset: 1px; }
+
+/* 표지 아래 본문 — 아이돌 페이지로 간다 */
+.pod-body {
+  display: flex; flex-direction: column; align-items: center;
+  min-width: 0; max-width: 100%;
+}
 
 .pod-rank {
   font-family: var(--f-num); font-weight: 700;
-  font-size: 1.05rem; line-height: 1;
-  color: var(--team); margin-bottom: .35rem;
+  font-size: .95rem; line-height: 1;
+  color: var(--team); margin-bottom: .3rem;
 }
-.pod--1 .pod-rank { font-size: 1.6rem; }
+.pod--1 .pod-rank { font-size: 1.35rem; }
 
 .pod-name {
   font-size: .82rem; font-weight: 700; letter-spacing: -.015em;
@@ -416,4 +432,9 @@ footer a { text-decoration: underline; text-underline-offset: 2px; }
 .heart--cool { background: var(--surface-2); color: var(--ink-faint); }
 .heart--sent { background: var(--st-in); }
 .heart-icon { font-size: 1.05rem; line-height: 1; }
-.heart-note { font-size: .74rem; color: var(--ink-faint); margin: .5rem 0 0; }
+.heart-result {
+  font-size: .9rem; color: var(--ink-soft); margin: .6rem 0 0;
+  font-variant-numeric: tabular-nums;
+}
+.heart-result b { color: var(--st-over); font-weight: 700; }
+.heart-note { font-size: .74rem; color: var(--ink-faint); margin: .4rem 0 0; }

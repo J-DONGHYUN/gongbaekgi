@@ -14,6 +14,7 @@ export default function HeartButton({ slug, name }) {
   const [left, setLeft] = useState(0);
   const [state, setState] = useState("idle"); // idle | sending | sent | off
   const [error, setError] = useState("");
+  const [result, setResult] = useState(null); // {score, rank}
 
   useEffect(() => {
     const saved = Number(localStorage.getItem(KEY(slug)) ?? 0);
@@ -49,6 +50,8 @@ export default function HeartButton({ slug, name }) {
         localStorage.setItem(KEY(slug), String(end));
         setUntil(end);
         setState("sent");
+        // 홈 순위는 캐시 때문에 몇 초 늦다. 누른 자리에서 바로 결과를 보여준다.
+        if (json.score != null) setResult({ score: json.score, rank: json.rank });
         setTimeout(() => setState("idle"), 2200);
         return;
       }
@@ -95,8 +98,16 @@ export default function HeartButton({ slug, name }) {
               : "컴백 기다려요"}
         </span>
       </button>
+      {result ? (
+        <p className="heart-result">
+          기다림 <b>{result.score.toLocaleString("ko-KR")}</b>
+          {result.rank ? <> · 현재 <b>{result.rank}위</b></> : null}
+        </p>
+      ) : null}
+
       <p className="heart-note">
-        {error || "로그인 없이 1분에 한 번. 홈 순위에 반영됩니다."}
+        {error ||
+          "로그인 없이 팀마다 1분에 한 번. 다른 팀은 바로 누를 수 있습니다."}
       </p>
     </div>
   );

@@ -20,11 +20,17 @@ export default function Podium() {
       }
     };
     load();
-    // 요구사항대로 1분마다 갱신
-    const t = setInterval(load, 60_000);
+    // 15초마다 갱신. 1분이면 투표해도 안 바뀐 것처럼 보인다.
+    const t = setInterval(load, 15_000);
+    // 다른 탭에서 투표하고 돌아왔을 때 바로 최신으로
+    const onFocus = () => load();
+    window.addEventListener("focus", onFocus);
+    document.addEventListener("visibilitychange", onFocus);
     return () => {
       alive = false;
       clearInterval(t);
+      window.removeEventListener("focus", onFocus);
+      document.removeEventListener("visibilitychange", onFocus);
     };
   }, []);
 
@@ -48,27 +54,44 @@ export default function Podium() {
             const a = top[i];
             if (!a) return <div key={i} className="pod pod--empty" aria-hidden="true" />;
             return (
-              <Link
+              <div
                 key={a.slug}
-                href={`/${a.slug}/`}
                 className={`pod pod--${i + 1}`}
                 style={a.hue == null ? undefined : { "--team-h": a.hue, "--team-s": "52%" }}
               >
                 <span className="pod-rank">{LABEL[i]}</span>
-                <span className="pod-name">{a.name}</span>
-                <span className="pod-ko">{a.nameKo}</span>
-                <span className="pod-days">{a.hiatus?.toLocaleString("ko-KR")}일째</span>
-                <span className="pod-score">
-                  기다림 {a.score.toLocaleString("ko-KR")}
-                </span>
-              </Link>
+
+                {/* 커버는 Apple Music 으로 간다.
+                    iTunes Search API 약관이 아트워크를 스토어 링크 옆에 두라고 요구한다. */}
+                {a.artwork && a.appleUrl ? (
+                  <a
+                    className="pod-cover"
+                    href={a.appleUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={`${a.name} 최근 앨범 · Apple Music에서 듣기`}
+                  >
+                    <img src={a.artwork} alt="" loading="lazy" />
+                  </a>
+                ) : null}
+
+                <Link className="pod-body" href={`/${a.slug}/`}>
+                  <span className="pod-name">{a.name}</span>
+                  <span className="pod-ko">{a.nameKo}</span>
+                  <span className="pod-days">{a.hiatus?.toLocaleString("ko-KR")}일째</span>
+                  <span className="pod-score">
+                    기다림 {a.score.toLocaleString("ko-KR")}
+                  </span>
+                </Link>
+              </div>
             );
           })}
         </div>
       )}
 
       <p className="podium-note">
-        최근 이틀간 받은 하트에 공백기를 곱해 정합니다. 1분마다 갱신됩니다.
+        최근 이틀간 받은 하트에 공백기를 곱해 정합니다. 15초마다 갱신됩니다.
+        앨범 표지를 누르면 Apple Music 으로 갑니다.
       </p>
     </section>
   );
