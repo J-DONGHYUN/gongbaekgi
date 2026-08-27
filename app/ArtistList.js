@@ -8,7 +8,11 @@ const CLS = { inCycle: "d-in", soon: "d-soon", overdue: "d-over" };
 
 function Row({ a }) {
   return (
-    <Link className="item" href={`/${a.slug}/`}>
+    <Link
+      className={`item${a.hue == null ? "" : " item--tinted"}`}
+      href={`/${a.slug}/`}
+      style={a.hue == null ? undefined : { "--team-h": a.hue, "--team-s": "52%" }}
+    >
       <span className="nm">
         <b>{a.name}</b>
         <span>{a.nameKo}</span>

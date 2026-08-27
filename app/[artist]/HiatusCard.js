@@ -5,6 +5,10 @@ import { analyze, STATE_LABEL, fmtDate } from "../../lib/calc";
 
 const CLS = { inCycle: "card--in", soon: "card--soon", overdue: "card--over" };
 
+/** hue 가 없으면(흑백 커버) 채도를 0 으로 떨어뜨려 회색으로 둔다 */
+const teamStyle = (hue) =>
+  hue == null ? undefined : { "--team-h": hue, "--team-s": "52%" };
+
 /**
  * 공백기는 매일 늘어나므로 브라우저에서 오늘 날짜로 다시 계산한다.
  * 서버(빌드 시점) 값을 먼저 그려서 검색엔진과 첫 화면이 비어 보이지 않게 하고,
@@ -21,7 +25,7 @@ export default function HiatusCard({ artist, buildDate }) {
 
   if (!a.last) {
     return (
-      <div className="card card--none">
+      <div className="card card--none" style={teamStyle(artist.hue)}>
         <p className="artist">
           <b>{artist.name}</b>
           <span>{artist.nameKo}</span>
@@ -39,8 +43,13 @@ export default function HiatusCard({ artist, buildDate }) {
   const series = [...past, a.hiatus];
   const max = Math.max(...series, 1);
 
+  const cover = artist.comebacks.at(-1);
+
   return (
-    <div className={`card ${cls}`}>
+    <div
+      className={`card ${cls}${artist.hue == null ? "" : " card--tinted"}`}
+      style={teamStyle(artist.hue)}
+    >
       <p className="artist">
         <b>{artist.name}</b>
         <span>{artist.nameKo}</span>
@@ -80,14 +89,20 @@ export default function HiatusCard({ artist, buildDate }) {
         </>
       )}
 
+      {cover?.artwork && cover.url ? (
+        <a className="album" href={cover.url} target="_blank" rel="noopener noreferrer">
+          <img src={cover.artwork} width={56} height={56} alt="" loading="lazy" />
+          <span>
+            <b>{cover.name}</b>
+            <small>Apple Music에서 듣기 ↗</small>
+          </span>
+        </a>
+      ) : null}
+
       <dl className="facts">
         <div>
           <dt>마지막 컴백</dt>
-          <dd>
-            {fmtDate(a.last.date)}
-            <br />
-            <small>{a.last.name}</small>
-          </dd>
+          <dd>{fmtDate(a.last.date)}</dd>
         </div>
         <div>
           <dt>평균 컴백 주기</dt>

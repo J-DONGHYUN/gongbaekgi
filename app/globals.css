@@ -273,3 +273,55 @@ footer a { text-decoration: underline; text-underline-offset: 2px; }
   font-size: .82rem; color: var(--ink-faint);
   margin: -.3rem 0 .8rem;
 }
+
+/* ── 팀 색상 ──────────────────────────────────────────────
+   데이터에서 오는 건 hue(색상) 하나뿐이고 채도·명도는 여기서 고정한다.
+   그래야 어두운 커버든 흐린 커버든 라이트/다크 양쪽에서 읽힌다.
+   상태색(초록·파랑·주황)은 의미를 담고 있으므로 팀 색은 장식 위치에만 쓴다. */
+:root { --team-h: 240; --team-s: 0%; --team-l: 45%; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { --team-l: 62%; }
+}
+:root[data-theme="dark"] { --team-l: 62%; }
+
+.card { --team: hsl(var(--team-h) var(--team-s) var(--team-l)); }
+.card--tinted {
+  border-top: 4px solid var(--team);
+  background:
+    linear-gradient(
+      hsl(var(--team-h) var(--team-s) var(--team-l) / 0.09),
+      transparent 45%
+    ),
+    var(--surface);
+}
+
+.item--tinted {
+  --team: hsl(var(--team-h) var(--team-s) var(--team-l));
+  border-left: 3px solid var(--team);
+}
+
+/* ── 앨범 커버 (Apple Music 링크 필수) ───────────────────
+   iTunes Search API 약관: 아트워크는 스토어로 가는 링크 옆에 두어야 한다.
+   그래서 이미지 전체가 Apple Music 링크다. 이미지는 수정하지 않고 핫링크만 한다. */
+.album {
+  display: flex; align-items: center; gap: .8rem;
+  margin: 1.3rem 0 0; padding-top: 1.1rem;
+  border-top: 1px solid var(--rule-soft);
+  text-align: left;
+}
+.album img {
+  width: 56px; height: 56px; flex: none;
+  border-radius: 6px; background: var(--surface-2);
+}
+.album span { min-width: 0; }
+.album b {
+  display: block; font-size: .88rem; font-weight: 600;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.album small { font-size: .76rem; color: var(--ink-faint); }
+.album:hover small { color: var(--accent); }
+
+.hist-cover {
+  width: 40px; height: 40px; border-radius: 4px;
+  background: var(--surface-2); display: block;
+}

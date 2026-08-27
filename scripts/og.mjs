@@ -37,6 +37,9 @@ const COLOR = {
 };
 const DOMAIN = SITE_URL.replace(/^https?:\/\//, "");
 
+/** 팀 색상 — 데이터의 hue 에 채도·명도를 고정해서 어두운 배경에서도 읽히게 한다 */
+const teamColor = (hue) => (hue == null ? "#2A2E3A" : `hsl(${hue} 62% 58%)`);
+
 // ── 폰트: 실제로 쓰는 글자만 부분집합으로 받는다 (수 MB → 수십 KB) ──────────
 const GLYPHS = [
   ...new Set(
@@ -86,11 +89,14 @@ function artistCard(artist) {
   const series = a.last ? [...past, a.hiatus] : [];
   const peak = Math.max(...series, 1);
 
+  const team = teamColor(artist.hue);
+
   return box(
     {
       width: "100%", height: "100%", display: "flex", flexDirection: "column",
       alignItems: "center", justifyContent: "space-between",
       background: "#0E0E13", padding: "56px 72px 44px", fontFamily: "NotoKR",
+      borderTop: `10px solid ${team}`,
     },
     [
       box({ display: "flex", flexDirection: "column", alignItems: "center" }, [

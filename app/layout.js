@@ -53,6 +53,11 @@ export default function RootLayout({ children }) {
             공백기 며칠째 · Apple Music 카탈로그 자동 집계<br />
             정규·미니 앨범만 컴백으로 셉니다. 자동 집계라 실제와 다를 수 있습니다 —{" "}
             <Link href="/guide/">계산 방식 보기</Link>
+            <br />
+            <br />
+            앨범 이미지와 발매 정보 출처: Apple Music · iTunes Search API.
+            모든 이미지는 Apple 서버에서 직접 불러오며 저장하지 않습니다.
+            권리자 요청이 있으면 즉시 내리겠습니다.
           </footer>
         </div>
         <Analytics />

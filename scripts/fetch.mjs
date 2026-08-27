@@ -10,6 +10,7 @@
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
+import { dominantHue, resizeArtwork } from "./artwork.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -103,7 +104,9 @@ function buildComebacks(albums) {
     if (!prev) {
       byName.set(key, {
         name: a.collectionName, date,
-        tracks: a.trackCount, url: a.collectionViewUrl ?? "",
+        tracks: a.trackCount,
+        url: a.collectionViewUrl ?? "",              // Apple Music 앨범 페이지
+        artwork: resizeArtwork(a.artworkUrl100, "300x300bb") ?? "",
       });
       continue;
     }
@@ -112,6 +115,7 @@ function buildComebacks(albums) {
       prev.date = date;
       prev.tracks = a.trackCount;
       prev.url = a.collectionViewUrl ?? "";
+      prev.artwork = resizeArtwork(a.artworkUrl100, "300x300bb") ?? "";
     }
     // 이름은 가장 짧은 것을 쓴다 — "(NINGNING Special Version)" 대신 본판 이름
     if (a.collectionName.length < prev.name.length) prev.name = a.collectionName;
@@ -199,10 +203,15 @@ for (const artist of targets) {
       }
     }
 
+    // 팀 색상 — 마지막 컴백 앨범 커버의 대표 hue. 컴백하면 자동으로 바뀐다.
+    const hue = await dominantHue(list.at(-1)?.artwork);
+    if (hue != null) console.log(`    색상 hue ${hue}`);
+
     results.push({
       id: artist.itunesId,
       name: artist.name,
       nameKo: artist.nameKo,
+      hue,
       comebacks: list,
     });
   } catch (err) {

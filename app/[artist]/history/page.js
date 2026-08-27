@@ -34,6 +34,7 @@ export default async function HistoryPage({ params }) {
         <table>
           <thead>
             <tr>
+              <th></th>
               <th>발매일</th>
               <th>앨범</th>
               <th className="n">곡</th>
@@ -45,8 +46,30 @@ export default async function HistoryPage({ params }) {
               const idx = artist.comebacks.length - 1 - i;
               return (
                 <tr key={c.date + c.name}>
+                  <td>
+                    {c.artwork && c.url ? (
+                      <a href={c.url} target="_blank" rel="noopener noreferrer">
+                        <img
+                          className="hist-cover"
+                          src={c.artwork}
+                          width={40}
+                          height={40}
+                          alt=""
+                          loading="lazy"
+                        />
+                      </a>
+                    ) : null}
+                  </td>
                   <td className="n">{fmtDate(c.date)}</td>
-                  <td>{c.name}</td>
+                  <td>
+                    {c.url ? (
+                      <a href={c.url} target="_blank" rel="noopener noreferrer">
+                        {c.name}
+                      </a>
+                    ) : (
+                      c.name
+                    )}
+                  </td>
                   <td className="n">{c.tracks}</td>
                   <td className="n">{idx > 0 ? `${g[idx - 1]}일` : "—"}</td>
                 </tr>
