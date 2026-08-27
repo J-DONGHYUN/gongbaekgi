@@ -1,0 +1,91 @@
+name: 데이터 갱신
+
+# K-pop 컴백은 대개 한국시간 18시에 나온다.
+#   21시 실행 — 그날 나온 컴백을 몇 시간 안에 반영
+#   05시 실행 — iTunes 카탈로그 반영이 늦은 경우를 다음 날 아침에 만회
+on:
+  schedule:
+    - cron: "0 12 * * *" # 21:00 KST
+    - cron: "0 20 * * *" # 05:00 KST
+  workflow_dispatch: # 대시보드에서 수동 실행
+
+# 기본 GITHUB_TOKEN 으로 커밋을 밀어야 한다
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: 발매 이력 수집
+        run: node scripts/fetch.mjs
+
+      - name: 수집 결과 검증
+        # 수집이 실패해 빈 파일이 나오면 좋은 데이터를 덮어쓰게 된다.
+        # 최소 기준을 못 넘으면 커밋하지 않고 실패시킨다.
+        run: |
+          node -e '
+            const d = require("./data/artists.json");
+            const teams = d.artists.length;
+            const total = d.artists.reduce((s, a) => s + a.comebacks.length, 0);
+            const empty = d.artists.filter(a => a.comebacks.length === 0).length;
+            const future = d.artists.flatMap(a => a.comebacks)
+              .filter(c => c.date > new Date().toISOString().slice(0, 10)).length;
+            console.log(`팀 ${teams} · 컴백 ${total} · 빈 팀 ${empty} · 미래 날짜 ${future}`);
+            const fail = [];
+            if (teams < 40) fail.push(`팀이 ${teams}개뿐 (40 미만)`);
+            if (total < 400) fail.push(`컴백이 ${total}건뿐 (400 미만)`);
+            if (empty > 2) fail.push(`컴백 없는 팀 ${empty}개`);
+            if (future > 0) fail.push(`미래 날짜 ${future}건`);
+            if (fail.length) { console.error("검증 실패: " + fail.join(", ")); process.exit(1); }
+            console.log("검증 통과");
+          '
+
+      - name: OG 이미지 재생성
+        run: node scripts/og.mjs
+
+      - name: 변경이 있으면 커밋
+        run: |
+          if git diff --quiet -- data public/og; then
+            echo "변경 없음 — 커밋하지 않습니다"
+            exit 0
+          fi
+
+          CHANGED=$(node -e '
+            const { execSync } = require("child_process");
+            const before = JSON.parse(execSync("git show HEAD:data/artists.json").toString());
+            const after = require("./data/artists.json");
+            const key = a => a.comebacks.map(c => c.date + "|" + c.name).join(";");
+            const bm = new Map(before.artists.map(a => [a.name, a]));
+            const out = [];
+            for (const a of after.artists) {
+              const o = bm.get(a.name);
+              if (!o) { out.push(a.name + " 추가"); continue; }
+              if (key(o) !== key(a)) out.push(`${a.name} ${o.comebacks.at(-1)?.date} → ${a.comebacks.at(-1)?.date}`);
+            }
+            console.log(out.length ? out.join(", ") : "색상·커버만 변경");
+          ')
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data public/og
+          git commit -m "데이터 자동 갱신
+
+          $CHANGED"
+          git push
+          echo "갱신 완료: $CHANGED"
