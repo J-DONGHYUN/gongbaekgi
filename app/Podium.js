@@ -64,7 +64,14 @@ export default function Podium() {
                 className={`pod pod--${i + 1}`}
                 style={a.hue == null ? undefined : { "--team-h": a.hue, "--team-s": "52%" }}
               >
-                <span className="pod-rank">{LABEL[i]}</span>
+                {i === 0 ? (
+                  <span className="pod-crown" aria-hidden="true">
+                    👑
+                  </span>
+                ) : (
+                  <span className="pod-rank">{LABEL[i]}</span>
+                )}
+                <span className="sr-only">{LABEL[i]}위</span>
 
                 {/* 커버는 Apple Music 으로 간다.
                     iTunes Search API 약관이 아트워크를 스토어 링크 옆에 두라고 요구한다. */}
@@ -83,9 +90,13 @@ export default function Podium() {
                 <Link className="pod-body" href={`/${a.slug}/`}>
                   <span className="pod-name">{a.name}</span>
                   <span className="pod-ko">{a.nameKo}</span>
-                  <span className="pod-days">{a.hiatus?.toLocaleString("ko-KR")}일째</span>
+                  {/* 순위를 정하는 값이므로 기다림을 가장 크게 둔다 */}
                   <span className="pod-score">
-                    기다림 {a.score.toLocaleString("ko-KR")}
+                    <i aria-hidden="true">♥</i>
+                    {a.score.toLocaleString("ko-KR")}
+                  </span>
+                  <span className="pod-days">
+                    공백기 {a.hiatus?.toLocaleString("ko-KR")}일
                   </span>
                 </Link>
               </div>

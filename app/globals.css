@@ -366,7 +366,24 @@ footer a { text-decoration: underline; text-underline-offset: 2px; }
   min-width: 0; text-align: center;
 }
 .pod:hover { border-color: var(--accent); }
-.pod--1 { padding-top: 1.05rem; padding-bottom: .85rem; }
+.pod--1 {
+  padding-top: .9rem; padding-bottom: .9rem;
+  border-top-width: 4px;
+  box-shadow: 0 2px 14px hsl(var(--team-h) var(--team-s) var(--team-l) / .18);
+}
+
+/* 1위 왕관 */
+.pod-crown {
+  font-size: 1.5rem; line-height: 1;
+  margin-bottom: .25rem;
+  filter: drop-shadow(0 1px 3px rgba(0, 0, 0, .25));
+}
+
+.sr-only {
+  position: absolute; width: 1px; height: 1px;
+  padding: 0; margin: -1px; overflow: hidden;
+  clip-path: inset(50%); white-space: nowrap; border: 0;
+}
 .pod--empty { visibility: hidden; }
 
 /* 앨범 표지 — 이 링크만 Apple Music 으로 간다 (약관 조건) */
@@ -398,15 +415,25 @@ footer a { text-decoration: underline; text-underline-offset: 2px; }
 }
 .pod--1 .pod-name { font-size: .95rem; }
 .pod-ko { font-size: .68rem; color: var(--ink-faint); margin-bottom: .3rem; }
-.pod-days {
-  font-family: var(--f-num); font-weight: 700; font-size: .95rem;
-  font-variant-numeric: tabular-nums; color: var(--ink);
-}
-.pod--1 .pod-days { font-size: 1.2rem; }
+/* 기다림 — 순위를 정하는 값이라 카드에서 가장 눈에 띄어야 한다.
+   하트 버튼과 같은 색을 써서 "내가 누른 것이 이 숫자"임을 잇는다. */
 .pod-score {
-  font-size: .66rem; color: var(--ink-faint);
-  font-variant-numeric: tabular-nums; margin-top: .12rem;
+  display: inline-flex; align-items: baseline; gap: .2em;
+  font-family: var(--f-num); font-weight: 700;
+  font-size: 1.15rem; line-height: 1.15;
+  letter-spacing: -.02em;
+  font-variant-numeric: tabular-nums;
+  color: var(--st-over);
+  margin-top: .3rem;
 }
+.pod-score i { font-style: normal; font-size: .72em; }
+.pod--1 .pod-score { font-size: 1.6rem; }
+
+.pod-days {
+  font-size: .7rem; color: var(--ink-faint);
+  font-variant-numeric: tabular-nums; margin-top: .1rem;
+}
+.pod--1 .pod-days { font-size: .76rem; }
 
 .podium-empty {
   font-size: .85rem; color: var(--ink-faint);
