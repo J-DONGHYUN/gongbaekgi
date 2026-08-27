@@ -26,6 +26,7 @@ const EXCLUDE_WORDS = [
   "live", "ost", "soundtrack", "original television", "original tv",
   // 해외 발매판 — 한국 컴백이 아니다
   "japanese", "japan edition", "japan ver", "chinese", "mandarin",
+  "tokyo",                       // 일본 데뷔·현지 발매반 (KISS OF LIFE TOKYO MISSION START 등)
   "english ver", "korean ver",
 ];
 // "- EP" 는 미니 앨범이므로 제외하지 않는다.

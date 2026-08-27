@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-27T02:34:12.840Z",
+  "fetchedAt": "2026-08-27T02:52:04.766Z",
   "source": "itunes",
   "artists": [
     {
@@ -1142,12 +1142,6 @@
           "date": "2025-06-09",
           "tracks": 7,
           "url": "https://music.apple.com/kr/album/224/1816140537?uo=4"
-        },
-        {
-          "name": "TOKYO MISSION START - EP",
-          "date": "2025-11-05",
-          "tracks": 6,
-          "url": "https://music.apple.com/kr/album/tokyo-mission-start-ep/1847812497?uo=4"
         }
       ]
     },
