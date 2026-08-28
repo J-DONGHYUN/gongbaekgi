@@ -31,6 +31,28 @@
 
 ---
 
+## 링크 카드에 이미지가 안 뜰 때
+
+**홈 주소(`gongbaekgi.vercel.app/`)는 쓰지 말 것.**
+X 가 예전에 크롤링한 걸 캐시하고 있어서 "아이돌 43팀 · 공백기 긴 순으로 정렬" 이라는
+옛날 설명이 뜨고 이미지도 안 나온다. X 캐시는 우리가 지울 수 없고 일주일쯤 지나야 만료된다.
+
+**팀 페이지 주소(`gongbaekgi.vercel.app/{slug}/`)를 쓴다.** 캐시가 없어서 새로 크롤링하고
+지금 메타태그 그대로 큰 카드에 이미지가 나온다. 전환도 더 낫다 —
+그 팀 팬이 클릭하면 바로 자기 팀 숫자를 본다.
+
+**처음 붙이는 주소는 이미지가 1~2분 늦게 뜬다.** X 가 페이지를 먼저 읽고 이미지를 나중에
+받아온다. 올린 직후 이미지가 없다고 지우지 말 것. 새로고침하면 나온다.
+
+서버가 문제인지 확인하려면:
+```
+curl -s -A "Twitterbot/1.0" https://gongbaekgi.vercel.app/{slug}/ | grep twitter:
+curl -s -o /dev/null -w "%{http_code} %{content_type}\n" https://gongbaekgi.vercel.app/og/{slug}.png
+```
+`summary_large_image` 와 `200 image/png` 가 나오면 우리 쪽은 정상이고 X 캐시 문제다.
+
+---
+
 ## 작업 환경 (MCP)
 
 크롬을 Claude 가 직접 조작해서 작업한다. 설정은 등록돼 있다.
