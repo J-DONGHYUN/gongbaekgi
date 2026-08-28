@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { artists, getArtist, fetchedAt } from "../../lib/data";
 import { analyze } from "../../lib/calc";
+import { josa } from "../../lib/korean";
 import HiatusCard from "./HiatusCard";
 import ShareRow from "./ShareRow";
 import HeartButton from "./HeartButton";
@@ -21,8 +22,11 @@ export async function generateMetadata({ params }) {
   const r = analyze(a.comebacks);
   const days = r.hiatus != null ? `${r.hiatus}일째` : "기록 없음";
   const title = `${a.name} 공백기 ${days} · 다음 컴백은?`;
+  // 검색 결과에 그대로 나가는 문장이라 조사를 맞춘다. "세븐틴는" 으로 나가고 있었다.
+  const subject = josa(`${a.name}(${a.nameKo})`, "은");
   const description = r.enough
-    ? `${a.name}(${a.nameKo})는 마지막 컴백 이후 ${r.hiatus}일째입니다. 평균 컴백 주기는 ${r.cycle}일.`
+    ? `${subject} 마지막 컴백 이후 ${r.hiatus}일째입니다. ` +
+      `평균 컴백 주기는 ${r.cycle}일 — 다음 컴백 시기까지 함께 봅니다.`
     : `${a.name}(${a.nameKo})의 컴백 이력과 공백기.`;
   const url = `/${a.slug}/`;
 
