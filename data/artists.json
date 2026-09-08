@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-27T11:45:16.468Z",
+  "fetchedAt": "2026-09-08T16:09:40.797Z",
   "source": "itunes",
   "artists": [
     {
@@ -3258,7 +3258,7 @@
       "id": 1654437478,
       "name": "&TEAM",
       "nameKo": "앤팀",
-      "hue": 36,
+      "hue": 16,
       "comebacks": [
         {
           "name": "First Howling : ME - EP",
@@ -3308,6 +3308,13 @@
           "tracks": 6,
           "url": "https://music.apple.com/kr/album/we-on-fire-ep/1890111301?uo=4",
           "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a8/40/ae/a840aeec-d7ee-34c3-5117-85a67b3ed111/823375035251_Cover.jpg/300x300bb.jpg"
+        },
+        {
+          "name": "Mark on Me - EP",
+          "date": "2026-09-08",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/mark-on-me-ep/6802917476?uo=4",
+          "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/d2/90/94d2905f-8fbd-64c9-1933-ae05938bf89b/823375307167_Cover.jpg/300x300bb.jpg"
         }
       ]
     },
@@ -3675,7 +3682,7 @@
       "id": 1364148883,
       "name": "D.O.",
       "nameKo": "도경수",
-      "hue": 43,
+      "hue": 357,
       "comebacks": [
         {
           "name": "Empathy - The 1st Mini Album",
@@ -3704,6 +3711,13 @@
           "tracks": 10,
           "url": "https://music.apple.com/kr/album/the-1st-full-album-bliss/1823614705?uo=4",
           "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/38/35/99/383599cf-0832-bc2e-d0c4-dd36377adff3/191953457505.jpg/300x300bb.jpg"
+        },
+        {
+          "name": "DOPAMINE - The 4th Mini Album - EP",
+          "date": "2026-09-08",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/dopamine-the-4th-mini-album-ep/6807359386?uo=4",
+          "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a8/15/c1/a815c10b-f685-c245-aed1-aaf6505e5403/191953574820.jpg/300x300bb.jpg"
         }
       ]
     },
