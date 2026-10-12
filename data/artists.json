@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-08T16:09:40.797Z",
+  "fetchedAt": "2026-10-12T21:00:38.615Z",
   "source": "itunes",
   "artists": [
     {
@@ -3222,7 +3222,7 @@
       "id": 1676593844,
       "name": "PLAVE",
       "nameKo": "플레이브",
-      "hue": 6,
+      "hue": null,
       "comebacks": [
         {
           "name": "ASTERUM : The Shape of Things to Come - EP",
@@ -3251,6 +3251,13 @@
           "tracks": 5,
           "url": "https://music.apple.com/kr/album/caligo-pt-2-ep/1891527164?uo=4",
           "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1c/ac/33/1cac3302-5fdb-4aa6-9a37-d316afcb1b18/8800365019813_cover.png/300x300bb.jpg"
+        },
+        {
+          "name": "HYPERDRIVE - EP",
+          "date": "2026-10-12",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/hyperdrive-ep/6818034174?uo=4",
+          "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c7/cc/15/c7cc1534-12d9-d560-e469-b79c12024c76/8800388639999_cover.png/300x300bb.jpg"
         }
       ]
     },
