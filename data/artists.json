@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-12T21:00:38.615Z",
+  "fetchedAt": "2026-10-19T18:26:49.924Z",
   "source": "itunes",
   "artists": [
     {
@@ -945,7 +945,7 @@
       "id": 1600411676,
       "name": "NMIXX",
       "nameKo": "엔믹스",
-      "hue": 224,
+      "hue": 234,
       "comebacks": [
         {
           "name": "AD MARE",
@@ -1016,6 +1016,13 @@
           "tracks": 6,
           "url": "https://music.apple.com/kr/album/heavy-serenade-ep/1892954835?uo=4",
           "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fe/cd/64/fecd6408-3ace-12b5-7ad7-c5d2ac891168/8809928958262.jpg/300x300bb.jpg"
+        },
+        {
+          "name": "Strange Muse - EP",
+          "date": "2026-10-19",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/strange-muse-ep/6813810255?uo=4",
+          "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d9/65/fc/d965fc59-8a4c-60f8-aada-227e5d627be4/8809928956848.jpg/300x300bb.jpg"
         }
       ]
     },
