@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-19T18:26:49.924Z",
+  "fetchedAt": "2026-10-21T16:45:50.435Z",
   "source": "itunes",
   "artists": [
     {
@@ -516,6 +516,13 @@
           "tracks": 16,
           "url": "https://music.apple.com/kr/album/merry-happy/1323890122?uo=4",
           "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/fd/bb/ef/fdbbef45-e31a-e300-b7e8-afea8b726fdb/00_twice_repackage_OnlineCover_A_3000x3000_iTunes.jpg/300x300bb.jpg"
+        },
+        {
+          "name": "One More Time - EP",
+          "date": "2018-02-07",
+          "tracks": 4,
+          "url": "https://music.apple.com/kr/album/one-more-time-ep/6825195996?uo=4",
+          "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/61/2e/04/612e04fe-63c7-ca83-8be6-7c92ea30e3fe/8809928956145.jpg/300x300bb.jpg"
         },
         {
           "name": "What is Love? - EP",
