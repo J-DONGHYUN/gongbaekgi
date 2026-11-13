@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-10T19:25:32.992Z",
+  "fetchedAt": "2026-11-13T19:19:06.412Z",
   "source": "itunes",
   "artists": [
     {
@@ -2486,7 +2486,7 @@
       "id": 1439301205,
       "name": "ATEEZ",
       "nameKo": "에이티즈",
-      "hue": 316,
+      "hue": null,
       "comebacks": [
         {
           "name": "TREASURE EP.1 : All To Zero - EP",
@@ -2669,6 +2669,13 @@
           "tracks": 5,
           "url": "https://music.apple.com/kr/album/golden-hour-part-5-ep/6770401924?uo=4",
           "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/15/5e/a0/155ea070-3f0d-84ae-7883-128ecd9ed5bf/196874257944.jpg/300x300bb.jpg"
+        },
+        {
+          "name": "GOLDEN HOUR : Part.6 - EP",
+          "date": "2026-11-13",
+          "tracks": 5,
+          "url": "https://music.apple.com/kr/album/golden-hour-part-6-ep/6819932396?uo=4",
+          "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1d/4c/8e/1d4c8e84-ac53-90ed-1dbe-615fdef5b8f1/196874852668.jpg/300x300bb.jpg"
         }
       ]
     },
