@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-13T19:19:06.412Z",
+  "fetchedAt": "2026-11-16T21:43:30.994Z",
   "source": "itunes",
   "artists": [
     {
@@ -2246,7 +2246,7 @@
       "id": 1454642552,
       "name": "TOMORROW X TOGETHER",
       "nameKo": "투모로우바이투게더",
-      "hue": 215,
+      "hue": 205,
       "comebacks": [
         {
           "name": "The Dream Chapter: STAR - EP",
@@ -2373,6 +2373,13 @@
           "tracks": 4,
           "url": "https://music.apple.com/kr/album/setsuna-hanabi-ep/6801040838?uo=4",
           "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d5/d2/78/d5d27872-346f-9a2d-ed99-bbeefb22076d/00881061239512_cover.jpg/300x300bb.jpg"
+        },
+        {
+          "name": "PERFECT STORM - EP",
+          "date": "2026-11-16",
+          "tracks": 6,
+          "url": "https://music.apple.com/kr/album/perfect-storm-ep/6815062084?uo=4",
+          "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a7/8b/7c/a78b7c36-7152-5541-6f0f-5f3182eb7bc1/823375408819_Cover.jpg/300x300bb.jpg"
         }
       ]
     },
