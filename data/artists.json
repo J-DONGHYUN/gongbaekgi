@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-19T20:04:41.975Z",
+  "fetchedAt": "2026-11-25T03:28:36.978Z",
   "source": "itunes",
   "artists": [
     {
@@ -2056,7 +2056,7 @@
       "id": 1304823362,
       "name": "Stray Kids",
       "nameKo": "스트레이키즈",
-      "hue": 15,
+      "hue": 204,
       "comebacks": [
         {
           "name": "Mixtape",
@@ -2239,6 +2239,13 @@
           "tracks": 8,
           "url": "https://music.apple.com/kr/album/this-that/6779120281?uo=4",
           "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1e/f4/8d/1ef48d8d-218e-99de-5a82-14b86dea3422/8809928957425.jpg/300x300bb.jpg"
+        },
+        {
+          "name": "SUIATSU",
+          "date": "2026-11-25",
+          "tracks": 7,
+          "url": "https://music.apple.com/kr/album/suiatsu/6827838486?uo=4",
+          "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/34/76/b1/3476b149-330b-af3a-30d0-0929956fe76b/4547366864731.jpg/300x300bb.jpg"
         }
       ]
     },
